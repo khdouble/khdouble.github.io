@@ -5,7 +5,7 @@ title: "Hyun Hak Kim"
 ## Contact
 
 ::: {.fact-list}
-[Email]{.label} [hyunhak.kim@kookmin.ac.kr](mailto:hyunhak.kim@kookmin.ac.kr) · [hyunhak.kim@torontomu.ca](mailto:hyunhak.kim@torontomu.ca)
+[Email]{.label} [hyunhak.kim@kookmin.ac.kr](mailto:hyunhak.kim@kookmin.ac.kr)
 
 [Phone]{.label} +1-646-801-7719 (Google Voice) · +82-2-910-4541 (Kookmin Univ.)
 
