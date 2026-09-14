@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-subtitle: "Research notes in English and Korean · 영문·국문 연구 노트"
+subtitle: "Research Notes"
 listing:
   contents: posts
   sort: "date desc"
@@ -11,9 +11,3 @@ listing:
   feed: true
 body-classes: article
 ---
-
-Longer notes that accompany the working papers. Each note is published in both
-English and Korean; the two versions of a note sit side by side below.
-
-각 글은 영문과 국문으로 함께 게시합니다. 같은 글의 두 언어판이 아래에 나란히
-놓입니다.

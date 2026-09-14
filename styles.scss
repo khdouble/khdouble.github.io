@@ -389,15 +389,6 @@ ol.entries > li::before {
   font-variant-numeric: tabular-nums;
 }
 
-.note-both {
-  color: $faint;
-  padding-left: .8rem;
-  border-left: 1px solid $rule;
-  font-size: .74rem;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-}
-
 .note-langs {
   display: grid;
   gap: 1.1rem;
@@ -446,18 +437,10 @@ ol.entries > li::before {
 
 .note-desc {
   display: block;
-  flex: 1 1 auto;        // pushes the call to action to the card foot
-  margin: 0 0 .7rem;
+  margin: 0;
   color: $muted;
   font-size: .89rem;
   line-height: 1.55;
-}
-
-.note-cta {
-  display: block;
-  font-size: .82rem;
-  font-weight: 600;
-  color: $accent;
 }
 
 // Stack the two languages once the columns would be too narrow to read.

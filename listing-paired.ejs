@@ -3,6 +3,10 @@
 // note render as one row with two columns, instead of as two unrelated entries
 // stacked vertically.
 //
+// The pairing is left to speak for itself: no "available in both languages"
+// banner and no per-card call to action. The two cards side by side already
+// say it, and the whole card is the link.
+//
 // Two things this template has to respect:
 //   - link with item.outputHref, not item.path: `path` is the source .qmd and
 //     on Windows carries backslashes
@@ -23,14 +27,13 @@ const en = pick(g.entries, "en");
 const ko = pick(g.entries, "ko");
 const lead = en || ko || g.entries[0];
 const cols = [
-  { item: en, label: "English", cta: "Read in English" },
-  { item: ko, label: "한국어",   cta: "한국어로 읽기" },
+  { item: en, label: "English" },
+  { item: ko, label: "한국어" },
 ].filter(c => c.item);
 %>
 <article class="note">
 <div class="note-meta">
 <time class="note-date"><%= lead.date %></time>
-<% if (cols.length > 1) { %><span class="note-both">Available in both languages · 두 언어로 제공</span><% } %>
 </div>
 <div class="note-langs note-langs-<%= cols.length %>">
 <% for (const c of cols) { %>
@@ -38,7 +41,6 @@ const cols = [
 <span class="note-lang-tag"><%= c.label %></span>
 <span class="note-title"><%= c.item.title %></span>
 <% if (c.item.description) { %><span class="note-desc"><%= c.item.description %></span><% } %>
-<span class="note-cta"><%= c.cta %> &rarr;</span>
 </a>
 <% } %>
 </div>
