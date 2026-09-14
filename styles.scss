@@ -18,7 +18,12 @@ $primary:    $accent;
 // ---- type ------------------------------------------------------------
 $font-family-sans-serif: Pretendard, -apple-system, BlinkMacSystemFont,
   "Segoe UI", Roboto, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif !default;
-$font-family-serif: "Source Serif 4", Georgia, "Times New Roman", serif !default;
+// Pretendard sits in the serif stack on purpose. Fallback is per-glyph, so
+// Latin takes Source Serif 4 while Hangul — which Source Serif 4 does not
+// cover — lands on Pretendard instead of a system serif such as Batang, which
+// otherwise makes Korean headings clash with the Latin ones.
+$font-family-serif: "Source Serif 4", Georgia, "Times New Roman", Pretendard,
+  "Apple SD Gothic Neo", "Malgun Gothic", serif !default;
 
 $font-size-root:   17px;
 $line-height-base: 1.68;
@@ -164,7 +169,9 @@ body { -webkit-font-smoothing: antialiased; }
   margin-bottom: 0;
 }
 
-h2 {
+// Section label, for the index-style pages (Home, Research, Projects, Links)
+// where an h2 names a list rather than opening prose.
+body:not(.article) h2 {
   font-family: $font-family-sans-serif;
   font-size: .78rem;
   font-weight: 700;
@@ -175,6 +182,45 @@ h2 {
   padding-bottom: .5rem;
   margin-top: 3rem;
   margin-bottom: 1.3rem;
+}
+
+// Article headings, for blog posts. The label style above is wrong here: it is
+// too small to open a section of prose, and its .13em tracking visibly
+// stretches Hangul, which does not use letter-spacing the way Latin does.
+body.article {
+  h2 {
+    font-family: $font-family-serif;
+    font-size: 1.42rem;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: -0.01em;
+    color: $ink;
+    border-bottom: 1px solid $rule;
+    padding-bottom: .4rem;
+    margin-top: 2.9rem;
+    margin-bottom: 1.1rem;
+  }
+
+  h3 {
+    font-size: 1.04rem;
+    margin-top: 1.8rem;
+  }
+
+  // figures: captions read as notes, not titles
+  figure { margin: 2rem 0; }
+
+  figcaption {
+    margin-top: .6rem;
+    color: $muted;
+    font-size: .86rem;
+    line-height: 1.55;
+    text-align: left;
+  }
+
+  table { font-size: .92rem; }
+
+  // the language-switch note at the top
+  .callout { margin-bottom: 2rem; }
 }
 
 h3 {

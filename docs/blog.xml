@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Hyun Hak Kim</title>
+<link>https://khdouble.github.io/blog.html</link>
+<atom:link href="https://khdouble.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Professor of Economics, Kookmin University. Empirical macroeconomics, forecasting, and time-series econometrics.</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Sun, 13 Sep 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Capital Flows in an Exchange-Rate Reversal</title>
+  <link>https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>한국어판</strong> — <a href="../2026-09-krw-exchange-rate-reversal-ko/">환율 반전기의 자본흐름</a></p>
+<p>Exchange-rate data run to 31 August 2026; official monthly flow statistics run to July 2026.</p>
+</div>
+</div>
+</div>
+<section id="why-did-the-won-weaken-then-strengthen-faster" class="level2">
+<h2 class="anchored" data-anchor-id="why-did-the-won-weaken-then-strengthen-faster">Why did the won weaken, then strengthen faster?</h2>
+<p>The won depreciated over the first half of 2026 and then appreciated by a larger amount across July and August. Global dollar movements and comparable Asian currencies do not account for the size of that swing. But the residual cannot simply be labelled a domestic flow shock or a hedging effect either.</p>
+<p>Rather than settle on a single cause, this study asks how far the available evidence actually carries — exchange rates, balance of payments, the foreign exchange market report, listed-equity trading, dollar futures, corporate disclosures, and accounting and hedging data. The clearest finding is that a large overseas share issuance in July was capable of reversing the sign of different “foreign equity flow” statistics.</p>
+<section id="headline-figures" class="level3">
+<h3 class="anchored" data-anchor-id="headline-figures">Headline figures</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Item</th>
+<th style="text-align: right;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Depreciation, January–June</td>
+<td style="text-align: right;">7.39 log points</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Appreciation, July–August</td>
+<td style="text-align: right;">12.41 log points</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gap vs.&nbsp;Asia-3, July–August</td>
+<td style="text-align: right;">11.32 log points</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Overseas share issuance, July</td>
+<td style="text-align: right;">USD 26.5071 bn</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Link from trade to spot FX order</td>
+<td style="text-align: right;">Not observed</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="the-reversal-was-not-a-single-day-event" class="level2">
+<h2 class="anchored" data-anchor-id="the-reversal-was-not-a-single-day-event">1. The reversal was not a single-day event</h2>
+<p>The Bank of Korea 15:30 KRW/USD rate rose from 1,439.0 at end-2025 to 1,549.4 at end-June 2026. It reached 1,555.8 on 2 July — the peak of the frozen sample — before falling to 1,424.0 at end-July and 1,368.6 at end-August. A rising KRW/USD rate means a weaker won.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Indicator</th>
+<th style="text-align: right;">Value</th>
+<th style="text-align: left;">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1,439.0</td>
+<td style="text-align: right;">End-2025</td>
+<td style="text-align: left;">Baseline for the analysis window</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1,555.8</td>
+<td style="text-align: right;">2 July 2026</td>
+<td style="text-align: left;">Sample peak, identified ex post</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">+7.39</td>
+<td style="text-align: right;">January–June change</td>
+<td style="text-align: left;">Log points, depreciation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">−12.41</td>
+<td style="text-align: right;">July–August change</td>
+<td style="text-align: left;">Log points, appreciation</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/figures/figure1_krw_timeline.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. ECOS 15:30 KRW/USD rate with principal event dates. The event lines do not imply causal effects; the precise timing of disclosure and settlement frequently cannot be matched to the same intraday quote.</figcaption>
+</figure>
+</div>
+<p>A starting point for interpretation: real growth alone does not make a depreciation a puzzle. Exchange rates also respond to expected conditions, risk appetite, international asset demand, hedging, and the market’s capacity to absorb risk. The first task is therefore to measure which benchmarks fail, and by how much.</p>
+</section>
+<section id="a-large-gap-remains-after-global-and-regional-co-movement" class="level2">
+<h2 class="anchored" data-anchor-id="a-large-gap-remains-after-global-and-regional-co-movement">2. A large gap remains after global and regional co-movement</h2>
+<p>Two benchmarks are used. The first applies a fixed-coefficient global model, estimated on February 2015–December 2025 data, to the realised 2026 dollar factor, VIX, and Korea–US short rate differential. The second is Asia-3, an equally weighted average of daily log changes in JPY, TWD and SGD. Neither is a real-time forecast or a structural counterfactual; both are limited ex post benchmarks.</p>
+<table class="caption-top table">
+<caption>Units are log percentage points. Positive values denote depreciation against the dollar, negative values appreciation. Component differences may depart slightly from the displayed totals because of rounding.</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Window</th>
+<th style="text-align: right;">Actual KRW</th>
+<th style="text-align: right;">Global fit</th>
+<th style="text-align: right;">Actual − global</th>
+<th style="text-align: right;">Asia-3</th>
+<th style="text-align: right;">KRW − Asia-3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">January–June 2026</td>
+<td style="text-align: right;">+7.39</td>
+<td style="text-align: right;">+2.37</td>
+<td style="text-align: right;">+5.02</td>
+<td style="text-align: right;">+2.03</td>
+<td style="text-align: right;">+5.36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">July–August 2026</td>
+<td style="text-align: right;">−12.41</td>
+<td style="text-align: right;">−1.73</td>
+<td style="text-align: right;">−10.68</td>
+<td style="text-align: right;">−1.09</td>
+<td style="text-align: right;">−11.32</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/figures/figure2_global_benchmark.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Actual won movement against the two limited benchmarks. Varying the estimation start year leaves the July–August global residual at roughly 10.10 to 11.09 log points. Dropping any one currency from Asia-3 preserves the direction of the won’s relative strength.</figcaption>
+</figure>
+</div>
+<p>Across 42 trading days — the length of the July–August window — the cumulative KRW − Asia-3 gap was the largest of the 282 overlapping windows available since 7 May 2025. This is a descriptive statement about a recent comparison period. Because the sample is short and the windows overlap, it is not interpreted as a long-run probability or a formal significance level.</p>
+</section>
+<section id="foreign-equity-flows-is-not-one-number" class="level2">
+<h2 class="anchored" data-anchor-id="foreign-equity-flows-is-not-one-number">3. “Foreign equity flows” is not one number</h2>
+<p>The balance of payments, the foreign exchange market report, and listed-equity trading differ in market and instrument coverage, residency, treatment of new issuance, recognition timing, and conversion method. Despite similar names, they cannot be added together or spliced.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Label</th>
+<th style="text-align: left;">Source</th>
+<th style="text-align: left;">What it measures</th>
+<th style="text-align: left;">Caveat</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">BOP non-resident equity liabilities</td>
+<td style="text-align: left;">Monthly transactions on an accrual, economic-ownership basis</td>
+<td style="text-align: left;">May include new issuance and OTC trades</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">F</td>
+<td style="text-align: left;">Foreign equity funds, FX market report</td>
+<td style="text-align: left;">Funds on the settlement basis the report states</td>
+<td style="text-align: left;">Statistical coverage differs from the BOP</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">U(T,T)</td>
+<td style="text-align: left;">KOSPI and KOSDAQ foreign net buying</td>
+<td style="text-align: left;">Listed-equity benchmark on a trade-date basis</td>
+<td style="text-align: left;">Not bank settlement or a spot FX order</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">U(S,S)</td>
+<td style="text-align: left;">Rule-based shift of listed net buying</td>
+<td style="text-align: left;">Benchmark on the KRX calendar T+2 settlement month</td>
+<td style="text-align: left;">Not an observed settlement ledger</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/figures/figure3_equity_flow_measures.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. Four monthly measures of foreign equity flows. Positive values denote net inflow or net buying, in billions of dollars. For August 2026, B and F are unpublished as of the analysis cut-off and are therefore missing, not zero.</figcaption>
+</figure>
+</div>
+<p>Applying the calendar T+2 shift narrowed the absolute gap against F in three of the seven months to July, but widened it in four. Excluding July, the mean absolute gap rose from USD 2.560 bn on a trade-date basis to USD 3.772 bn on the rule-based settlement month. Settlement timing matters, but a calendar rule is not a substitute for an actual settlement and conversion record.</p>
+</section>
+<section id="a-large-overseas-issuance-could-flip-the-sign-of-the-july-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="a-large-overseas-issuance-could-flip-the-sign-of-the-july-statistics">4. A large overseas issuance could flip the sign of the July statistics</h2>
+<p>In July the balance of payments alone recorded a net inflow; the other three measures showed outflows or net selling. In the same month SK Hynix issued overseas shares totalling USD 26.5071 bn.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Measure</th>
+<th style="text-align: right;">Value (USD bn)</th>
+<th style="text-align: left;">Direction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">BOP, B</td>
+<td style="text-align: right;">+5.982</td>
+<td style="text-align: left;">Net inflow</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FX market, F</td>
+<td style="text-align: right;">−20.700</td>
+<td style="text-align: left;">Net outflow</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Listed equity, U(T,T)</td>
+<td style="text-align: right;">−6.137</td>
+<td style="text-align: left;">Trade-date basis</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Listed equity, U(S,S)</td>
+<td style="text-align: right;">−20.252</td>
+<td style="text-align: left;">Rule-based T+2</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/figures/figure4_issuance_clocks.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. Overseas share issuance against the several statistical clocks. Initial disclosure, US pricing, payment, share effectiveness and BOP recognition do not occur at the same moment. Cash conversion after payment cannot by itself explain an appreciation that began before payment.</figcaption>
+</figure>
+</div>
+<p><img src="https://latex.codecogs.com/png.latex?%5Ctext%7BAdjusted%20BOP%7D%20=%20B%20-%20%5Calpha%20%5Ctimes%20%5Ctext%7Bgross%20overseas%20issuance%7D"></p>
+<p>Here <img src="https://latex.codecogs.com/png.latex?%5Calpha"> is the share of gross issuance actually attributed to the July balance of payments. Once <img src="https://latex.codecogs.com/png.latex?%5Calpha"> exceeds 22.5675%, the adjusted figure turns negative. Assuming the entire gross amount entered July’s B, the adjusted figure is −USD 20.5251 bn, leaving a gap of only USD 0.1749 bn against F.</p>
+<p>Conditional arithmetic is not a causal effect. The actual <img src="https://latex.codecogs.com/png.latex?%5Calpha">, the bank receipts net of fees, the receiving entities and accounts, internal transfers, dollar balances held, and hedging and spot conversion are none of them established in the public record. Two official numbers converging changes how the statistics should be read; it does not demonstrate a cause of the appreciation.</p>
+</section>
+<section id="market-accounting-and-hedging-data-narrow-the-candidates-without-completing-the-chain" class="level2">
+<h2 class="anchored" data-anchor-id="market-accounting-and-hedging-data-narrow-the-candidates-without-completing-the-chain">5. Market, accounting and hedging data narrow the candidates without completing the chain</h2>
+<p><strong>Same-day equity trading.</strong> Across 162 trading days in 2026, foreign net buying of listed equities moved together with won appreciation on the same day. The coefficient was −0.102 log points per trillion won, but simultaneity rules out reading it as a causal effect.</p>
+<p><strong>Dollar futures.</strong> Foreign net buying of dollar futures moved from +USD 1.165 bn in June to −USD 1.381 bn in July and −USD 2.900 bn in August. Including equities and futures together still leaves much of the July appreciation unexplained.</p>
+<p><strong>Corporate accounting.</strong> In an independently reconstructed panel of 135 observations across seven firms, the coefficient on net USD financial balances was −0.0162, with a 95% interval of −0.1948 to 0.1624. The strong initial result did not replicate.</p>
+<p><strong>Public hedging data.</strong> ETF contract linkage succeeded on three of the ten days planned. Without total foreign-currency assets and derivative positions, the same decline in futures balances is consistent with a rising, unchanged or falling hedge ratio.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/figures/figure5_measurement_chain.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. The information gap running from disclosed issuance to exchange-rate effect. Gross amounts and dates are verifiable, but estimating a causal contribution requires linking BOP attribution, net bank receipts, entity-level internal transfers, and hedging and spot conversion.</figcaption>
+</figure>
+</div>
+</section>
+<section id="the-boundary-of-what-the-current-evidence-supports" class="level2">
+<h2 class="anchored" data-anchor-id="the-boundary-of-what-the-current-evidence-supports">6. The boundary of what the current evidence supports</h2>
+<p><strong>Established.</strong> The July–August appreciation was far larger than the limited global benchmark and the fixed-weight Asia-3 imply. July saw an overseas issuance large enough to change the interpretation of the BOP equity inflow, and the four equity-flow series genuinely differed in direction.</p>
+<p><strong>Ruled out.</strong> The July BOP inflow cannot be equated with a turn in conventional net buying of domestic equities. The calendar T+2 shift alone does not reconcile the statistical differences, and the global residual cannot be called the magnitude of a domestic financial shock.</p>
+<p><strong>Still admissible.</strong> Global and domestic news and revisions to expectations, an easing of prior selling pressure, packaged trades across equities, futures, forwards and spot, anticipated or realised issuance flows, hedge adjustment, and dealer risk absorption may all have operated together.</p>
+<p><strong>Unresolved.</strong> The causal contribution of each channel, the BOP attribution rate of the issuance proceeds, net dollar cash, the receiving entities and accounts, and the amount, direction and timing of hedging and spot conversion cannot be determined from the public data as they stand.</p>
+</section>
+<section id="linked-data-not-more-data" class="level2">
+<h2 class="anchored" data-anchor-id="linked-data-not-more-data">7. Linked data, not more data</h2>
+<p>Adding further accounting reports in the same format increases the number of balance observations, but those observations may not connect to payments or conversions. Even on a small sample, linking disclosure, pricing, bank receipt, internal transfer, hedging and the spot FX order for a single transaction is more informative for a causal judgement.</p>
+<p><strong>A cross-country panel at a common observation time.</strong> Aligning the won, Asian currencies, NDFs and VIX at the same observation time tests whether the relative movement is an artefact of market closing times.</p>
+<p><strong>Actual settlement and conversion ledgers.</strong> Linking realised trades, settlement, custody and spot FX orders — rather than a calendar T+2 rule — tests whether secondary-market equity demand led the exchange rate.</p>
+<p><strong>Entity-level tracing of issuance proceeds.</strong> Connecting BOP attribution, net bank receipts, fees, entity-level internal transfers, end use, dollar balances held, and hedging and conversion records.</p>
+<p><strong>Consolidated position data.</strong> Observing equities, futures, forwards and NDFs, foreign-currency assets and spot FX orders together at the account and fund level, so that hedging of new acquisitions can be separated from re-hedging of existing assets.</p>
+</section>
+<section id="working-paper" class="level2">
+<h2 class="anchored" data-anchor-id="working-paper">Working paper</h2>
+<p>The English working paper contains the full estimating equations, sample definitions, sensitivity analysis, and a set of 26 figures and 31 tables including negative results and abandoned analyses.</p>
+<p><a href="https://khdouble.github.io/krw-exchange-rate-reversal/downloads/capital-flows-exchange-rate-reversal-korea.pdf">Download the PDF</a></p>
+<section id="suggested-citation" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-citation">Suggested citation</h3>
+<blockquote class="blockquote">
+<p>Kim, Hyun Hak (2026). “Capital Flows in an Exchange-Rate Reversal: Evidence from Korea.” Working Paper, Expanded Version 3, September 14.</p>
+</blockquote>
+</section>
+<section id="data-and-code" class="level3">
+<h3 class="anchored" data-anchor-id="data-and-code">Data and code</h3>
+<p>The raw data, processed datasets and analysis code used in this study are not included on this public website or in any public repository.</p>
+<p>Requests for academic replication or verification are handled individually, subject to the author’s explicit approval after review of the research purpose, the data required and the intended scope of use. Material subject to third-party licensing or redistribution restrictions may be excluded. Please write to <a href="mailto:hyunhak.kim@kookmin.ac.kr">hyunhak.kim@kookmin.ac.kr</a>.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Exchange Rates</category>
+  <category>Capital Flows</category>
+  <guid>https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/</guid>
+  <pubDate>Sun, 13 Sep 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/figures/figure1_krw_timeline.png" medium="image" type="image/png" height="85" width="144"/>
+</item>
+<item>
+  <title>환율 반전기의 자본흐름</title>
+  <link>https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>English version</strong> — <a href="../2026-09-krw-exchange-rate-reversal-en/">Capital Flows in an Exchange-Rate Reversal</a></p>
+<p>환율 자료는 2026년 8월 31일까지, 공식 월별 자금흐름은 2026년 7월까지 반영했다.</p>
+</div>
+</div>
+</div>
+<section id="원화는-왜-약해졌다가-더-빠르게-강해졌는가" class="level2">
+<h2 class="anchored" data-anchor-id="원화는-왜-약해졌다가-더-빠르게-강해졌는가">원화는 왜 약해졌다가 더 빠르게 강해졌는가?</h2>
+<p>2026년 원화는 상반기에 약세를 보인 뒤 7월과 8월에 그보다 큰 폭으로 강세 전환했다. 글로벌 달러 움직임과 아시아 비교통화만으로는 변화의 크기를 충분히 요약하기 어렵다. 그러나 남은 차이를 곧바로 국내 자금수급 충격이나 환헤지 효과라고 부를 수도 없다.</p>
+<p>이 연구는 하나의 원인을 선택하기보다, 지금까지 확보한 환율·국제수지·외환시장 보고서·상장주식 거래·달러선물·기업공시·회계 및 헤지 자료가 어느 주장까지 지지하는지를 점검한다. 가장 뚜렷한 결과는 7월의 대규모 해외 신주발행이 서로 다른 “외국인 주식자금” 통계의 방향을 바꿀 수 있었다는 점이다.</p>
+<section id="핵심-요약" class="level3">
+<h3 class="anchored" data-anchor-id="핵심-요약">핵심 요약</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">항목</th>
+<th style="text-align: right;">값</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1~6월 원화 약세</td>
+<td style="text-align: right;">7.39 로그포인트</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">7~8월 원화 강세</td>
+<td style="text-align: right;">12.41 로그포인트</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7~8월 Asia-3 대비 차이</td>
+<td style="text-align: right;">11.32 로그포인트</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">7월 해외 신주발행</td>
+<td style="text-align: right;">265.071억 달러</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">거래에서 현물환 주문까지의 연결</td>
+<td style="text-align: right;">미관측</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="반전은-하루의-사건이-아니었다" class="level2">
+<h2 class="anchored" data-anchor-id="반전은-하루의-사건이-아니었다">1. 반전은 하루의 사건이 아니었다</h2>
+<p>한국은행 15시 30분 원/달러 환율은 2025년 말 1,439.0원에서 2026년 6월 말 1,549.4원으로 상승했다. 7월 2일에는 동결 표본의 고점인 1,555.8원을 기록한 뒤 7월 말 1,424.0원, 8월 말 1,368.6원으로 하락했다. 원/달러 상승은 원화 약세를 뜻한다.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">지표</th>
+<th style="text-align: right;">값</th>
+<th style="text-align: left;">의미</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1,439.0</td>
+<td style="text-align: right;">2025년 말</td>
+<td style="text-align: left;">분석 구간의 기준점</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1,555.8</td>
+<td style="text-align: right;">2026년 7월 2일</td>
+<td style="text-align: left;">사후 확인된 표본 고점</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">+7.39</td>
+<td style="text-align: right;">1~6월 누적 변화</td>
+<td style="text-align: left;">로그포인트, 원화 약세</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">−12.41</td>
+<td style="text-align: right;">7~8월 누적 변화</td>
+<td style="text-align: left;">로그포인트, 원화 강세</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/figures/figure1_krw_timeline.png" class="img-fluid figure-img"></p>
+<figcaption>그림 1. ECOS 15시 30분 원/달러 환율과 주요 사건일. 사건선은 인과효과를 의미하지 않는다. 공시와 납입의 정확한 시각을 동일한 장중 환율과 연결할 수 없는 경우가 많다.</figcaption>
+</figure>
+</div>
+<p>해석의 출발점: 실물경제가 성장했다는 사실만으로 환율 약세를 퍼즐이라고 규정할 수는 없다. 환율은 미래 여건, 위험선호, 국제 자산수요, 헤지와 시장의 위험흡수 능력에도 반응한다. 따라서 먼저 어떤 비교 기준이 얼마나 실패했는지를 측정해야 한다.</p>
+</section>
+<section id="글로벌아시아-통화의-공통-움직임-뒤에도-큰-차이가-남았다" class="level2">
+<h2 class="anchored" data-anchor-id="글로벌아시아-통화의-공통-움직임-뒤에도-큰-차이가-남았다">2. 글로벌·아시아 통화의 공통 움직임 뒤에도 큰 차이가 남았다</h2>
+<p>두 기준을 사용했다. 첫째, 2015년 2월~2025년 12월 자료로 추정한 고정계수 글로벌 모형에 2026년의 실현된 달러요인·VIX·한미 단기금리차를 대입했다. 둘째, JPY·TWD·SGD의 일별 로그변화를 동일 가중한 Asia-3를 만들었다. 둘 다 실시간 예측이나 구조적 반사실이 아니라 제한된 사후 비교 기준이다.</p>
+<table class="caption-top table">
+<caption>단위는 로그퍼센트포인트. 양수는 대미달러 약세, 음수는 강세. 반올림 때문에 구성요소의 차이가 표시값과 소폭 다를 수 있다.</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">구간</th>
+<th style="text-align: right;">실제 원화</th>
+<th style="text-align: right;">글로벌 적합치</th>
+<th style="text-align: right;">실제−글로벌</th>
+<th style="text-align: right;">Asia-3</th>
+<th style="text-align: right;">원화−Asia-3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2026년 1~6월</td>
+<td style="text-align: right;">+7.39</td>
+<td style="text-align: right;">+2.37</td>
+<td style="text-align: right;">+5.02</td>
+<td style="text-align: right;">+2.03</td>
+<td style="text-align: right;">+5.36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026년 7~8월</td>
+<td style="text-align: right;">−12.41</td>
+<td style="text-align: right;">−1.73</td>
+<td style="text-align: right;">−10.68</td>
+<td style="text-align: right;">−1.09</td>
+<td style="text-align: right;">−11.32</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/figures/figure2_global_benchmark.png" class="img-fluid figure-img"></p>
+<figcaption>그림 2. 실제 원화 변화와 두 제한적 비교 기준. 추정 시작연도를 달리해도 7~8월 글로벌 잔차는 약 10.10~11.09 로그포인트로 남았다. Asia-3에서 한 통화씩 제외해도 원화의 상대강세 방향은 유지됐다.</figcaption>
+</figure>
+</div>
+<p>7~8월과 같은 42거래일의 원화−Asia-3 누적 차이는 2025년 5월 7일 이후 만들 수 있는 282개 중첩구간 중 가장 컸다. 이는 최근 비교구간에서 두드러졌다는 서술통계다. 표본이 짧고 구간이 중첩되므로 장기 발생확률이나 공식적인 유의확률로 해석하지 않는다.</p>
+</section>
+<section id="외국인-주식자금은-하나의-숫자가-아니다" class="level2">
+<h2 class="anchored" data-anchor-id="외국인-주식자금은-하나의-숫자가-아니다">3. “외국인 주식자금”은 하나의 숫자가 아니다</h2>
+<p>국제수지, 외환시장 보고서와 상장주식 거래는 시장·상품·거주성·신규발행 포함범위·인식시점·환산방식이 다르다. 같은 이름처럼 보여도 서로 더하거나 이어 붙일 수 없다.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">표기</th>
+<th style="text-align: left;">자료</th>
+<th style="text-align: left;">핵심 측정대상</th>
+<th style="text-align: left;">주의점</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">국제수지 비거주자 주식부채</td>
+<td style="text-align: left;">발생주의·경제적 소유권 기준 월별 거래</td>
+<td style="text-align: left;">신규발행과 장외거래가 포함될 수 있음</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">F</td>
+<td style="text-align: left;">외환시장 보고서 외국인 주식자금</td>
+<td style="text-align: left;">보고서가 밝힌 결제 기준 자금</td>
+<td style="text-align: left;">국제수지와 통계 범위가 다름</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">U(T,T)</td>
+<td style="text-align: left;">KOSPI·KOSDAQ 외국인 순매수</td>
+<td style="text-align: left;">거래일 기준 상장주식 대조값</td>
+<td style="text-align: left;">은행결제·현물환 주문이 아님</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">U(S,S)</td>
+<td style="text-align: left;">상장주식 순매수의 규칙상 이동</td>
+<td style="text-align: left;">KRX 달력 T+2 결제월 대조값</td>
+<td style="text-align: left;">실제 결제원장을 관측한 값이 아님</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/figures/figure3_equity_flow_measures.png" class="img-fluid figure-img"></p>
+<figcaption>그림 3. 네 가지 월별 외국인 주식자금 측정. 양수는 순유입·순매수, 단위는 십억 달러다. 2026년 8월 B와 F는 분석 마감일 현재 미공표이므로 0이 아니라 결측이다.</figcaption>
+</figure>
+</div>
+<p>달력상 T+2 이동은 F와의 절대격차를 1~7월 중 3개월에는 줄였지만 4개월에는 키웠다. 7월을 제외하면 평균 절대격차는 거래일 기준 25.60억 달러에서 규칙상 결제월 기준 37.72억 달러로 늘었다. 결제시점은 중요하지만, 달력 규칙이 실제 결제·환전 기록을 대신할 수는 없다.</p>
+</section>
+<section id="대규모-해외-신주발행은-7월-통계의-방향을-바꿀-수-있었다" class="level2">
+<h2 class="anchored" data-anchor-id="대규모-해외-신주발행은-7월-통계의-방향을-바꿀-수-있었다">4. 대규모 해외 신주발행은 7월 통계의 방향을 바꿀 수 있었다</h2>
+<p>7월에는 국제수지만 순유입을 기록했고 다른 세 측정치는 유출 또는 순매도였다. 같은 달 SK하이닉스는 총 265.071억 달러 규모의 해외 신주를 발행했다.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">측정</th>
+<th style="text-align: right;">값 (억 달러)</th>
+<th style="text-align: left;">방향</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">국제수지 B</td>
+<td style="text-align: right;">+59.82</td>
+<td style="text-align: left;">순유입</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">외환시장 F</td>
+<td style="text-align: right;">−207.00</td>
+<td style="text-align: left;">순유출</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">상장주식 U(T,T)</td>
+<td style="text-align: right;">−61.37</td>
+<td style="text-align: left;">거래일 기준</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">상장주식 U(S,S)</td>
+<td style="text-align: right;">−202.52</td>
+<td style="text-align: left;">규칙상 T+2</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/figures/figure4_issuance_clocks.png" class="img-fluid figure-img"></p>
+<figcaption>그림 4. 해외 신주발행과 여러 통계 시계. 최초 공시, 미국 가격결정, 납입, 신주 효력과 국제수지 인식은 동일한 시점이 아니다. 납입 뒤 현금환전만으로는 납입 전에 시작된 원화 강세를 설명하기 어렵다.</figcaption>
+</figure>
+</div>
+<p><img src="https://latex.codecogs.com/png.latex?%5Ctext%7B%EC%A1%B0%EC%A0%95%20%EA%B5%AD%EC%A0%9C%EC%88%98%EC%A7%80%7D%20=%20B%20-%20%5Calpha%20%5Ctimes%20%5Ctext%7B%ED%95%B4%EC%99%B8%20%EC%8B%A0%EC%A3%BC%20%EB%B0%9C%ED%96%89%EC%B4%9D%EC%95%A1%7D"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Calpha">는 발행총액 중 7월 국제수지에 실제 귀속된 비율이다. <img src="https://latex.codecogs.com/png.latex?%5Calpha">가 22.5675%를 넘으면 조정값의 부호가 음수로 바뀐다. 발행총액 전부가 7월 B에 들어갔다고 가정하면 조정 국제수지는 −205.251억 달러로 F와 1.749억 달러 차이만 남는다.</p>
+<p>조건부 산술과 인과효과는 다르다. 실제 <img src="https://latex.codecogs.com/png.latex?%5Calpha">, 수수료 차감 후 은행 수취액, 수취 법인과 계좌, 내부 자금이동, 달러 보유, 헤지와 현물환 전환은 공개자료에서 확인되지 않았다. 두 공식 숫자가 가까워지는 것은 통계 해석을 바꾸지만 원화 강세의 원인을 입증하지 않는다.</p>
+</section>
+<section id="시장회계헤지-자료는-설명-후보를-좁혔지만-거래를-끝까지-연결하지-못했다" class="level2">
+<h2 class="anchored" data-anchor-id="시장회계헤지-자료는-설명-후보를-좁혔지만-거래를-끝까지-연결하지-못했다">5. 시장·회계·헤지 자료는 설명 후보를 좁혔지만 거래를 끝까지 연결하지 못했다</h2>
+<p><strong>당일 주식거래.</strong> 2026년 162거래일에서 외국인 상장주식 순매수는 원화 강세와 같은 날 함께 움직였다. 1조원당 계수는 −0.102 로그포인트였으나 동시결정 때문에 인과효과로 읽을 수 없다.</p>
+<p><strong>달러선물.</strong> 외국인 달러선물 순매수는 6월 +11.65억 달러에서 7월 −13.81억, 8월 −29.00억 달러로 바뀌었다. 주식과 선물을 함께 넣어도 7월 강세의 큰 부분이 남았다.</p>
+<p><strong>기업 회계.</strong> 독립적으로 재구축한 7개 기업 135개 관측에서 순 USD 금융잔액 계수는 −0.0162, 95% 구간은 −0.1948~0.1624였다. 초기의 강한 결과는 재현되지 않았다.</p>
+<p><strong>공개 헤지자료.</strong> ETF 계약 연결은 예정한 10일 중 3일에 그쳤다. 전체 외화자산과 파생포지션이 없으면 같은 선물잔액 감소가 헤지율 상승·유지·하락과 모두 양립한다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/figures/figure5_measurement_chain.png" class="img-fluid figure-img"></p>
+<figcaption>그림 5. 공시된 발행에서 환율효과까지의 정보 공백. 발행총액과 날짜는 확인되지만 국제수지 귀속, 순은행수취, 법인별 내부이동, 헤지 및 현물환 전환을 연결해야 인과 기여도를 추정할 수 있다.</figcaption>
+</figure>
+</div>
+</section>
+<section id="현재-증거가-허용하는-결론의-경계" class="level2">
+<h2 class="anchored" data-anchor-id="현재-증거가-허용하는-결론의-경계">6. 현재 증거가 허용하는 결론의 경계</h2>
+<p><strong>확인된 것.</strong> 7~8월 원화 강세는 제한된 글로벌 기준과 고정가중 Asia-3보다 훨씬 컸다. 7월에는 국제수지 주식유입의 해석을 바꿀 만큼 큰 해외 신주발행이 있었고, 네 주식자금 계열의 방향이 실제로 달랐다.</p>
+<p><strong>배제할 수 있는 해석.</strong> 7월 국제수지 유입을 기존 국내주식 순매수 전환과 같다고 볼 수 없다. 달력 T+2만으로 통계 차이를 해소할 수 없으며, 글로벌 잔차를 국내 금융충격의 크기라고 부를 수도 없다.</p>
+<p><strong>여전히 가능한 설명.</strong> 글로벌·국내 뉴스와 기대 변화, 기존 매도압력 완화, 주식·선물·선도·현물환의 결합거래, 신주발행의 예상 또는 실제 흐름, 헤지조정과 시장중개자의 위험흡수가 함께 작동했을 수 있다.</p>
+<p><strong>미해결인 것.</strong> 각 경로의 인과 기여도, 발행대금의 국제수지 귀속률, 순달러 현금, 수취 법인·계좌, 헤지와 현물환 전환의 금액·방향·시점은 현재 공개자료로 결정할 수 없다.</p>
+</section>
+<section id="더-많은-자료보다-연결된-자료가-필요하다" class="level2">
+<h2 class="anchored" data-anchor-id="더-많은-자료보다-연결된-자료가-필요하다">7. 더 많은 자료보다 연결된 자료가 필요하다</h2>
+<p>같은 형식의 회계보고서를 추가하면 잔액 관측은 늘어나지만 지급이나 환전과 연결되지 않을 수 있다. 표본이 작더라도 하나의 거래에 대해 공시, 가격결정, 은행수취, 내부이동, 헤지와 현물환 주문을 연결하면 인과판정에 더 많은 정보를 준다.</p>
+<p><strong>동일 시각의 국제 비교패널.</strong> 원화·아시아 통화·NDF·VIX를 같은 관측시각으로 정렬해 상대 움직임이 시장 마감시각 때문에 생겼는지 점검한다.</p>
+<p><strong>실제 결제와 환전 원장.</strong> 달력상 T+2가 아니라 실제 거래·결제·수탁·현물환 주문을 연결해 유통시장 주식수요가 환율보다 선행했는지 검증한다.</p>
+<p><strong>신주발행 대금의 법인별 추적.</strong> 국제수지 귀속, 순은행수취, 수수료, 법인별 내부이동, 사용처, 달러 보유와 헤지·환전 기록을 연결한다.</p>
+<p><strong>통합 포지션 자료.</strong> 계좌·펀드별 주식, 선물·선도·NDF, 외화자산과 현물환 주문을 함께 관측해 신규취득 헤지와 기존 자산의 재헤지를 분리한다.</p>
+</section>
+<section id="working-paper" class="level2">
+<h2 class="anchored" data-anchor-id="working-paper">Working paper</h2>
+<p>영문 Working Paper에는 전체 추정식, 표본 정의, 민감도 분석, 음의 결과와 중단된 분석을 포함한 26개 그림과 31개 표 세트가 수록되어 있다.</p>
+<p><a href="https://khdouble.github.io/krw-exchange-rate-reversal/downloads/capital-flows-exchange-rate-reversal-korea.pdf">PDF 내려받기</a></p>
+<section id="권장-인용" class="level3">
+<h3 class="anchored" data-anchor-id="권장-인용">권장 인용</h3>
+<blockquote class="blockquote">
+<p>Kim, Hyun Hak (2026). “Capital Flows in an Exchange-Rate Reversal: Evidence from Korea.” Working Paper, Expanded Version 3, September 14.</p>
+</blockquote>
+</section>
+<section id="데이터와-코드" class="level3">
+<h3 class="anchored" data-anchor-id="데이터와-코드">데이터와 코드</h3>
+<p>연구에 사용한 원자료, 가공 데이터셋과 분석 코드는 이 공개 웹사이트 및 공개 저장소에 포함하지 않습니다.</p>
+<p>학술적 재현·검증을 위한 공유 요청은 연구 목적, 필요한 자료와 사용 범위를 검토한 뒤 저자의 명시적 승인에 따라 개별적으로 처리합니다. 제3자 라이선스나 재배포 제한이 있는 자료는 공유 범위에서 제외될 수 있습니다. 문의는 <a href="mailto:hyunhak.kim@kookmin.ac.kr">hyunhak.kim@kookmin.ac.kr</a>로 주시기 바랍니다.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>한국어</category>
+  <category>환율</category>
+  <category>자본흐름</category>
+  <guid>https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/</guid>
+  <pubDate>Sun, 13 Sep 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/figures/figure1_krw_timeline.png" medium="image" type="image/png" height="85" width="144"/>
+</item>
+</channel>
+</rss>

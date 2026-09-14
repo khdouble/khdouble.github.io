@@ -4,6 +4,7 @@ project:
   pre-render: build.py
   render:
     - "*.qmd"
+    - "posts/**/*.qmd"
   # Referenced only from styles.scss, so Quarto would not copy it otherwise.
   resources:
     - files/profile-hyunhak-kim.jpg
@@ -26,6 +27,8 @@ website:
         text: Research
       - href: projects.qmd
         text: Projects
+      - href: blog.qmd
+        text: Blog
       - href: links.qmd
         text: Links
     tools:

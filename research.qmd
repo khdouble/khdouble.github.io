@@ -68,7 +68,7 @@ title: "Research"
 <li><span class="entry-title"><a href="files/wp/comparator-choice-density-neural-midas.pdf">Comparator choice in the evaluation of density neural MIDAS nowcasts</a></span><span class="entry-meta"><span class="badge-soft">submitted</span></span></li>
 <li><span class="entry-title"><a href="files/wp/greenwashing-without-lying-claim-type-selection.pdf">Greenwashing Without Lying: Claim-Type Selection in Corporate Climate Disclosure</a></span></li>
 <li><span class="entry-title"><a href="files/wp/single-host-event-studies-limits-causal-inference.pdf">When the toolkit runs out: single-host event studies and the limits of causal inference</a></span><span class="entry-authors"> (with S. Yoon)</span></li>
-<li><span class="entry-title"><a href="https://khdouble.github.io/krw-exchange-rate-reversal/downloads/capital-flows-exchange-rate-reversal-korea.pdf">Capital Flows in an Exchange-Rate Reversal: Evidence from Korea</a></span><span class="extras"><a href="https://khdouble.github.io/krw-exchange-rate-reversal/">Technical summary in Korean</a></span></li>
+<li><span class="entry-title"><a href="https://khdouble.github.io/krw-exchange-rate-reversal/downloads/capital-flows-exchange-rate-reversal-korea.pdf">Capital Flows in an Exchange-Rate Reversal: Evidence from Korea</a></span><span class="extras"><a href="posts/2026-09-krw-exchange-rate-reversal-en/">Technical summary</a><a href="posts/2026-09-krw-exchange-rate-reversal-ko/">기술 요약 (국문)</a></span></li>
 </ol>
 
 ## Work in Progress
