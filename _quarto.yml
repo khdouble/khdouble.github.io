@@ -1,7 +1,9 @@
 project:
   type: website
   output-dir: docs
-  pre-render: build.py
+  pre-render:
+    - sync_cv.py
+    - build.py
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
