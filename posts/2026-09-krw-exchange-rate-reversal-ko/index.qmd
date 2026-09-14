@@ -7,6 +7,7 @@ categories: [한국어, 환율, 자본흐름]
 lang: ko
 image: figures/figure1_krw_timeline.png
 body-classes: article
+note: krw-exchange-rate-reversal
 image-alt: "2026년 원/달러 환율 경로와 주요 사건일"
 ---
 

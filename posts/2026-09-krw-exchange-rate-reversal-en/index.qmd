@@ -7,6 +7,7 @@ categories: [English, Exchange Rates, Capital Flows]
 lang: en
 image: figures/figure1_krw_timeline.png
 body-classes: article
+note: krw-exchange-rate-reversal
 image-alt: "Path of the KRW/USD exchange rate through 2026 with event dates marked"
 ---
 

@@ -4,18 +4,16 @@ subtitle: "Research notes in English and Korean · 영문·국문 연구 노트"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
-  categories: true
+  template: listing-paired.ejs
+  categories: false
   sort-ui: false
   filter-ui: false
-  fields: [date, title, description, categories]
   feed: true
-page-layout: full
-title-block-banner: false
+body-classes: article
 ---
 
-Longer notes that accompany the working papers. Each note is posted in both
-English and Korean; use the category links to filter by language.
+Longer notes that accompany the working papers. Each note is published in both
+English and Korean; the two versions of a note sit side by side below.
 
-각 글은 영문과 국문으로 함께 게시합니다. 언어별로 보시려면 오른쪽 분류를 눌러
-주십시오.
+각 글은 영문과 국문으로 함께 게시합니다. 같은 글의 두 언어판이 아래에 나란히
+놓입니다.

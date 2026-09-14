@@ -38,6 +38,9 @@ website:
       - icon: envelope
         href: "mailto:hyunhak.kim@kookmin.ac.kr"
         text: "Email"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/khdouble/
+        text: "LinkedIn"
       - icon: github
         href: https://github.com/khdouble
         text: "GitHub"

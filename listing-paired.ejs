@@ -1,0 +1,47 @@
+<%
+// Groups listing items by their `note` field so the two language versions of a
+// note render as one row with two columns, instead of as two unrelated entries
+// stacked vertically.
+//
+// Two things this template has to respect:
+//   - link with item.outputHref, not item.path: `path` is the source .qmd and
+//     on Windows carries backslashes
+//   - emit every line flush left: the output is parsed as markdown, so any
+//     line indented four spaces becomes a code block
+const groups = [];
+const byNote = {};
+for (const item of items) {
+  const key = item.note || item.outputHref;
+  if (!byNote[key]) { byNote[key] = { entries: [] }; groups.push(byNote[key]); }
+  byNote[key].entries.push(item);
+}
+const pick = (entries, code) => entries.find(e => (e.lang || "") === code);
+%>
+<div class="note-list">
+<% for (const g of groups) {
+const en = pick(g.entries, "en");
+const ko = pick(g.entries, "ko");
+const lead = en || ko || g.entries[0];
+const cols = [
+  { item: en, label: "English", cta: "Read in English" },
+  { item: ko, label: "한국어",   cta: "한국어로 읽기" },
+].filter(c => c.item);
+%>
+<article class="note">
+<div class="note-meta">
+<time class="note-date"><%= lead.date %></time>
+<% if (cols.length > 1) { %><span class="note-both">Available in both languages · 두 언어로 제공</span><% } %>
+</div>
+<div class="note-langs note-langs-<%= cols.length %>">
+<% for (const c of cols) { %>
+<a class="note-lang" href="<%- c.item.outputHref %>" lang="<%= c.item.lang %>">
+<span class="note-lang-tag"><%= c.label %></span>
+<span class="note-title"><%= c.item.title %></span>
+<% if (c.item.description) { %><span class="note-desc"><%= c.item.description %></span><% } %>
+<span class="note-cta"><%= c.cta %> &rarr;</span>
+</a>
+<% } %>
+</div>
+</article>
+<% } %>
+</div>

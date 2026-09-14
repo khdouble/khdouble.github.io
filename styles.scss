@@ -364,6 +364,108 @@ ol.entries > li::before {
 .proj-client { color: $muted; font-size: .89rem; }
 
 // ======================================================================
+// Blog listing: one note, two languages side by side
+// ======================================================================
+
+.note-list { margin-top: 2.2rem; }
+
+.note {
+  padding-top: 1.6rem;
+  margin-bottom: 2.2rem;
+  border-top: 1px solid $rule;
+}
+
+.note-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .8rem;
+  margin-bottom: .9rem;
+}
+
+.note-date {
+  color: $faint;
+  font-size: .82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.note-both {
+  color: $faint;
+  padding-left: .8rem;
+  border-left: 1px solid $rule;
+  font-size: .74rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.note-langs {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.note-langs-1 { grid-template-columns: minmax(0, 1fr); }
+
+.note-lang {
+  display: flex;
+  flex-direction: column;
+  height: 100%;          // both language cards match height in the grid row
+  padding: 1.05rem 1.15rem 1rem;
+  border: 1px solid $rule;
+  border-radius: 6px;
+  text-decoration: none;
+  color: $ink;
+  background: transparent;
+  transition: border-color .13s ease, background .13s ease;
+
+  &:hover {
+    border-color: $accent;
+    background: $accent-soft;
+  }
+}
+
+.note-lang-tag {
+  display: inline-block;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: $accent;
+  margin-bottom: .45rem;
+}
+
+.note-title {
+  display: block;
+  font-family: $font-family-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.32;
+  margin-bottom: .45rem;
+  color: $ink;
+}
+
+.note-desc {
+  display: block;
+  flex: 1 1 auto;        // pushes the call to action to the card foot
+  margin: 0 0 .7rem;
+  color: $muted;
+  font-size: .89rem;
+  line-height: 1.55;
+}
+
+.note-cta {
+  display: block;
+  font-size: .82rem;
+  font-weight: 600;
+  color: $accent;
+}
+
+// Stack the two languages once the columns would be too narrow to read.
+@media (max-width: 820px) {
+  .note-langs { grid-template-columns: minmax(0, 1fr); }
+}
+
+// ======================================================================
 // Links page
 // ======================================================================
 

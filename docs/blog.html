@@ -50,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b0f834236c4b67f97c37bf67d66588d9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-5041536672c9493e77addc23fd3f10c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-b0f834236c4b67f97c37bf67d66588d9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-97267c90702b312454c3ead608e93df2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e2a20fdab841e3b5ea4fedb7a4dde731.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-97267c90702b312454c3ead608e93df2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -90,9 +90,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-engines','listing-language','listing-title','listing-subtitle','listing-description','listing-date','listing-categories','listing-lang','listing-image','listing-body-classes','listing-note','listing-image-alt','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-subtitle","listing-description","listing-date","listing-categories","listing-lang","listing-image","listing-body-classes","listing-note","listing-image-alt","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -149,7 +149,7 @@ window.Quarto = {
 <meta property="og:site_name" content="Hyun Hak Kim">
 </head>
 
-<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked article quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -327,7 +327,7 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -336,6 +336,7 @@ window.Quarto = {
         <div class="sidebar-tools-main tools-wide">
     <a href="./files/cv-hyunhak-kim.pdf" title="Curriculum Vitae" class="quarto-navigation-tool px-1" aria-label="Curriculum Vitae"><i class="bi bi-file-earmark-text"></i></a>
     <a href="mailto:hyunhak.kim@kookmin.ac.kr" title="Email" class="quarto-navigation-tool px-1" aria-label="Email"><i class="bi bi-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/khdouble/" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/khdouble" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
@@ -378,11 +379,11 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUVDJTlFJTkwJUVCJUIzJUI4JUVEJTlEJTkwJUVCJUE2JTg0">자본흐름 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUVEJTk1JTlDJUVBJUI1JUFEJUVDJTk2JUI0">한국어 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUVEJTk5JTk4JUVDJTlDJUE4">환율 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2FwaXRhbCUyMEZsb3dz">Capital Flows <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW5nbGlzaA==">English <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhjaGFuZ2UlMjBSYXRlcw==">Exchange Rates <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -393,7 +394,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
     
   
@@ -405,66 +406,23 @@ window.Quarto = {
 </header>
 
 
-<p>Longer notes that accompany the working papers. Each note is posted in both English and Korean; use the category links to filter by language.</p>
-<p>각 글은 영문과 국문으로 함께 게시합니다. 언어별로 보시려면 오른쪽 분류를 눌러 주십시오.</p>
+<p>Longer notes that accompany the working papers. Each note is published in both English and Korean; the two versions of a note sit side by side below.</p>
+<p>각 글은 영문과 국문으로 함께 게시합니다. 같은 글의 두 언어판이 아래에 나란히 놓입니다.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="RW5nbGlzaCUyQ0V4Y2hhbmdlJTIwUmF0ZXMlMkNDYXBpdGFsJTIwRmxvd3M=" data-listing-date-sort="1789311600000" data-listing-file-modified-sort="1789401101446" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1790">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-09-krw-exchange-rate-reversal-en/index.html" class="no-external">Capital Flows in an Exchange-Rate Reversal</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5nbGlzaA=='); return false;">English</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RXhjaGFuZ2UlMjBSYXRlcw=='); return false;">Exchange Rates</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2FwaXRhbCUyMEZsb3dz'); return false;">Capital Flows</div>
-
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="note-list">
+<article class="note">
+<div class="note-meta">
+<p><time class="note-date">Sep 14, 2026</time> <span class="note-both">Available in both languages · 두 언어로 제공</span></p>
 </div>
-<div class="delink listing-description"><a href="./posts/2026-09-krw-exchange-rate-reversal-en/index.html" class="no-external">
-<p>The won weakened through the first half of 2026 and then strengthened faster in July and August. This note sets out how far the public data carry an explanation — and where they stop.</p>
-</a></div>
+<div class="note-langs note-langs-2">
+<p><a class="note-lang" href="posts/2026-09-krw-exchange-rate-reversal-en/index.html" lang="en"> <span class="note-lang-tag">English</span> <span class="note-title">Capital Flows in an Exchange-Rate Reversal</span> <span class="note-desc">The won weakened through the first half of 2026 and then strengthened faster in July and August. This note sets out how far the public data carry an explanation — and where they stop.</span> <span class="note-cta">Read in English →</span> </a></p>
+<p><a class="note-lang" href="posts/2026-09-krw-exchange-rate-reversal-ko/index.html" lang="ko"> <span class="note-lang-tag">한국어</span> <span class="note-title">환율 반전기의 자본흐름</span> <span class="note-desc">2026년 원화는 상반기에 약해졌다가 7~8월에 더 빠르게 강해졌다. 공개자료가 어느 주장까지 지지하는지, 그리고 어디에서 멈추는지 점검한다.</span> <span class="note-cta">한국어로 읽기 →</span> </a></p>
 </div>
-<div class="metadata">
-<a href="./posts/2026-09-krw-exchange-rate-reversal-en/index.html" class="no-external">
-<div class="listing-date">
-Sep 14, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="JUVEJTk1JTlDJUVBJUI1JUFEJUVDJTk2JUI0JTJDJUVEJTk5JTk4JUVDJTlDJUE4JTJDJUVDJTlFJTkwJUVCJUIzJUI4JUVEJTlEJTkwJUVCJUE2JTg0" data-listing-date-sort="1789311600000" data-listing-file-modified-sort="1789401101513" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1167">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-09-krw-exchange-rate-reversal-ko/index.html" class="no-external">환율 반전기의 자본흐름</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUVEJTk1JTlDJUVBJUI1JUFEJUVDJTk2JUI0'); return false;">한국어</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUVEJTk5JTk4JUVDJTlDJUE4'); return false;">환율</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUVDJTlFJTkwJUVCJUIzJUI4JUVEJTlEJTkwJUVCJUE2JTg0'); return false;">자본흐름</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2026-09-krw-exchange-rate-reversal-ko/index.html" class="no-external">
-<p>2026년 원화는 상반기에 약해졌다가 7~8월에 더 빠르게 강해졌다. 공개자료가 어느 주장까지 지지하는지, 그리고 어디에서 멈추는지 점검한다.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-09-krw-exchange-rate-reversal-ko/index.html" class="no-external">
-<div class="listing-date">
-Sep 14, 2026
-</div>
-</a>
-</div>
-</div>
+</article>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
