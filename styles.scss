@@ -48,15 +48,26 @@ body { -webkit-font-smoothing: antialiased; }
 .sidebar-header,
 #quarto-sidebar .sidebar-title { text-align: left; }
 
-// portrait / logo
-#quarto-sidebar .sidebar-logo,
-#quarto-sidebar img.sidebar-logo {
+// Portrait. Deliberately a CSS background rather than Quarto's `logo:`
+// option: setting `logo:` makes Quarto replace .sidebar-title outright, which
+// drops the name and role as real text. Here the photo is decorative and the
+// name stays selectable and indexable.
+//
+// The url is site-absolute. A relative one is not an option: Quarto resolves
+// relative urls in SCSS at compile time, against the project root rather than
+// the emitted stylesheet, and fails the build. This site is served from the
+// domain root, so /files/... is correct both under `quarto preview` and live.
+#quarto-sidebar .sidebar-title > a::before {
+  content: "";
+  display: block;
   width: 112px;
   height: 112px;
-  object-fit: cover;
-  border-radius: 50%;
   margin-bottom: 1.1rem;
+  border-radius: 50%;
   border: 1px solid $rule;
+  background-image: url("/files/profile-hyunhak-kim.jpg");
+  background-size: cover;
+  background-position: center 22%;
 }
 
 // name

@@ -4,6 +4,9 @@ project:
   pre-render: build.py
   render:
     - "*.qmd"
+  # Referenced only from styles.scss, so Quarto would not copy it otherwise.
+  resources:
+    - files/profile-hyunhak-kim.jpg
 
 website:
   title: "Hyun Hak Kim"
