@@ -1,0 +1,284 @@
+# Publication list for khdouble.github.io
+#
+# To add an entry: copy a block into the right section, then run
+#   python build.py && quarto render
+#
+# Fields
+#   title   : required
+#   authors : co-authors only, in printed order (the site owner is implicit)
+#   venue   : journal / outlet name
+#   detail  : volume(issue):pages, or a status such as "Forthcoming" / "submitted"
+#   lang    : "ko" when the work itself is in Korean
+#   url     : canonical landing page (DOI preferred); repo-relative path for a local PDF
+#   extras  : supplementary links -> {label, href}
+
+journal:
+  - title: "Forecasting Financial and Macroeconomics Variables Using Data Reduction Methods: New Empirical Evidence"
+    authors: ["Norman R. Swanson"]
+    venue: "Journal of Econometrics"
+    detail: "178(2):352-367"
+    url: "https://www.sciencedirect.com/science/article/pii/S0304407613001978"
+
+  - title: "Combining Point and Density Forecast of Inflation in Korea"
+    venue: "Economic Analysis"
+    detail: "21(3):103-136"
+    url: "https://www.bok.or.kr/fileSrc/imer/30a44d0a23c7d8a6c969354ace037e69/1/FILE_201803300816547911.pdf"
+
+  - title: "Mining Big Data Using Parsimonious Factor Machine Learning, Variable Selection, and Shrinkage Methods"
+    authors: ["Norman R. Swanson"]
+    venue: "International Journal of Forecasting"
+    detail: "34(2):339-354"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0169207016300668"
+
+  - title: "Looking into the Black Box of the Korean Economy: The Sparse Factor Model Forecasting Approach"
+    venue: "Journal of Asia-Pacific Economy"
+    detail: "23(1):1-16"
+    url: "https://doi.org/10.1080/13547860.2017.1349995"
+    extras:
+      - {label: "Appendices", href: "files/wp/black-box-korean-economy-appendices.pdf"}
+      - {label: "WP version (BOK WP 2013-26)", href: "files/wp/black-box-korean-economy-bok-wp-2013-26.pdf"}
+
+  - title: "Spatio-Temporal Analysis of House Price Diffusion of Korea"
+    venue: "Journal of Korean Economic Analysis"
+    detail: "23(2):89-135"
+    url: "https://www.kif.re.kr/kif4/publication/pub_detail?mid=23&nid=201&sid=201&vid=4522&cno=219077&pn=1"
+
+  - title: "Methods for Backcasting, Nowcasting and Forecasting Using Factor-MIDAS: With an Application to Korean GDP"
+    authors: ["Norman R. Swanson"]
+    venue: "Journal of Forecasting"
+    detail: "37(3):281-302"
+    url: "https://onlinelibrary.wiley.com/doi/full/10.1002/for.2499"
+
+  - title: "Default Probability by Employment Status in Korea"
+    authors: ["Hosung Jung"]
+    venue: "Asian Economic Papers"
+    detail: "19(3):62-84"
+    url: "https://direct.mit.edu/asep/article-abstract/19/3/62/93355/Default-Probability-by-Employment-Status-in-South"
+
+  - title: "Effect of Monetary Policy on Disaggregate Price Dynamics"
+    authors: ["Jaihyun Nahm"]
+    venue: "Journal of Industrial Economics and Business"
+    detail: "33(5):1141-1447"
+    url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10486011"
+
+  - title: "Forecasting Financial Stress Indices in Korea: A Factor Model Approach"
+    authors: ["Hyeongwoo Kim", "Wen Shi"]
+    venue: "Empirical Economics"
+    detail: "59:2859-2898"
+    url: "https://link.springer.com/article/10.1007/s00181-019-01744-y"
+
+  - title: "Employment Effect by Aviation MRO Promotion Policy"
+    authors: ["Selim Choi"]
+    venue: "Journal of the Aviation Management Society of Korea"
+    detail: "19(2):83-110"
+    url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002714857"
+
+  - title: "Analysis on Employment Effect of MCN (Multi-Channel Network) Industry"
+    venue: "Journal of Arts & Cultural Management"
+    detail: "14(2):29-57"
+    url: "https://kyungsang.kookmin.ac.kr/intro/research/activity/working/10?sc=342"
+
+  - title: "Dynamic Analysis of Consumer Credit Panel using Self Organizing Map"
+    venue: "Empirical Economics"
+    detail: "62:2893-2919"
+    url: "https://link.springer.com/article/10.1007/s00181-021-02120-5"
+    extras:
+      - {label: "Appendix", href: "files/wp/consumer-credit-panel-som-appendix.pdf"}
+
+  - title: "Mixing Mixed Frequency and Diffusion Indices in Good Times and in Bad: An Assessment Based on Historical Data Around the Great Recession of 2008"
+    authors: ["Kihwan Kim", "Norman R. Swanson"]
+    venue: "Empirical Economics"
+    detail: "64:1421-1469"
+    url: "https://link.springer.com/article/10.1007/s00181-022-02289-3"
+
+  - title: "Comparison of Equity Premium and its Determinants in Korea"
+    venue: "금융정보연구"
+    detail: "12(1):1-34"
+    lang: ko
+    url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11601425"
+
+  - title: "TCFD 권고안에 따른 연기금의 대응방안"
+    venue: "사학연금연구"
+    detail: "7:83-138"
+    lang: ko
+    url: "files/wp/tcfd-pension-fund-response-korea.pdf"
+
+  - title: "Systemic Risk of the Consumer Credit Network across Financial Institutions"
+    authors: ["Hosung Jung"]
+    venue: "Journal of Asia Pacific Economy"
+    detail: "29(3):1462-1482"
+    url: "https://www.tandfonline.com/doi/abs/10.1080/13547860.2022.2096281"
+    extras:
+      - {label: "Appendix", href: "files/wp/systemic-risk-consumer-credit-network-appendix.pdf"}
+
+  - title: "State-dependent Phillips Curve"
+    authors: ["Nakyeong Lee"]
+    venue: "Economies"
+    detail: "13(1):14"
+    url: "https://www.mdpi.com/2227-7099/13/1/14"
+
+  - title: "Measuring Labor Market Status Using Remote Sensing Data"
+    venue: "Sustainability"
+    detail: "17(7):2807"
+    url: "https://www.mdpi.com/2071-1050/17/7/2807"
+
+  - title: "Online News-Based Economic Sentiment Index"
+    authors: ["N. Kang", "D. Min", "Y. Cho", "D. Ko", "J. Choeh", "I. Im"]
+    venue: "IEEE Transactions on Big Data"
+    detail: "11(3):1464-1474"
+    url: "https://doi.ieeecomputersociety.org/10.1109/TBDATA.2024.3474211"
+
+  - title: "검색 지수를 이용한 거시경제 전망모형 연구"
+    venue: "한국경제학보"
+    detail: "32(1):23-50"
+    lang: ko
+    url: "files/wp/search-index-macro-forecasting-kje.pdf"
+
+  - title: "Generalized additive models for mixed-data regression using informal data"
+    authors: ["Nathaniel Kang", "Jongho Im"]
+    venue: "Applied Soft Computing"
+    detail: "186(A):114082"
+    url: "https://www.sciencedirect.com/science/article/pii/S156849462501395X"
+
+  - title: "Climate Policy Uncertainty Index: Case of Korea"
+    authors: ["S. Park", "S. Yeom"]
+    venue: "Environmental and Resources Economics Review"
+    detail: "35(1):81-108"
+    url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003320719"
+
+  - title: "Impact of Global Supply Chain Shocks on Production Costs"
+    authors: ["Bongseok Choi", "Sangho Shin"]
+    venue: "Empirical Economics"
+    detail: "70:85"
+    url: "https://doi.org/10.1007/s00181-026-02930-5"
+
+  - title: "Digital Transformation of the Service Industry in the Regional Perspective"
+    authors: ["D. Yoon"]
+    venue: "Quality and Quantity"
+    detail: "Forthcoming"
+    url: "https://link.springer.com/article/10.1007/s11135-026-02882-z"
+
+  - title: "Measuring Concentration Risk with a Herd Sentiment Index: Evidence from Korean Financial Markets"
+    venue: "Research in International Business and Finance"
+    detail: "90:103543"
+    url: "https://www.sciencedirect.com/science/article/pii/S0275531926002709"
+
+  - title: "Financial Development and Income and Wealth Inequalities: Trade Globalization Matters"
+    authors: ["Miao He"]
+    venue: "Journal of Economic Integration"
+    detail: "Forthcoming (2026)"
+
+  - title: "The Impact of Demographic Changes on Financial Markets and Bank Soundness, and Proposals for Reforming the Deposit Insurance System"
+    venue: "Financial Stability Studies"
+    detail: "Forthcoming (2026)"
+    lang: ko
+    url: "files/wp/demographic-changes-bank-soundness-deposit-insurance.pdf"
+
+chapter:
+  - title: "Macro Time Series Modeling"
+    venue: "in *Economic Impact of the Energy Transition*, ed. Kim et al., Elsevier"
+    detail: "2025"
+    url: "https://shop.elsevier.com/books/economic-impact-of-the-energy-transition/kim/978-0-443-33461-0"
+
+report:
+  - title: "Analysis of Effects of Cross-regional Diffusion of Apartment Sales Prices Using Actual Apartment Sales Price Index"
+    authors: ["Hosung Chung", "Hosung Lim"]
+    venue: "Bank of Korea Monthly Bulletin"
+    detail: "April 2016"
+    lang: ko
+    url: "files/wp/apartment-price-diffusion-korea-bok-bulletin.pdf"
+
+wp:
+  - title: "Hysteresis in Korean Labor Market with Alternative Measure of Labor Utilization"
+    authors: ["K. M. Hwang"]
+    venue: "BOK Working Paper 2014-29"
+    lang: ko
+    url: "files/wp/hysteresis-korean-labor-market-bok-wp-2014-29.pdf"
+
+  - title: "Do Central Bank Statements Forecast Policy? Evidence from Korea"
+    authors: ["S. Park"]
+    detail: "submitted"
+    url: "files/wp/central-bank-statements-forecast-policy-korea.pdf"
+    extras:
+      - {label: "Code", href: "https://github.com/khdouble/mpb-statement-forecasting"}
+
+  - title: "When Does Synthetic Data Improve Forecast Combination? An Information-Channel Decomposition"
+    detail: "submitted"
+    url: "files/wp/synthetic-data-forecast-combination.pdf"
+
+  - title: "Sectoral Information and the Real-Time Measurement of Trend Inflation: Evidence from Korea"
+    detail: "submitted"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379698"
+
+  - title: "Validating Generated Latent Quantities for Survey"
+    detail: "submitted"
+    url: "files/wp/validating-generated-latent-quantities-survey.pdf"
+
+  - title: "Unobservable Heterogeneity in the Marginal Propensity to Consume: Evidence from Korean Household Panel Data"
+    detail: "submitted"
+    url: "files/wp/unobservable-heterogeneity-mpc-korea.pdf"
+
+  - title: "When Does Monthly Information Improve Investment Nowcasts? Benchmark Synchronisation and Evidence from Korea"
+    detail: "submitted"
+    url: "files/wp/monthly-information-investment-nowcasts-korea.pdf"
+
+  - title: "Where imported physical climate risk stops: supply chains, overseas plants, and the manufacturing balance sheet"
+    detail: "submitted"
+    url: "files/wp/imported-physical-climate-risk-supply-chains.pdf"
+
+  - title: "Auditing Real-Time Official Statistics: A Release-Event Ledger for U.S. GDP Nowcasting"
+    detail: "submitted"
+    url: "files/wp/auditing-real-time-official-statistics-gdp-nowcasting.pdf"
+
+  - title: "Comparator choice in the evaluation of density neural MIDAS nowcasts"
+    detail: "submitted"
+    url: "files/wp/comparator-choice-density-neural-midas.pdf"
+
+  - title: "Greenwashing Without Lying: Claim-Type Selection in Corporate Climate Disclosure"
+    url: "files/wp/greenwashing-without-lying-claim-type-selection.pdf"
+
+  - title: "When the toolkit runs out: single-host event studies and the limits of causal inference"
+    authors: ["S. Yoon"]
+    url: "files/wp/single-host-event-studies-limits-causal-inference.pdf"
+
+  - title: "Capital Flows in an Exchange-Rate Reversal: Evidence from Korea"
+    url: "https://khdouble.github.io/krw-exchange-rate-reversal/downloads/capital-flows-exchange-rate-reversal-korea.pdf"
+    extras:
+      - {label: "Technical summary in Korean", href: "https://khdouble.github.io/krw-exchange-rate-reversal/"}
+
+wip:
+  - title: "Macroeconomic Nowcasting using Naver Probabilities"
+    authors: ["Gary Koop", "Sungyup Chung"]
+
+  - title: "Determinants of Youth Employment Location: Case of Korea"
+
+  - title: "A Time-Varying Asymmetric Dynamic Latent Space Model for Directed Weighted Networks"
+    authors: ["S. Park", "I. Jin"]
+
+  - title: "From Human Ratings to AI Scores: Measuring Sentiment in Monetary Policy Statements"
+    authors: ["S. Park"]
+
+  - title: "Establishment of an Early Warning System (EWS) for Synthetic Data-Based Private Mezzanine-False Disclosure Combination Schemes"
+    authors: ["J. Jeon"]
+
+  - title: "Forecast North Korea's Economic Activity Using Remote Sensing Data in Mixed Frequency"
+    authors: ["G. Kim", "C. Lim"]
+
+  - title: "Financial Friction and Government Subsidy in Venture Capital Financing"
+
+  - title: "Transition of Global Production Cost Shock to Domestic Producer Price"
+    authors: ["B. Choi", "S. Shin"]
+
+  - title: "Diffusion Analysis of House Price in Korea"
+    authors: ["Miao He"]
+
+translation:
+  - title: "Hubbard 화폐금융"
+    detail: "Hubbard 저, 경문사"
+    lang: ko
+    url: "https://product.kyobobook.co.kr/detail/S000201099161"
+
+  - title: "계량경제학"
+    detail: "Stock, Watson 저, 이나무러닝"
+    lang: ko
+    url: "https://product.kyobobook.co.kr/detail/S000215722136"

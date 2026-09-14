@@ -1,0 +1,31 @@
+---
+title: "Links"
+---
+
+## Affiliations
+
+::: {.linkset}
+- [Rutgers University](https://www.rutgers.edu/)
+- [Department of Economics, Rutgers University](https://economics.rutgers.edu/)
+- [Bank of Korea](https://www.bok.or.kr/eng/main/main.do)
+- [Bank of Korea, Economic Research Institute](https://www.bok.or.kr/imer/main/main.do)
+- [Euphonia](http://www.euphonia.org/)
+:::
+
+## Institutions & Data
+
+::: {.linkset}
+- [National Bureau of Economic Research](https://www.nber.org/)
+- [International Monetary Fund](https://www.imf.org/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Economic Analysis](https://www.bea.gov/)
+- [FRED, Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/)
+:::
+
+## Blogs
+
+::: {.linkset}
+- [Greg Mankiw's Blog](https://gregmankiw.blogspot.com/)
+- [Econbrowser](https://econbrowser.com/)
+- [Paul Krugman](https://paulkrugman.substack.com/)
+:::

@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+  pre-render: build.py
+  render:
+    - "*.qmd"
+
+website:
+  title: "Hyun Hak Kim"
+  description: "Professor of Economics, Kookmin University. Empirical macroeconomics, forecasting, and time-series econometrics."
+  site-url: "https://khdouble.github.io"
+  favicon: favicon.svg
+  open-graph: true
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: links.qmd
+        text: Links
+    right:
+      - text: "CV"
+        href: files/cv-hyunhak-kim.pdf
+      - icon: github
+        href: https://github.com/khdouble
+        aria-label: GitHub
+  page-footer:
+    center: |
+      © Hyun Hak Kim · Department of Economics, Kookmin University
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 2
+    anchor-sections: true
+    link-external-newwindow: true
+    link-external-icon: false

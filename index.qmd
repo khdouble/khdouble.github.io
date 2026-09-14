@@ -1,0 +1,72 @@
+---
+title: "Hyun Hak Kim"
+subtitle: "Professor, Department of Economics, Kookmin University"
+---
+
+## Contact
+
+::: {.fact-list}
+[Email]{.label} [hyunhak.kim@kookmin.ac.kr](mailto:hyunhak.kim@kookmin.ac.kr) · [hyunhak.kim@torontomu.ca](mailto:hyunhak.kim@torontomu.ca)
+
+[Phone]{.label} +1-646-801-7719 (Google Voice) · +82-2-910-4541 (Kookmin Univ.)
+
+[Fax]{.label} +82-2-910-4519 (Kookmin Univ.)
+
+[CV]{.label} [Curriculum Vitae (PDF)](files/cv-hyunhak-kim.pdf)
+:::
+
+## Current Position
+
+::: {.role}
+[Professor]{.role-title}
+[Department of Economics, Kookmin University, Seoul, Korea]{.role-where}
+:::
+
+## Previous Positions
+
+::: {.role}
+[Visiting Faculty, Department of Economics, Toronto Metropolitan University]{.role-title}
+[Jan. 2023 – Dec. 2024]{.role-where}
+:::
+
+::: {.role}
+[Associate Professor, Department of Economics, Kookmin University]{.role-title}
+[Sep. 2019 – Aug. 2025]{.role-where}
+:::
+
+::: {.role}
+[Assistant Professor, Department of Economics, Kookmin University]{.role-title}
+[Mar. 2016 – Aug. 2019]{.role-where}
+:::
+
+::: {.role}
+[Economist, Bank of Korea, Institute of Economic Research]{.role-title}
+[Sep. 2012 – Feb. 2016]{.role-where}
+:::
+
+::: {.role}
+[Assistant Manager, Sales Planning Team, LG-Philips LCD]{.role-title}
+[Oct. 2004 – Mar. 2005]{.role-where}
+:::
+
+::: {.role}
+[Stock Trader, First Business Team, Daishin Securities Inc.]{.role-title}
+[Dec. 2003 – Sep. 2004]{.role-where}
+:::
+
+## Education
+
+::: {.role}
+[Ph.D., Economics — Rutgers University, New Brunswick, NJ, USA]{.role-title}
+[May 2012]{.role-where}
+:::
+
+::: {.role}
+[M.A., Economics — Rutgers University, New Brunswick, NJ, USA]{.role-title}
+[May 2008]{.role-where}
+:::
+
+::: {.role}
+[B.B.A. and B.A. in Statistics — Yonsei University, Seoul, Korea]{.role-title}
+[Feb. 2004]{.role-where}
+:::

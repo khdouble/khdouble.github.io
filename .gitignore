@@ -1,0 +1,15 @@
+# Quarto
+/.quarto/
+*_files/
+.Rproj.user/
+
+# OS / editor cruft
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+*~
+*.swp
+
+**/*.quarto_ipynb
