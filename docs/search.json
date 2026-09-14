@@ -4,125 +4,179 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Primary: Empirical Macro, Forecasting, Time-series\nSecondary: Macroeconometrics, Data Mining"
+    "text": "Primary: Empirical Macro, Forecasting, Time-series\nSecondary: Macroeconometrics, Data Mining",
+    "crumbs": [
+      "Research"
+    ]
   },
   {
     "objectID": "research.html#research-interest",
     "href": "research.html#research-interest",
     "title": "Research",
     "section": "",
-    "text": "Primary: Empirical Macro, Forecasting, Time-series\nSecondary: Macroeconometrics, Data Mining"
+    "text": "Primary: Empirical Macro, Forecasting, Time-series\nSecondary: Macroeconometrics, Data Mining",
+    "crumbs": [
+      "Research"
+    ]
   },
   {
     "objectID": "research.html#publications",
     "href": "research.html#publications",
     "title": "Research",
     "section": "Publications",
-    "text": "Publications\n\n\nForecasting Financial and Macroeconomics Variables Using Data Reduction Methods: New Empirical Evidence (with Norman R. Swanson)Journal of Econometrics, 178(2):352-367MATLAB codes\n\n\nCombining Point and Density Forecast of Inflation in KoreaEconomic Analysis, 21(3):103-136\n\n\nMining Big Data Using Parsimonious Factor Machine Learning, Variable Selection, and Shrinkage Methods (with Norman R. Swanson)International Journal of Forecasting, 34(2):339-354MATLAB codes\n\n\nLooking into the Black Box of the Korean Economy: The Sparse Factor Model Forecasting ApproachJournal of Asia-Pacific Economy, 23(1):1-16AppendicesWP version (BOK WP 2013-26)\n\n\nSpatio-Temporal Analysis of House Price Diffusion of KoreaJournal of Korean Economic Analysis, 23(2):89-135\n\n\nMethods for Backcasting, Nowcasting and Forecasting Using Factor-MIDAS: With an Application to Korean GDP (with Norman R. Swanson)Journal of Forecasting, 37(3):281-302\n\n\nDefault Probability by Employment Status in Korea (with Hosung Jung)Asian Economic Papers, 19(3):62-84\n\n\nEffect of Monetary Policy on Disaggregate Price Dynamics (with Jaihyun Nahm)Journal of Industrial Economics and Business, 33(5):1141-1447\n\n\nForecasting Financial Stress Indices in Korea: A Factor Model Approach (with Hyeongwoo Kim and Wen Shi)Empirical Economics, 59:2859-2898\n\n\nEmployment Effect by Aviation MRO Promotion Policy (with Selim Choi)Journal of the Aviation Management Society of Korea, 19(2):83-110\n\n\nAnalysis on Employment Effect of MCN (Multi-Channel Network) IndustryJournal of Arts & Cultural Management, 14(2):29-57\n\n\nDynamic Analysis of Consumer Credit Panel using Self Organizing MapEmpirical Economics, 62:2893-2919Appendix\n\n\nMixing Mixed Frequency and Diffusion Indices in Good Times and in Bad: An Assessment Based on Historical Data Around the Great Recession of 2008 (with Kihwan Kim and Norman R. Swanson)Empirical Economics, 64:1421-1469\n\n\nComparison of Equity Premium and its Determinants in Korea금융정보연구, 12(1):1-34, in Korean\n\n\nTCFD 권고안에 따른 연기금의 대응방안사학연금연구, 7:83-138, in Korean\n\n\nSystemic Risk of the Consumer Credit Network across Financial Institutions (with Hosung Jung)Journal of Asia Pacific Economy, 29(3):1462-1482Appendix\n\n\nState-dependent Phillips Curve (with Nakyeong Lee)Economies, 13(1):14\n\n\nMeasuring Labor Market Status Using Remote Sensing DataSustainability, 17(7):2807\n\n\nOnline News-Based Economic Sentiment Index (with N. Kang, D. Min, Y. Cho, D. Ko, J. Choeh, and I. Im)IEEE Transactions on Big Data, 11(3):1464-1474\n\n\n검색 지수를 이용한 거시경제 전망모형 연구한국경제학보, 32(1):23-50, in Korean\n\n\nGeneralized additive models for mixed-data regression using informal data (with Nathaniel Kang and Jongho Im)Applied Soft Computing, 186(A):114082\n\n\nClimate Policy Uncertainty Index: Case of Korea (with S. Park and S. Yeom)Environmental and Resources Economics Review, 35(1):81-108\n\n\nImpact of Global Supply Chain Shocks on Production Costs (with Bongseok Choi and Sangho Shin)Empirical Economics, 70:85\n\n\nDigital Transformation of the Service Industry in the Regional Perspective (with D. Yoon)Quality and Quantity Forthcoming\n\n\nMeasuring Concentration Risk with a Herd Sentiment Index: Evidence from Korean Financial MarketsResearch in International Business and Finance, 90:103543\n\n\nFinancial Development and Income and Wealth Inequalities: Trade Globalization Matters (with Miao He)Journal of Economic Integration, (2026) Forthcoming\n\n\nThe Impact of Demographic Changes on Financial Markets and Bank Soundness, and Proposals for Reforming the Deposit Insurance SystemFinancial Stability Studies, (2026), in Korean Forthcoming"
+    "text": "Publications\n\n\nForecasting Financial and Macroeconomics Variables Using Data Reduction Methods: New Empirical Evidence (with Norman R. Swanson)Journal of Econometrics, 178(2):352-367MATLAB codes\n\n\nCombining Point and Density Forecast of Inflation in KoreaEconomic Analysis, 21(3):103-136\n\n\nMining Big Data Using Parsimonious Factor Machine Learning, Variable Selection, and Shrinkage Methods (with Norman R. Swanson)International Journal of Forecasting, 34(2):339-354MATLAB codes\n\n\nLooking into the Black Box of the Korean Economy: The Sparse Factor Model Forecasting ApproachJournal of Asia-Pacific Economy, 23(1):1-16AppendicesWP version (BOK WP 2013-26)\n\n\nSpatio-Temporal Analysis of House Price Diffusion of KoreaJournal of Korean Economic Analysis, 23(2):89-135\n\n\nMethods for Backcasting, Nowcasting and Forecasting Using Factor-MIDAS: With an Application to Korean GDP (with Norman R. Swanson)Journal of Forecasting, 37(3):281-302\n\n\nDefault Probability by Employment Status in Korea (with Hosung Jung)Asian Economic Papers, 19(3):62-84\n\n\nEffect of Monetary Policy on Disaggregate Price Dynamics (with Jaihyun Nahm)Journal of Industrial Economics and Business, 33(5):1141-1447\n\n\nForecasting Financial Stress Indices in Korea: A Factor Model Approach (with Hyeongwoo Kim and Wen Shi)Empirical Economics, 59:2859-2898\n\n\nEmployment Effect by Aviation MRO Promotion Policy (with Selim Choi)Journal of the Aviation Management Society of Korea, 19(2):83-110\n\n\nAnalysis on Employment Effect of MCN (Multi-Channel Network) IndustryJournal of Arts & Cultural Management, 14(2):29-57\n\n\nDynamic Analysis of Consumer Credit Panel using Self Organizing MapEmpirical Economics, 62:2893-2919Appendix\n\n\nMixing Mixed Frequency and Diffusion Indices in Good Times and in Bad: An Assessment Based on Historical Data Around the Great Recession of 2008 (with Kihwan Kim and Norman R. Swanson)Empirical Economics, 64:1421-1469\n\n\nComparison of Equity Premium and its Determinants in Korea금융정보연구, 12(1):1-34, in Korean\n\n\nTCFD 권고안에 따른 연기금의 대응방안사학연금연구, 7:83-138, in Korean\n\n\nSystemic Risk of the Consumer Credit Network across Financial Institutions (with Hosung Jung)Journal of Asia Pacific Economy, 29(3):1462-1482Appendix\n\n\nState-dependent Phillips Curve (with Nakyeong Lee)Economies, 13(1):14\n\n\nMeasuring Labor Market Status Using Remote Sensing DataSustainability, 17(7):2807\n\n\nOnline News-Based Economic Sentiment Index (with N. Kang, D. Min, Y. Cho, D. Ko, J. Choeh, and I. Im)IEEE Transactions on Big Data, 11(3):1464-1474\n\n\n검색 지수를 이용한 거시경제 전망모형 연구한국경제학보, 32(1):23-50, in Korean\n\n\nGeneralized additive models for mixed-data regression using informal data (with Nathaniel Kang and Jongho Im)Applied Soft Computing, 186(A):114082\n\n\nClimate Policy Uncertainty Index: Case of Korea (with S. Park and S. Yeom)Environmental and Resources Economics Review, 35(1):81-108\n\n\nImpact of Global Supply Chain Shocks on Production Costs (with Bongseok Choi and Sangho Shin)Empirical Economics, 70:85\n\n\nDigital Transformation of the Service Industry in the Regional Perspective (with D. Yoon)Quality and Quantity Forthcoming\n\n\nMeasuring Concentration Risk with a Herd Sentiment Index: Evidence from Korean Financial MarketsResearch in International Business and Finance, 90:103543\n\n\nFinancial Development and Income and Wealth Inequalities: Trade Globalization Matters (with Miao He)Journal of Economic Integration, (2026) Forthcoming\n\n\nThe Impact of Demographic Changes on Financial Markets and Bank Soundness, and Proposals for Reforming the Deposit Insurance SystemFinancial Stability Studies, (2026), in Korean Forthcoming",
+    "crumbs": [
+      "Research"
+    ]
   },
   {
     "objectID": "research.html#book-chapter",
     "href": "research.html#book-chapter",
     "title": "Research",
     "section": "Book Chapter",
-    "text": "Book Chapter\n\n\nMacro Time Series Modelingin Economic Impact of the Energy Transition, ed. Kim et al., Elsevier, 2025"
+    "text": "Book Chapter\n\n\nMacro Time Series Modelingin Economic Impact of the Energy Transition, ed. Kim et al., Elsevier, 2025",
+    "crumbs": [
+      "Research"
+    ]
   },
   {
     "objectID": "research.html#non-peer-reviewed-report",
     "href": "research.html#non-peer-reviewed-report",
     "title": "Research",
     "section": "Non-peer-reviewed Report",
-    "text": "Non-peer-reviewed Report\n\n\nAnalysis of Effects of Cross-regional Diffusion of Apartment Sales Prices Using Actual Apartment Sales Price Index (with Hosung Chung and Hosung Lim)Bank of Korea Monthly Bulletin, April 2016, in Korean"
+    "text": "Non-peer-reviewed Report\n\n\nAnalysis of Effects of Cross-regional Diffusion of Apartment Sales Prices Using Actual Apartment Sales Price Index (with Hosung Chung and Hosung Lim)Bank of Korea Monthly Bulletin, April 2016, in Korean",
+    "crumbs": [
+      "Research"
+    ]
   },
   {
     "objectID": "research.html#working-papers",
     "href": "research.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\n\nHysteresis in Korean Labor Market with Alternative Measure of Labor Utilization (with K. M. Hwang)BOK Working Paper 2014-29, in Korean\n\n\nDo Central Bank Statements Forecast Policy? Evidence from Korea (with S. Park)submittedCode\n\n\nWhen Does Synthetic Data Improve Forecast Combination? An Information-Channel Decompositionsubmitted\n\n\nSectoral Information and the Real-Time Measurement of Trend Inflation: Evidence from Koreasubmitted\n\n\nValidating Generated Latent Quantities for Surveysubmitted\n\n\nUnobservable Heterogeneity in the Marginal Propensity to Consume: Evidence from Korean Household Panel Datasubmitted\n\n\nWhen Does Monthly Information Improve Investment Nowcasts? Benchmark Synchronisation and Evidence from Koreasubmitted\n\n\nWhere imported physical climate risk stops: supply chains, overseas plants, and the manufacturing balance sheetsubmitted\n\n\nAuditing Real-Time Official Statistics: A Release-Event Ledger for U.S. GDP Nowcastingsubmitted\n\n\nComparator choice in the evaluation of density neural MIDAS nowcastssubmitted\n\n\nGreenwashing Without Lying: Claim-Type Selection in Corporate Climate Disclosure\n\n\nWhen the toolkit runs out: single-host event studies and the limits of causal inference (with S. Yoon)\n\n\nCapital Flows in an Exchange-Rate Reversal: Evidence from KoreaTechnical summary in Korean"
+    "text": "Working Papers\n\n\nHysteresis in Korean Labor Market with Alternative Measure of Labor Utilization (with K. M. Hwang)BOK Working Paper 2014-29, in Korean\n\n\nDo Central Bank Statements Forecast Policy? Evidence from Korea (with S. Park)submittedCode\n\n\nWhen Does Synthetic Data Improve Forecast Combination? An Information-Channel Decompositionsubmitted\n\n\nSectoral Information and the Real-Time Measurement of Trend Inflation: Evidence from Koreasubmitted\n\n\nValidating Generated Latent Quantities for Surveysubmitted\n\n\nUnobservable Heterogeneity in the Marginal Propensity to Consume: Evidence from Korean Household Panel Datasubmitted\n\n\nWhen Does Monthly Information Improve Investment Nowcasts? Benchmark Synchronisation and Evidence from Koreasubmitted\n\n\nWhere imported physical climate risk stops: supply chains, overseas plants, and the manufacturing balance sheetsubmitted\n\n\nAuditing Real-Time Official Statistics: A Release-Event Ledger for U.S. GDP Nowcastingsubmitted\n\n\nComparator choice in the evaluation of density neural MIDAS nowcastssubmitted\n\n\nGreenwashing Without Lying: Claim-Type Selection in Corporate Climate Disclosure\n\n\nWhen the toolkit runs out: single-host event studies and the limits of causal inference (with S. Yoon)\n\n\nCapital Flows in an Exchange-Rate Reversal: Evidence from KoreaTechnical summary in Korean",
+    "crumbs": [
+      "Research"
+    ]
   },
   {
     "objectID": "research.html#work-in-progress",
     "href": "research.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\n\nMacroeconomic Nowcasting using Naver Probabilities (with Gary Koop and Sungyup Chung)\n\n\nDeterminants of Youth Employment Location: Case of Korea\n\n\nA Time-Varying Asymmetric Dynamic Latent Space Model for Directed Weighted Networks (with S. Park and I. Jin)\n\n\nFrom Human Ratings to AI Scores: Measuring Sentiment in Monetary Policy Statements (with S. Park)\n\n\nEstablishment of an Early Warning System (EWS) for Synthetic Data-Based Private Mezzanine-False Disclosure Combination Schemes (with J. Jeon)\n\n\nForecast North Korea’s Economic Activity Using Remote Sensing Data in Mixed Frequency (with G. Kim and C. Lim)\n\n\nFinancial Friction and Government Subsidy in Venture Capital Financing\n\n\nTransition of Global Production Cost Shock to Domestic Producer Price (with B. Choi and S. Shin)\n\n\nDiffusion Analysis of House Price in Korea (with Miao He)"
+    "text": "Work in Progress\n\n\nMacroeconomic Nowcasting using Naver Probabilities (with Gary Koop and Sungyup Chung)\n\n\nDeterminants of Youth Employment Location: Case of Korea\n\n\nA Time-Varying Asymmetric Dynamic Latent Space Model for Directed Weighted Networks (with S. Park and I. Jin)\n\n\nFrom Human Ratings to AI Scores: Measuring Sentiment in Monetary Policy Statements (with S. Park)\n\n\nEstablishment of an Early Warning System (EWS) for Synthetic Data-Based Private Mezzanine-False Disclosure Combination Schemes (with J. Jeon)\n\n\nForecast North Korea’s Economic Activity Using Remote Sensing Data in Mixed Frequency (with G. Kim and C. Lim)\n\n\nFinancial Friction and Government Subsidy in Venture Capital Financing\n\n\nTransition of Global Production Cost Shock to Domestic Producer Price (with B. Choi and S. Shin)\n\n\nDiffusion Analysis of House Price in Korea (with Miao He)",
+    "crumbs": [
+      "Research"
+    ]
   },
   {
     "objectID": "research.html#저역서-translated-books",
     "href": "research.html#저역서-translated-books",
     "title": "Research",
     "section": "저·역서 (Translated Books)",
-    "text": "저·역서 (Translated Books)\n\n\nHubbard 화폐금융Hubbard 저, 경문사, in Korean\n\n\n계량경제학Stock, Watson 저, 이나무러닝, in Korean"
+    "text": "저·역서 (Translated Books)\n\n\nHubbard 화폐금융Hubbard 저, 경문사, in Korean\n\n\n계량경제학Stock, Watson 저, 이나무러닝, in Korean",
+    "crumbs": [
+      "Research"
+    ]
   },
   {
     "objectID": "links.html",
     "href": "links.html",
     "title": "Links",
     "section": "",
-    "text": "Rutgers University\nDepartment of Economics, Rutgers University\nBank of Korea\nBank of Korea, Economic Research Institute\nEuphonia"
+    "text": "Rutgers University\nDepartment of Economics, Rutgers University\nBank of Korea\nBank of Korea, Economic Research Institute\nEuphonia",
+    "crumbs": [
+      "Links"
+    ]
   },
   {
     "objectID": "links.html#affiliations",
     "href": "links.html#affiliations",
     "title": "Links",
     "section": "",
-    "text": "Rutgers University\nDepartment of Economics, Rutgers University\nBank of Korea\nBank of Korea, Economic Research Institute\nEuphonia"
+    "text": "Rutgers University\nDepartment of Economics, Rutgers University\nBank of Korea\nBank of Korea, Economic Research Institute\nEuphonia",
+    "crumbs": [
+      "Links"
+    ]
   },
   {
     "objectID": "links.html#institutions-data",
     "href": "links.html#institutions-data",
     "title": "Links",
     "section": "Institutions & Data",
-    "text": "Institutions & Data\n\n\nNational Bureau of Economic Research\nInternational Monetary Fund\nBureau of Labor Statistics\nBureau of Economic Analysis\nFRED, Federal Reserve Bank of St. Louis"
+    "text": "Institutions & Data\n\n\nNational Bureau of Economic Research\nInternational Monetary Fund\nBureau of Labor Statistics\nBureau of Economic Analysis\nFRED, Federal Reserve Bank of St. Louis",
+    "crumbs": [
+      "Links"
+    ]
   },
   {
     "objectID": "links.html#blogs",
     "href": "links.html#blogs",
     "title": "Links",
     "section": "Blogs",
-    "text": "Blogs\n\n\nGreg Mankiw’s Blog\nEconbrowser\nPaul Krugman"
+    "text": "Blogs\n\n\nGreg Mankiw’s Blog\nEconbrowser\nPaul Krugman",
+    "crumbs": [
+      "Links"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hyun Hak Kim",
     "section": "",
-    "text": "Email hyunhak.kim@kookmin.ac.kr · hyunhak.kim@torontomu.ca\nPhone +1-646-801-7719 (Google Voice) · +82-2-910-4541 (Kookmin Univ.)\nFax +82-2-910-4519 (Kookmin Univ.)\nCV Curriculum Vitae (PDF)"
+    "text": "Email hyunhak.kim@kookmin.ac.kr · hyunhak.kim@torontomu.ca\nPhone +1-646-801-7719 (Google Voice) · +82-2-910-4541 (Kookmin Univ.)\nFax +82-2-910-4519 (Kookmin Univ.)\nCV Curriculum Vitae (PDF)",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
     "title": "Hyun Hak Kim",
     "section": "",
-    "text": "Email hyunhak.kim@kookmin.ac.kr · hyunhak.kim@torontomu.ca\nPhone +1-646-801-7719 (Google Voice) · +82-2-910-4541 (Kookmin Univ.)\nFax +82-2-910-4519 (Kookmin Univ.)\nCV Curriculum Vitae (PDF)"
+    "text": "Email hyunhak.kim@kookmin.ac.kr · hyunhak.kim@torontomu.ca\nPhone +1-646-801-7719 (Google Voice) · +82-2-910-4541 (Kookmin Univ.)\nFax +82-2-910-4519 (Kookmin Univ.)\nCV Curriculum Vitae (PDF)",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#current-position",
     "href": "index.html#current-position",
     "title": "Hyun Hak Kim",
     "section": "Current Position",
-    "text": "Current Position\n\nProfessor Department of Economics, Kookmin University, Seoul, Korea"
+    "text": "Current Position\n\nProfessor Department of Economics, Kookmin University, Seoul, Korea",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#previous-positions",
     "href": "index.html#previous-positions",
     "title": "Hyun Hak Kim",
     "section": "Previous Positions",
-    "text": "Previous Positions\n\nVisiting Faculty, Department of Economics, Toronto Metropolitan University Jan. 2023 – Dec. 2024\n\n\nAssociate Professor, Department of Economics, Kookmin University Sep. 2019 – Aug. 2025\n\n\nAssistant Professor, Department of Economics, Kookmin University Mar. 2016 – Aug. 2019\n\n\nEconomist, Bank of Korea, Institute of Economic Research Sep. 2012 – Feb. 2016\n\n\nAssistant Manager, Sales Planning Team, LG-Philips LCD Oct. 2004 – Mar. 2005\n\n\nStock Trader, First Business Team, Daishin Securities Inc. Dec. 2003 – Sep. 2004"
+    "text": "Previous Positions\n\nVisiting Faculty, Department of Economics, Toronto Metropolitan University Jan. 2023 – Dec. 2024\n\n\nAssociate Professor, Department of Economics, Kookmin University Sep. 2019 – Aug. 2025\n\n\nAssistant Professor, Department of Economics, Kookmin University Mar. 2016 – Aug. 2019\n\n\nEconomist, Bank of Korea, Institute of Economic Research Sep. 2012 – Feb. 2016\n\n\nAssistant Manager, Sales Planning Team, LG-Philips LCD Oct. 2004 – Mar. 2005\n\n\nStock Trader, First Business Team, Daishin Securities Inc. Dec. 2003 – Sep. 2004",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Hyun Hak Kim",
     "section": "Education",
-    "text": "Education\n\nPh.D., Economics — Rutgers University, New Brunswick, NJ, USA May 2012\n\n\nM.A., Economics — Rutgers University, New Brunswick, NJ, USA May 2008\n\n\nB.B.A. and B.A. in Statistics — Yonsei University, Seoul, Korea Feb. 2004"
+    "text": "Education\n\nPh.D., Economics — Rutgers University, New Brunswick, NJ, USA May 2012\n\n\nM.A., Economics — Rutgers University, New Brunswick, NJ, USA May 2008\n\n\nB.B.A. and B.A. in Statistics — Yonsei University, Seoul, Korea Feb. 2004",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Commissioned research projects (연구용역). Titles appear in the language of the original contract. 책임 = principal investigator, 공동 = co-investigator.\n\n\n2026.5–2027.12026년 한국은행 지식교류프로그램 베트남 정책자문한국은행 · 책임\n\n\n2026.5–11위성 자료를 활용한 북러 경제협력 동향 분석통일부 · 책임\n\n\n2026.4–10대전·세종·충청남도 청년 취업지역 결정요인한국은행 · 책임\n\n\n2026.4–10텍스트·공공데이터 기반 “포스트APEC” 경북 관광 활성화: 관광 관심·이미지 지수 구축과 레거시 정책효과 및 인과평가한국은행 · 책임\n\n\n2026.4–10우리아이자립펀드 재정건전성 영향 및 장기 재정경로 분석 연구금융연구원 · 공동\n\n\n2025.7–11공무원연금 재해보상 기금 전망공무원연금공단 · 공동\n\n\n2025.6–10빅데이터 기반 조기경보 지표를 통한 자산시장 쏠림현상 예측 및 제도개선 방안 연구한국은행 금융안정국 · 책임\n\n\n2025.6–11인구구조 변화에 따른 금융소비 행태 변화가 금융시장과 금융회사 지속가능성에 미치는 영향 및 예금보험제도 개편 필요성 분석예금보험공사 · 책임\n\n\n2025.6–2026.12025년 한국은행 지식교류프로그램 스리랑카 정책자문한국은행 국제협력국 · 책임\n\n\n2025.5–11반도체 분야 시장 위험지수 개발정보통신정책연구원 · 공동\n\n\n2025.5–10경기지역 서비스 산업의 디지털 전환한국은행 경기본부 · 책임\n\n\n2024.11–2025.3사회보험 재정 전망 고도화: 산재보험을 중심으로국회예산처 · 책임\n\n\n2023.5–11조합 양극화 해소를 위한 균형 성장 전략신용협동조합 · 공동\n\n\n2023.4–10빅데이터 기반의 국제거시경제 전망모형 개발 연구대외경제정책연구원 · 공동\n\n\n2023.4–11지급수단의 사회적 비용에 관한 연구한국은행 발권국 · 책임\n\n\n2022.11–2023.3EDCF 보증제도 활성화를 통한 민간부문 지원 확대방안한국수출입은행 · 공동\n\n\n2022.5–2023.12022년 한국은행 지식교류프로그램 스리랑카 정책자문한국은행 국제협력국 · 책임\n\n\n2022.4–10TCFD 권고안에 따른 연기금의 대응방안사학연금 · 책임\n\n\n2022.3–11산재예방 적정성 평가산업안전보건연구원 · 책임\n\n\n2021.11–2022.7Nowcasting Economic and Socio Variables with DisastersAsian Development Bank · 공동\n\n\n2021.4–10Quantile Random Forest를 이용한 한계소비성향 추정한국은행 조사국 · 책임\n\n\n2021.4–112021년 한국은행 지식교류프로그램 스리랑카 정책자문한국은행 국제협력국 · 책임\n\n\n2021.4–9주식프리미엄의 비교 및 결정요인 분석한국금융연구원 · 책임\n\n\n2019.9–12통화정책이 품목별 인플레이션에 미치는 영향에 대한 분석국회예산처 · 공동\n\n\n2018.6–11확률변동 모형을 통한 추세 인플레이션 추정한국은행 조사국 · 책임\n\n\n2018.4–9개별차주의 기대손실액을 이용한 시스템리스크 추정한국은행 경제연구원 · 책임\n\n\n2017.6–11Nowcasting Korean Investment Using Large Datasets한국은행 조사국 · 책임\n\n\n2017.4–10빅데이터 분석기법을 활용한 금융안정 평가 및 정책효과 분석한국은행 금융안정국 · 책임\n\n\n2016.12–2017.9시공간 행렬을 이용한 아파트 가격의 지역 간 확산 효과 분석한국금융연구원 · 책임"
+    "text": "Commissioned research projects (연구용역). Titles appear in the language of the original contract. 책임 = principal investigator, 공동 = co-investigator.\n\n\n2026.5–2027.12026년 한국은행 지식교류프로그램 베트남 정책자문한국은행 · 책임\n\n\n2026.5–11위성 자료를 활용한 북러 경제협력 동향 분석통일부 · 책임\n\n\n2026.4–10대전·세종·충청남도 청년 취업지역 결정요인한국은행 · 책임\n\n\n2026.4–10텍스트·공공데이터 기반 “포스트APEC” 경북 관광 활성화: 관광 관심·이미지 지수 구축과 레거시 정책효과 및 인과평가한국은행 · 책임\n\n\n2026.4–10우리아이자립펀드 재정건전성 영향 및 장기 재정경로 분석 연구금융연구원 · 공동\n\n\n2025.7–11공무원연금 재해보상 기금 전망공무원연금공단 · 공동\n\n\n2025.6–10빅데이터 기반 조기경보 지표를 통한 자산시장 쏠림현상 예측 및 제도개선 방안 연구한국은행 금융안정국 · 책임\n\n\n2025.6–11인구구조 변화에 따른 금융소비 행태 변화가 금융시장과 금융회사 지속가능성에 미치는 영향 및 예금보험제도 개편 필요성 분석예금보험공사 · 책임\n\n\n2025.6–2026.12025년 한국은행 지식교류프로그램 스리랑카 정책자문한국은행 국제협력국 · 책임\n\n\n2025.5–11반도체 분야 시장 위험지수 개발정보통신정책연구원 · 공동\n\n\n2025.5–10경기지역 서비스 산업의 디지털 전환한국은행 경기본부 · 책임\n\n\n2024.11–2025.3사회보험 재정 전망 고도화: 산재보험을 중심으로국회예산처 · 책임\n\n\n2023.5–11조합 양극화 해소를 위한 균형 성장 전략신용협동조합 · 공동\n\n\n2023.4–10빅데이터 기반의 국제거시경제 전망모형 개발 연구대외경제정책연구원 · 공동\n\n\n2023.4–11지급수단의 사회적 비용에 관한 연구한국은행 발권국 · 책임\n\n\n2022.11–2023.3EDCF 보증제도 활성화를 통한 민간부문 지원 확대방안한국수출입은행 · 공동\n\n\n2022.5–2023.12022년 한국은행 지식교류프로그램 스리랑카 정책자문한국은행 국제협력국 · 책임\n\n\n2022.4–10TCFD 권고안에 따른 연기금의 대응방안사학연금 · 책임\n\n\n2022.3–11산재예방 적정성 평가산업안전보건연구원 · 책임\n\n\n2021.11–2022.7Nowcasting Economic and Socio Variables with DisastersAsian Development Bank · 공동\n\n\n2021.4–10Quantile Random Forest를 이용한 한계소비성향 추정한국은행 조사국 · 책임\n\n\n2021.4–112021년 한국은행 지식교류프로그램 스리랑카 정책자문한국은행 국제협력국 · 책임\n\n\n2021.4–9주식프리미엄의 비교 및 결정요인 분석한국금융연구원 · 책임\n\n\n2019.9–12통화정책이 품목별 인플레이션에 미치는 영향에 대한 분석국회예산처 · 공동\n\n\n2018.6–11확률변동 모형을 통한 추세 인플레이션 추정한국은행 조사국 · 책임\n\n\n2018.4–9개별차주의 기대손실액을 이용한 시스템리스크 추정한국은행 경제연구원 · 책임\n\n\n2017.6–11Nowcasting Korean Investment Using Large Datasets한국은행 조사국 · 책임\n\n\n2017.4–10빅데이터 분석기법을 활용한 금융안정 평가 및 정책효과 분석한국은행 금융안정국 · 책임\n\n\n2016.12–2017.9시공간 행렬을 이용한 아파트 가격의 지역 간 확산 효과 분석한국금융연구원 · 책임",
+    "crumbs": [
+      "Projects"
+    ]
   }
 ]

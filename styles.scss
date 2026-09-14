@@ -1,79 +1,212 @@
 /*-- scss:defaults --*/
 
-$primary:        #1f3a5f;
-$link-color:     #1f3a5f;
-$body-color:     #22262b;
-$body-bg:        #ffffff;
+// ---- palette (light) -------------------------------------------------
+$ink:         #1a1d21 !default;
+$muted:       #6a7280 !default;
+$faint:       #9aa1ab !default;
+$accent:      #1f3a5f !default;
+$accent-soft: #eef2f7 !default;
+$page-bg:     #fbfbfa !default;
+$rail-bg:     #f4f4f2 !default;
+$rule:        #e3e5e4 !default;
 
-$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont,
-  "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", Roboto, sans-serif;
-$font-size-root: 17px;
-$line-height-base: 1.65;
+$body-color: $ink;
+$body-bg:    $page-bg;
+$link-color: $accent;
+$primary:    $accent;
 
-$navbar-bg:      #ffffff;
-$navbar-fg:      #22262b;
-$toc-color:      #5a6169;
+// ---- type ------------------------------------------------------------
+$font-family-sans-serif: Pretendard, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif !default;
+$font-family-serif: "Source Serif 4", Georgia, "Times New Roman", serif !default;
+
+$font-size-root:   17px;
+$line-height-base: 1.68;
+$headings-font-weight: 600;
+
+// ---- chrome ----------------------------------------------------------
+$sidebar-bg: $rail-bg;
+$sidebar-fg: $ink;
+$toc-color:  $muted;
+$grid-sidebar-width: 290px;
+$grid-body-width:    760px;
 
 /*-- scss:rules --*/
 
-$rule-color: #e6e8eb;
-$muted:      #6b7280;
+body { -webkit-font-smoothing: antialiased; }
 
-.navbar {
-  border-bottom: 1px solid $rule-color;
-  .navbar-brand { font-weight: 600; letter-spacing: .01em; }
-  .nav-link { font-size: .95rem; }
+// ======================================================================
+// Sidebar rail
+// ======================================================================
+
+#quarto-sidebar {
+  background: $sidebar-bg;
+  border-right: 1px solid $rule;
+  padding: 2.4rem 1.6rem 1.6rem;
 }
 
-h1, h2, h3, h4 { letter-spacing: -0.01em; }
+.sidebar-header,
+#quarto-sidebar .sidebar-title { text-align: left; }
 
-h1.title {
-  font-weight: 650;
-  margin-bottom: .2rem;
+// portrait / logo
+#quarto-sidebar .sidebar-logo,
+#quarto-sidebar img.sidebar-logo {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.1rem;
+  border: 1px solid $rule;
+}
+
+// name
+#quarto-sidebar .sidebar-title,
+#quarto-sidebar .sidebar-title > a {
+  display: block;
+  font-family: $font-family-serif;
+  font-size: 1.62rem;
+  font-weight: 600;
+  line-height: 1.18;
+  letter-spacing: -0.015em;
+  color: $ink;
+  text-decoration: none;
+}
+
+// Role line, injected after the name. It hangs off the anchor rather than
+// .sidebar-title, because Quarto nests the tool icons inside .sidebar-title
+// and an ::after on the parent would land below them.
+#quarto-sidebar .sidebar-title > a::after {
+  content: "Professor of Economics\A Kookmin University";
+  white-space: pre-line;
+  display: block;
+  margin-top: .5rem;
+  font-family: $font-family-sans-serif;
+  font-size: .83rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: $muted;
+}
+
+// nav
+#quarto-sidebar .sidebar-menu-container {
+  margin-top: 1.6rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid $rule;
+}
+
+#quarto-sidebar .sidebar-item { margin-bottom: .1rem; }
+
+#quarto-sidebar .sidebar-item-container .sidebar-link {
+  display: block;
+  padding: .34rem 0 .34rem .7rem;
+  border-left: 2px solid transparent;
+  font-size: .95rem;
+  color: $muted;
+  text-decoration: none;
+  transition: color .13s ease, border-color .13s ease;
+
+  &:hover { color: $ink; border-left-color: $faint; }
+}
+
+#quarto-sidebar .sidebar-item-container .sidebar-link.active {
+  color: $accent;
+  font-weight: 600;
+  border-left-color: $accent;
+}
+
+// tool icons (CV / mail / github)
+#quarto-sidebar .sidebar-tools-main {
+  margin-top: 1.4rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid $rule;
+  margin-left: 0;
+  display: flex;
+  gap: .35rem;
+
+  .quarto-navigation-tool {
+    color: $muted;
+    font-size: 1.06rem;
+    padding: .28rem .45rem;
+    border-radius: 5px;
+
+    &:hover { color: $accent; background: $accent-soft; }
+  }
+}
+
+// ======================================================================
+// Headings
+// ======================================================================
+
+#title-block-header h1.title,
+.quarto-title h1.title {
+  font-family: $font-family-serif;
+  font-size: 2.15rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: .25rem;
+}
+
+#title-block-header .subtitle {
+  font-size: 1rem;
+  color: $muted;
+  margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.05rem;
-  font-weight: 650;
+  font-family: $font-family-sans-serif;
+  font-size: .78rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: .07em;
-  color: $primary;
-  border-bottom: 1px solid $rule-color;
-  padding-bottom: .4rem;
-  margin-top: 2.6rem;
-  margin-bottom: 1rem;
+  letter-spacing: .13em;
+  color: $accent;
+  border-bottom: 1px solid $rule;
+  padding-bottom: .5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.3rem;
 }
 
 h3 {
-  font-size: .82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .09em;
-  color: $muted;
-  margin-top: 1.9rem;
-  margin-bottom: .7rem;
+  font-family: $font-family-serif;
+  font-size: 1.06rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  color: $ink;
+  margin-top: 2.1rem;
+  margin-bottom: .8rem;
 }
 
-/* ---- Home: definition-style blocks ---- */
+// ======================================================================
+// Home: contact + roles
+// ======================================================================
 
 .fact-list {
-  margin: 0 0 .4rem;
-  p { margin: 0 0 .35rem; }
+  p { margin: 0 0 .45rem; }
+
   .label {
     display: inline-block;
-    min-width: 5.2rem;
-    color: $muted;
-    font-size: .9rem;
+    min-width: 4.6rem;
+    color: $faint;
+    font-size: .78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .09em;
   }
 }
 
 .role {
-  margin-bottom: .55rem;
-  .role-title { font-weight: 600; }
-  .role-where { display: block; color: $muted; font-size: .93rem; }
+  margin-bottom: .85rem;
+  padding-left: .9rem;
+  border-left: 2px solid $rule;
+
+  .role-title { display: block; font-weight: 600; line-height: 1.4; }
+  .role-where { display: block; color: $muted; font-size: .88rem; margin-top: .1rem; }
 }
 
-/* ---- Publication & project entries ---- */
+// ======================================================================
+// Publication / project entries
+// ======================================================================
 
 ol.entries {
   list-style: none;
@@ -83,75 +216,139 @@ ol.entries {
 
 ol.entries > li {
   position: relative;
-  padding-left: 2.4rem;
-  margin-bottom: 1.05rem;
+  padding: .15rem 0 .15rem 2.5rem;
+  margin-bottom: 1.15rem;
 }
 
 ol.entries > li::before {
   counter-increment: entry;
-  content: counter(entry) ".";
+  content: counter(entry);
   position: absolute;
   left: 0;
-  top: .05rem;
-  width: 1.9rem;
+  top: .32rem;
+  width: 1.75rem;
   text-align: right;
-  color: $muted;
+  color: $faint;
   font-variant-numeric: tabular-nums;
-  font-size: .9rem;
+  font-size: .8rem;
+  font-weight: 600;
 }
 
-.entry-title   { font-weight: 600; }
-.entry-authors,
-.entry-venue   { color: $muted; font-size: .94rem; }
-.entry-venue em { font-style: italic; }
+.entry-title {
+  font-weight: 600;
+  line-height: 1.45;
 
-.entry-meta { display: block; }
+  // A real underline rather than a background gradient: gradients draw one
+  // band across the whole box, so titles that wrap were underlined
+  // inconsistently.
+  a {
+    color: $ink;
+    text-decoration: underline;
+    text-decoration-color: $rule;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color .13s ease, text-decoration-color .13s ease;
+  }
+
+  a:hover {
+    color: $accent;
+    text-decoration-color: $accent;
+  }
+}
+
+.entry-authors { color: $muted; font-size: .92rem; }
+
+.entry-meta { display: block; margin-top: .12rem; }
+
+.entry-venue { color: $muted; font-size: .92rem; font-style: italic; }
 
 .badge-soft {
   display: inline-block;
-  font-size: .72rem;
-  font-weight: 600;
-  letter-spacing: .04em;
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .07em;
   text-transform: uppercase;
-  padding: .12rem .45rem;
+  padding: .13rem .42rem;
+  margin-left: .35rem;
   border-radius: 3px;
-  background: #eef2f7;
-  color: $primary;
-  vertical-align: .08em;
+  background: $accent-soft;
+  color: $accent;
+  vertical-align: .12em;
 }
 
 .extras {
-  font-size: .88rem;
+  display: block;
+  margin-top: .3rem;
+  font-size: .84rem;
+
   a {
     display: inline-block;
-    margin-right: .5rem;
+    margin-right: .4rem;
+    padding: .1rem .48rem;
+    border: 1px solid $rule;
+    border-radius: 4px;
+    color: $muted;
     text-decoration: none;
-    border-bottom: 1px solid rgba($primary, .3);
+    transition: color .13s ease, border-color .13s ease, background .13s ease;
+
+    &:hover { color: $accent; border-color: $accent; background: $accent-soft; }
   }
-  a:hover { border-bottom-color: $primary; }
 }
 
-/* projects: period column */
+// projects
 .proj-period {
   display: inline-block;
-  min-width: 8.3rem;
-  color: $muted;
-  font-size: .88rem;
+  min-width: 8.6rem;
+  color: $faint;
+  font-size: .84rem;
   font-variant-numeric: tabular-nums;
 }
-.proj-client { color: $muted; font-size: .92rem; }
 
-/* ---- Links page ---- */
+.proj-client { color: $muted; font-size: .89rem; }
+
+// ======================================================================
+// Links page
+// ======================================================================
+
 .linkset {
   columns: 2;
-  column-gap: 2.2rem;
-  ul { margin-top: 0; }
-  li { break-inside: avoid; margin-bottom: .3rem; }
-}
-@media (max-width: 640px) { .linkset { columns: 1; } }
+  column-gap: 2.4rem;
 
-footer.footer {
-  border-top: 1px solid $rule-color;
-  color: $muted;
-  font-size: .86rem;
+  ul { margin-top: 0; padding-left: 1.1rem; }
+  li { break-inside: avoid; margin-bottom: .35rem; }
+}
+
+@media (max-width: 700px) {
+  .linkset { columns: 1; }
+}
+
+// ======================================================================
+// Footer / misc
+// ======================================================================
+
+.nav-footer {
+  border-top: 1px solid $rule;
+  background: transparent;
+  color: $faint;
+  font-size: .82rem;
+  margin-top: 3.5rem;
+}
+
+#TOC, .sidebar.toc-right { font-size: .84rem; }
+
+@media (max-width: 991px) {
+  #quarto-sidebar {
+    padding: 1rem;
+    border-right: none;
+    border-bottom: 1px solid $rule;
+  }
+
+  #quarto-sidebar .sidebar-title::after { display: none; }
+
+  #quarto-sidebar .sidebar-logo,
+  #quarto-sidebar img.sidebar-logo {
+    width: 56px;
+    height: 56px;
+    margin-bottom: .4rem;
+  }
 }

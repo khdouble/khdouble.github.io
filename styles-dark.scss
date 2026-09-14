@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+
+// Dark palette. Only the tokens change; every rule lives in styles.scss,
+// which this file is layered on top of (Quarto applies the last file's
+// defaults first, so these win).
+
+$ink:         #e7e9ec;
+$muted:       #a0a8b4;
+$faint:       #747d8a;
+$accent:      #8fb4dd;
+$accent-soft: #1e2a38;
+$page-bg:     #15181c;
+$rail-bg:     #101317;
+$rule:        #2a2f36;
+
+$body-color: $ink;
+$body-bg:    $page-bg;
+$link-color: $accent;
+$primary:    $accent;
+
+$sidebar-bg: $rail-bg;
+$sidebar-fg: $ink;
+$toc-color:  $muted;
+
+/*-- scss:rules --*/
+
+// Bootstrap paints a few surfaces from its own variables; pin the ones
+// that would otherwise stay light.
+body { background-color: $page-bg; }
+
+.navbar,
+#quarto-header,
+.quarto-secondary-nav { background-color: $rail-bg; }
+
+code:not(.sourceCode),
+pre {
+  background-color: #1b2027;
+  color: $ink;
+}
+
+img.sidebar-logo { border-color: $rule; }

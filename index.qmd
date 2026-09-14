@@ -1,6 +1,5 @@
 ---
 title: "Hyun Hak Kim"
-subtitle: "Professor, Department of Economics, Kookmin University"
 ---
 
 ## Contact

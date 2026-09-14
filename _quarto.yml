@@ -11,9 +11,12 @@ website:
   site-url: "https://khdouble.github.io"
   favicon: favicon.svg
   open-graph: true
-  navbar:
-    pinned: true
-    left:
+  sidebar:
+    style: docked
+    border: false
+    search: false
+    collapse-level: 1
+    contents:
       - href: index.qmd
         text: Home
       - href: research.qmd
@@ -22,21 +25,33 @@ website:
         text: Projects
       - href: links.qmd
         text: Links
-    right:
-      - text: "CV"
+    tools:
+      - icon: file-earmark-text
         href: files/cv-hyunhak-kim.pdf
+        text: "Curriculum Vitae"
+      - icon: envelope
+        href: "mailto:hyunhak.kim@kookmin.ac.kr"
+        text: "Email"
       - icon: github
         href: https://github.com/khdouble
-        aria-label: GitHub
+        text: "GitHub"
   page-footer:
     center: |
       © Hyun Hak Kim · Department of Economics, Kookmin University
 
 format:
   html:
-    theme: [cosmo, styles.scss]
+    theme:
+      light: [cosmo, styles.scss]
+      dark:  [cosmo, styles.scss, styles-dark.scss]
     toc: true
     toc-depth: 2
     anchor-sections: true
     link-external-newwindow: true
     link-external-icon: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
