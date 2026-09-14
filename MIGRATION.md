@@ -70,8 +70,10 @@ host them elsewhere.
 
 ## Open items
 
-- `github.com/khdouble/mpb-statement-forecasting`, linked as **[CODE]** from
-  "Do Central Bank Statements Forecast Policy?", returns **404 to anonymous
-  visitors** — the repository appears to be private. Make it public or drop the link.
+- **Resolved:** the old site's **[CODE]** link for "Do Central Bank Statements
+  Forecast Policy?" pointed at `github.com/khdouble/mpb-statement-forecasting`,
+  which 404s for anonymous visitors. The repository was renamed: `mpb_dissimilarity`
+  is public, owned by the same account, and its description is the paper's exact
+  title. The link now points there. Revert if that identification is wrong.
 - Publication years are not stored in `data/publications.yml`; entries keep the
   volume/issue detail exactly as the old site listed it.

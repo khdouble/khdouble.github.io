@@ -200,7 +200,7 @@ wp:
     detail: "submitted"
     url: "files/wp/central-bank-statements-forecast-policy-korea.pdf"
     extras:
-      - {label: "Code", href: "https://github.com/khdouble/mpb-statement-forecasting"}
+      - {label: "Code", href: "https://github.com/khdouble/mpb_dissimilarity"}
 
   - title: "When Does Synthetic Data Improve Forecast Combination? An Information-Channel Decomposition"
     detail: "submitted"
