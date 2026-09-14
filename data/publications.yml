@@ -18,6 +18,8 @@ journal:
     venue: "Journal of Econometrics"
     detail: "178(2):352-367"
     url: "https://www.sciencedirect.com/science/article/pii/S0304407613001978"
+    extras:
+      - {label: "MATLAB codes", href: "files/code/kim-swanson-joe-2013-matlab.zip"}
 
   - title: "Combining Point and Density Forecast of Inflation in Korea"
     venue: "Economic Analysis"
@@ -29,6 +31,8 @@ journal:
     venue: "International Journal of Forecasting"
     detail: "34(2):339-354"
     url: "https://www.sciencedirect.com/science/article/abs/pii/S0169207016300668"
+    extras:
+      - {label: "MATLAB codes", href: "files/code/mining-big-data-matlab.zip"}
 
   - title: "Looking into the Black Box of the Korean Economy: The Sparse Factor Model Forecasting Approach"
     venue: "Journal of Asia-Pacific Economy"
@@ -167,6 +171,7 @@ journal:
     authors: ["Miao He"]
     venue: "Journal of Economic Integration"
     detail: "Forthcoming (2026)"
+    url: "files/wp/financial-development-income-wealth-inequalities.pdf"
 
   - title: "The Impact of Demographic Changes on Financial Markets and Bank Soundness, and Proposals for Reforming the Deposit Insurance System"
     venue: "Financial Stability Studies"

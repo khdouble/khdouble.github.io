@@ -48,9 +48,10 @@ All 21 Drive links on the old site were checked anonymously (i.e. as a visitor s
   | Monetary Policy Disaggregate — MATLAB code | ❌ not found |
   | Consumer Credit SOM — R codes | ❌ not found |
 
-- **1 requires sign-in** (HTTP 401), so it was never publicly readable:
-  "Financial Development and Income and Wealth Inequalities". It is listed
-  without a link until a public copy is available.
+- **1 required sign-in** (HTTP 401), so it was never publicly readable:
+  "Financial Development and Income and Wealth Inequalities". **Resolved** — the
+  author supplied a local copy, now served as
+  `files/wp/financial-development-income-wealth-inequalities.pdf`.
 
 ## Rutgers code archives (Norman Swanson's page)
 
@@ -58,15 +59,29 @@ All 21 Drive links on the old site were checked anonymously (i.e. as a visitor s
 links died with it: three MATLAB `.zip` archives, the Factor-MIDAS Online Appendix,
 and the Mining Big Data WP version. They are dropped from the site.
 
-Local replacements exist for two of the three code archives but were **not** added:
+**Resolved** for two of the three code archives, which are now served locally:
 
-- `Kim_Swanson_JoE2014.zip` (8.2 MB) — 96% of it is a bundled third-party
-  MATLAB econometrics toolbox, which raises redistribution questions.
-- `MiningBigData.ziP` (49.7 MB) — the author's own code, but large enough to
-  weigh on the repository and GitHub Pages bandwidth.
+| Archive | Source | Published as |
+|:--|:--|:--|
+| JoE 2013 MATLAB codes | `106_Research/02_CODE/021_MATLAB/Kim_Swanson_JoE2013/Kim_Swanson_JoE2013.zip` | `files/code/kim-swanson-joe-2013-matlab.zip` |
+| Mining Big Data MATLAB codes | `106_Research/02_CODE/021_MATLAB/MiningBigData.ziP` | `files/code/mining-big-data-matlab.zip` |
 
-Decide case by case whether to publish these, trim them to first-party code, or
-host them elsewhere.
+Note the first one: an earlier candidate, `Kim_Swanson_JoE2014.zip` (8.2 MB), bundles a
+third-party MATLAB econometrics toolbox and was **not** used. The archive actually
+published is the author's own `Kim_Swanson_JoE2013.zip`, whose `readme.txt` points to
+LeSage, Koop and Sjostrand for those third-party routines instead of bundling them, so
+no redistribution question arises.
+
+Both archives are published **code only**: every `.mat` file was removed at the
+author's instruction, which took them from 1.96 MB and 47.4 MB down to 49 KB and
+111 KB. Dropped were `Dataset02.mat` (the input dataset, in both archives) and
+`spca_loadings_rec.mat` / `spca_loadings_rol.mat` (23.8 MB each, intermediate SPCA
+outputs regenerable by the included code). Each archive carries a `NOTE_code_only.txt`
+explaining this and directing readers to the author for the data. The originals on
+disk were not modified.
+
+The remaining two dead Rutgers links — the Factor-MIDAS Online Appendix and the
+Mining Big Data WP version — have no local replacement and stay dropped.
 
 ## Open items
 
