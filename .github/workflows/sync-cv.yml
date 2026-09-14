@@ -1,0 +1,63 @@
+# Keeps the published CV in step with the Google Drive original.
+#
+# The CV lives in Drive as a publicly shared file; this workflow re-downloads it,
+# and commits only when the bytes actually changed. Runs weekly, and on demand
+# from the Actions tab ("Run workflow").
+#
+# If the Drive file is ever replaced by a NEW upload rather than a new version of
+# the same file, its id changes and DRIVE_FILE_ID below must be updated.
+
+name: Sync CV from Google Drive
+
+on:
+  schedule:
+    - cron: "17 20 * * 1"   # Mondays, 05:17 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  DRIVE_FILE_ID: 1xUaw98A_rQFQUMRSWiPd_PQBJGPXEy_2
+  TARGET: files/cv-hyunhak-kim.pdf
+  MIRROR: docs/files/cv-hyunhak-kim.pdf
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the CV from Drive
+        run: |
+          curl -sSL --max-time 120 \
+            "https://drive.usercontent.google.com/download?id=${DRIVE_FILE_ID}&export=download" \
+            -o cv-new.pdf
+
+      - name: Refuse anything that is not a PDF
+        run: |
+          # A private or deleted Drive file returns an HTML sign-in page, not a PDF.
+          # Committing that would silently replace the CV with garbage.
+          if [ "$(head -c 4 cv-new.pdf)" != "%PDF" ]; then
+            echo "::error::Drive did not return a PDF - the file is probably no longer public."
+            head -c 300 cv-new.pdf
+            exit 1
+          fi
+          echo "Downloaded $(stat -c %s cv-new.pdf) bytes."
+
+      - name: Commit if the CV changed
+        run: |
+          if cmp -s cv-new.pdf "$TARGET"; then
+            echo "CV is unchanged - nothing to do."
+            rm cv-new.pdf
+            exit 0
+          fi
+
+          mv cv-new.pdf "$TARGET"
+          cp "$TARGET" "$MIRROR"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$TARGET" "$MIRROR"
+          git commit -m "Update CV from Google Drive"
+          git push
