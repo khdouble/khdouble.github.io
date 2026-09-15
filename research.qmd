@@ -41,18 +41,6 @@ title: "Research"
 <li><span class="entry-title"><a href="files/wp/demographic-changes-bank-soundness-deposit-insurance.pdf">The Impact of Demographic Changes on Financial Markets and Bank Soundness, and Proposals for Reforming the Deposit Insurance System</a></span><span class="entry-meta"><span class="entry-venue">Financial Stability Studies, (2026), in Korean</span> <span class="badge-soft">Forthcoming</span></span></li>
 </ol>
 
-## Book Chapter
-
-<ol class="entries">
-<li><span class="entry-title"><a href="https://shop.elsevier.com/books/economic-impact-of-the-energy-transition/kim/978-0-443-33461-0">Macro Time Series Modeling</a></span><span class="entry-meta"><span class="entry-venue">in <em>Economic Impact of the Energy Transition</em>, ed. Kim et al., Elsevier, 2025</span></span></li>
-</ol>
-
-## Non-peer-reviewed Report
-
-<ol class="entries">
-<li><span class="entry-title"><a href="files/wp/apartment-price-diffusion-korea-bok-bulletin.pdf">Analysis of Effects of Cross-regional Diffusion of Apartment Sales Prices Using Actual Apartment Sales Price Index</a></span><span class="entry-authors"> (with Hosung Chung and Hosung Lim)</span><span class="entry-meta"><span class="entry-venue">Bank of Korea Monthly Bulletin, April 2016, in Korean</span></span></li>
-</ol>
-
 ## Working Papers
 
 <ol class="entries">
@@ -69,6 +57,18 @@ title: "Research"
 <li><span class="entry-title"><a href="files/wp/greenwashing-without-lying-claim-type-selection.pdf">Greenwashing Without Lying: Claim-Type Selection in Corporate Climate Disclosure</a></span><span class="entry-meta"><span class="badge-soft">submitted</span></span></li>
 <li><span class="entry-title"><a href="files/wp/single-host-event-studies-limits-causal-inference.pdf">When the toolkit runs out: single-host event studies and the limits of causal inference</a></span><span class="entry-authors"> (with S. Yoon)</span></li>
 <li><span class="entry-title"><a href="https://khdouble.github.io/krw-exchange-rate-reversal/downloads/capital-flows-exchange-rate-reversal-korea.pdf">Capital Flows in an Exchange-Rate Reversal: Evidence from Korea</a></span><span class="extras"><a href="posts/2026-09-krw-exchange-rate-reversal-en/">Technical summary</a><a href="posts/2026-09-krw-exchange-rate-reversal-ko/">기술 요약 (국문)</a></span></li>
+</ol>
+
+## Book Chapter
+
+<ol class="entries">
+<li><span class="entry-title"><a href="https://shop.elsevier.com/books/economic-impact-of-the-energy-transition/kim/978-0-443-33461-0">Macro Time Series Modeling</a></span><span class="entry-meta"><span class="entry-venue">in <em>Economic Impact of the Energy Transition</em>, ed. Kim et al., Elsevier, 2025</span></span></li>
+</ol>
+
+## Non-peer-reviewed Report
+
+<ol class="entries">
+<li><span class="entry-title"><a href="files/wp/apartment-price-diffusion-korea-bok-bulletin.pdf">Analysis of Effects of Cross-regional Diffusion of Apartment Sales Prices Using Actual Apartment Sales Price Index</a></span><span class="entry-authors"> (with Hosung Chung and Hosung Lim)</span><span class="entry-meta"><span class="entry-venue">Bank of Korea Monthly Bulletin, April 2016, in Korean</span></span></li>
 </ol>
 
 ## Work in Progress
