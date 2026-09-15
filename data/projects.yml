@@ -1,179 +1,240 @@
 # Commissioned research projects (연구용역)
 #
-# Korean titles are kept verbatim, as on the original site.
+# Korean titles are kept verbatim, as on the original site. English titles are
+# taken from the CONSULTING SERVICES section of the CV wherever that section
+# names the project, so the two agree.
+#
 # `start` (YYYY-MM) is used for sorting only; `period` is what gets displayed.
 # `role`: 책임 = principal investigator, 공동 = co-investigator
 
-- start: "2026-05"
-  period: "2026.5–2027.1"
-  title: "2026년 한국은행 지식교류프로그램 베트남 정책자문"
-  client: "한국은행"
-  role: "책임"
+- start: 2026-05
+  period: 2026.5–2027.1
+  title: 2026년 한국은행 지식교류프로그램 베트남 정책자문
+  title_en: '2026 Bank of Korea Knowledge Exchange Program (KPP): Policy Consultation for Vietnam'
+  client: 한국은행
+  client_en: Bank of Korea
+  role: 책임
 
-- start: "2026-05"
-  period: "2026.5–11"
-  title: "위성 자료를 활용한 북러 경제협력 동향 분석"
-  client: "통일부"
-  role: "책임"
+- start: 2026-05
+  period: 2026.5–11
+  title: 위성 자료를 활용한 북러 경제협력 동향 분석
+  title_en: Analysis of North Korea–Russia Economic Cooperation Trends Using Satellite Data
+  client: 통일부
+  client_en: Ministry of Unification
+  role: 책임
 
-- start: "2026-04"
-  period: "2026.4–10"
-  title: "대전·세종·충청남도 청년 취업지역 결정요인"
-  client: "한국은행"
-  role: "책임"
+- start: 2026-04
+  period: 2026.4–10
+  title: 대전·세종·충청남도 청년 취업지역 결정요인
+  title_en: Determinants of Youth Employment Location in Daejeon, Sejong and Chungnam
+  client: 한국은행
+  client_en: Bank of Korea
+  role: 책임
 
-- start: "2026-04"
-  period: "2026.4–10"
-  title: "텍스트·공공데이터 기반 “포스트APEC” 경북 관광 활성화: 관광 관심·이미지 지수 구축과 레거시 정책효과 및 인과평가"
-  client: "한국은행"
-  role: "책임"
+- start: 2026-04
+  period: 2026.4–10
+  title: '텍스트·공공데이터 기반 “포스트APEC” 경북 관광 활성화: 관광 관심·이미지 지수 구축과 레거시 정책효과 및 인과평가'
+  title_en: 'Post-APEC Gyeongbuk Tourism Revitalization Based on Text and Public Data: Construction of a Tourism Interest and Image Index, and Evaluation of Legacy Policy Effects'
+  client: 한국은행
+  client_en: Bank of Korea
+  role: 책임
 
-- start: "2026-04"
-  period: "2026.4–10"
-  title: "우리아이자립펀드 재정건전성 영향 및 장기 재정경로 분석 연구"
-  client: "금융연구원"
-  role: "공동"
+- start: 2026-04
+  period: 2026.4–10
+  title: 우리아이자립펀드 재정건전성 영향 및 장기 재정경로 분석 연구
+  title_en: Analysis of Financial Soundness and the Long-term Fiscal Path of the Uri-Ai Independence Fund
+  client: 금융연구원
+  client_en: Korea Institute of Finance
+  role: 공동
 
-- start: "2025-07"
-  period: "2025.7–11"
-  title: "공무원연금 재해보상 기금 전망"
-  client: "공무원연금공단"
-  role: "공동"
+- start: 2025-07
+  period: 2025.7–11
+  title: 공무원연금 재해보상 기금 전망
+  title_en: Fiscal Outlook for the Civil Service Pension Accident Compensation Fund
+  client: 공무원연금공단
+  client_en: Government Employees Pension Service
+  role: 공동
 
-- start: "2025-06"
-  period: "2025.6–10"
-  title: "빅데이터 기반 조기경보 지표를 통한 자산시장 쏠림현상 예측 및 제도개선 방안 연구"
-  client: "한국은행 금융안정국"
-  role: "책임"
+- start: 2025-06
+  period: 2025.6–10
+  title: 빅데이터 기반 조기경보 지표를 통한 자산시장 쏠림현상 예측 및 제도개선 방안 연구
+  title_en: Predicting Asset Market Concentration through Big Data-Based Early Warning Indicators, and Institutional Improvement Measures
+  client: 한국은행 금융안정국
+  client_en: Bank of Korea, Financial Stability Department
+  role: 책임
 
-- start: "2025-06"
-  period: "2025.6–11"
-  title: "인구구조 변화에 따른 금융소비 행태 변화가 금융시장과 금융회사 지속가능성에 미치는 영향 및 예금보험제도 개편 필요성 분석"
-  client: "예금보험공사"
-  role: "책임"
+- start: 2025-06
+  period: 2025.6–11
+  title: 인구구조 변화에 따른 금융소비 행태 변화가 금융시장과 금융회사 지속가능성에 미치는 영향 및 예금보험제도 개편 필요성 분석
+  title_en: Impact of Demographic Change in Financial Consumption Behaviour on Financial Market and Company Sustainability, and the Need for Deposit Insurance Reform
+  client: 예금보험공사
+  client_en: Korea Deposit Insurance Corporation
+  role: 책임
 
-- start: "2025-06"
-  period: "2025.6–2026.1"
-  title: "2025년 한국은행 지식교류프로그램 스리랑카 정책자문"
-  client: "한국은행 국제협력국"
-  role: "책임"
+- start: 2025-06
+  period: 2025.6–2026.1
+  title: 2025년 한국은행 지식교류프로그램 스리랑카 정책자문
+  title_en: '2025 Bank of Korea Knowledge Exchange Program (KPP): Policy Consultation for Sri Lanka'
+  client: 한국은행 국제협력국
+  client_en: Bank of Korea, International Affairs Department
+  role: 책임
 
-- start: "2025-05"
-  period: "2025.5–11"
-  title: "반도체 분야 시장 위험지수 개발"
-  client: "정보통신정책연구원"
-  role: "공동"
+- start: 2025-05
+  period: 2025.5–11
+  title: 반도체 분야 시장 위험지수 개발
+  title_en: Development of a Market Risk Index for the Semiconductor Sector
+  client: 정보통신정책연구원
+  client_en: Korea Information Society Development Institute
+  role: 공동
 
-- start: "2025-05"
-  period: "2025.5–10"
-  title: "경기지역 서비스 산업의 디지털 전환"
-  client: "한국은행 경기본부"
-  role: "책임"
+- start: 2025-05
+  period: 2025.5–10
+  title: 경기지역 서비스 산업의 디지털 전환
+  title_en: Digital Transformation of the Service Industry in the Gyeonggi Region
+  client: 한국은행 경기본부
+  client_en: Bank of Korea, Gyeonggi Branch
+  role: 책임
 
-- start: "2024-11"
-  period: "2024.11–2025.3"
-  title: "사회보험 재정 전망 고도화: 산재보험을 중심으로"
-  client: "국회예산처"
-  role: "책임"
+- start: 2024-11
+  period: 2024.11–2025.3
+  title: '사회보험 재정 전망 고도화: 산재보험을 중심으로'
+  title_en: 'Advancing Social Insurance Fiscal Projections: The Case of Industrial Accident Compensation Insurance'
+  client: 국회예산처
+  client_en: National Assembly Budget Office
+  role: 책임
 
-- start: "2023-05"
-  period: "2023.5–11"
-  title: "조합 양극화 해소를 위한 균형 성장 전략"
-  client: "신용협동조합"
-  role: "공동"
+- start: 2023-05
+  period: 2023.5–11
+  title: 조합 양극화 해소를 위한 균형 성장 전략
+  title_en: Balanced Growth Strategy to Resolve Polarization Among Credit Cooperatives
+  client: 신용협동조합
+  client_en: National Credit Union Federation of Korea
+  role: 공동
 
-- start: "2023-04"
-  period: "2023.4–10"
-  title: "빅데이터 기반의 국제거시경제 전망모형 개발 연구"
-  client: "대외경제정책연구원"
-  role: "공동"
+- start: 2023-04
+  period: 2023.4–10
+  title: 빅데이터 기반의 국제거시경제 전망모형 개발 연구
+  title_en: Development of an International Macroeconomic Forecasting Model Based on Big Data
+  client: 대외경제정책연구원
+  client_en: Korea Institute for International Economic Policy
+  role: 공동
 
-- start: "2023-04"
-  period: "2023.4–11"
-  title: "지급수단의 사회적 비용에 관한 연구"
-  client: "한국은행 발권국"
-  role: "책임"
+- start: 2023-04
+  period: 2023.4–11
+  title: 지급수단의 사회적 비용에 관한 연구
+  title_en: Study on the Social Cost of Payment Methods
+  client: 한국은행 발권국
+  client_en: Bank of Korea, Currency Department
+  role: 책임
 
-- start: "2022-11"
-  period: "2022.11–2023.3"
-  title: "EDCF 보증제도 활성화를 통한 민간부문 지원 확대방안"
-  client: "한국수출입은행"
-  role: "공동"
+- start: 2022-11
+  period: 2022.11–2023.3
+  title: EDCF 보증제도 활성화를 통한 민간부문 지원 확대방안
+  title_en: Measures to Expand Private Sector Support by Activating the EDCF Guarantee System
+  client: 한국수출입은행
+  client_en: Export-Import Bank of Korea
+  role: 공동
 
-- start: "2022-05"
-  period: "2022.5–2023.1"
-  title: "2022년 한국은행 지식교류프로그램 스리랑카 정책자문"
-  client: "한국은행 국제협력국"
-  role: "책임"
+- start: 2022-05
+  period: 2022.5–2023.1
+  title: 2022년 한국은행 지식교류프로그램 스리랑카 정책자문
+  title_en: '2022 Bank of Korea Knowledge Exchange Program (KPP): Policy Consultation for Sri Lanka'
+  client: 한국은행 국제협력국
+  client_en: Bank of Korea, International Affairs Department
+  role: 책임
 
-- start: "2022-04"
-  period: "2022.4–10"
-  title: "TCFD 권고안에 따른 연기금의 대응방안"
-  client: "사학연금"
-  role: "책임"
+- start: 2022-04
+  period: 2022.4–10
+  title: TCFD 권고안에 따른 연기금의 대응방안
+  title_en: Pension Fund Response Strategies Following the TCFD Recommendations
+  client: 사학연금
+  client_en: Teachers' Pension
+  role: 책임
 
-- start: "2022-03"
-  period: "2022.3–11"
-  title: "산재예방 적정성 평가"
-  client: "산업안전보건연구원"
-  role: "책임"
+- start: 2022-03
+  period: 2022.3–11
+  title: 산재예방 적정성 평가
+  title_en: Evaluation of the Appropriateness of Industrial Accident Prevention
+  client: 산업안전보건연구원
+  client_en: Occupational Safety and Health Research Institute
+  role: 책임
 
-- start: "2021-11"
-  period: "2021.11–2022.7"
-  title: "Nowcasting Economic and Socio Variables with Disasters"
-  client: "Asian Development Bank"
-  role: "공동"
+- start: 2021-11
+  period: 2021.11–2022.7
+  title: Nowcasting Economic and Socio Variables with Disasters
+  title_en: Nowcasting Economic and Socio Variables with Disasters
+  client: Asian Development Bank
+  client_en: Asian Development Bank
+  role: 공동
 
-- start: "2021-04"
-  period: "2021.4–10"
-  title: "Quantile Random Forest를 이용한 한계소비성향 추정"
-  client: "한국은행 조사국"
-  role: "책임"
+- start: 2021-04
+  period: 2021.4–10
+  title: Quantile Random Forest를 이용한 한계소비성향 추정
+  title_en: Estimation of the Marginal Propensity to Consume Using Quantile Random Forest
+  client: 한국은행 조사국
+  client_en: Bank of Korea, Research Department
+  role: 책임
 
-- start: "2021-04"
-  period: "2021.4–11"
-  title: "2021년 한국은행 지식교류프로그램 스리랑카 정책자문"
-  client: "한국은행 국제협력국"
-  role: "책임"
+- start: 2021-04
+  period: 2021.4–11
+  title: 2021년 한국은행 지식교류프로그램 스리랑카 정책자문
+  title_en: '2021 Bank of Korea Knowledge Exchange Program (KPP): Policy Consultation for Sri Lanka'
+  client: 한국은행 국제협력국
+  client_en: Bank of Korea, International Affairs Department
+  role: 책임
 
-- start: "2021-04"
-  period: "2021.4–9"
-  title: "주식프리미엄의 비교 및 결정요인 분석"
-  client: "한국금융연구원"
-  role: "책임"
+- start: 2021-04
+  period: 2021.4–9
+  title: 주식프리미엄의 비교 및 결정요인 분석
+  title_en: Analysis of Equity Premium Comparisons and Determinants
+  client: 한국금융연구원
+  client_en: Korea Institute of Finance
+  role: 책임
 
-- start: "2019-09"
-  period: "2019.9–12"
-  title: "통화정책이 품목별 인플레이션에 미치는 영향에 대한 분석"
-  client: "국회예산처"
-  role: "공동"
+- start: 2019-09
+  period: 2019.9–12
+  title: 통화정책이 품목별 인플레이션에 미치는 영향에 대한 분석
+  title_en: Analysis of the Impact of Monetary Policy on Inflation by Item
+  client: 국회예산처
+  client_en: National Assembly Budget Office
+  role: 공동
 
-- start: "2018-06"
-  period: "2018.6–11"
-  title: "확률변동 모형을 통한 추세 인플레이션 추정"
-  client: "한국은행 조사국"
-  role: "책임"
+- start: 2018-06
+  period: 2018.6–11
+  title: 확률변동 모형을 통한 추세 인플레이션 추정
+  title_en: Estimation of Trend Inflation through Stochastic Volatility Models
+  client: 한국은행 조사국
+  client_en: Bank of Korea, Research Department
+  role: 책임
 
-- start: "2018-04"
-  period: "2018.4–9"
-  title: "개별차주의 기대손실액을 이용한 시스템리스크 추정"
-  client: "한국은행 경제연구원"
-  role: "책임"
+- start: 2018-04
+  period: 2018.4–9
+  title: 개별차주의 기대손실액을 이용한 시스템리스크 추정
+  title_en: Estimation of Systemic Risk Using the Expected Loss of Individual Borrowers
+  client: 한국은행 경제연구원
+  client_en: Bank of Korea, Economic Research Institute
+  role: 책임
 
-- start: "2017-06"
-  period: "2017.6–11"
-  title: "Nowcasting Korean Investment Using Large Datasets"
-  client: "한국은행 조사국"
-  role: "책임"
+- start: 2017-06
+  period: 2017.6–11
+  title: Nowcasting Korean Investment Using Large Datasets
+  title_en: Nowcasting Korean Investment Using Large Datasets
+  client: 한국은행 조사국
+  client_en: Bank of Korea, Research Department
+  role: 책임
 
-- start: "2017-04"
-  period: "2017.4–10"
-  title: "빅데이터 분석기법을 활용한 금융안정 평가 및 정책효과 분석"
-  client: "한국은행 금융안정국"
-  role: "책임"
+- start: 2017-04
+  period: 2017.4–10
+  title: 빅데이터 분석기법을 활용한 금융안정 평가 및 정책효과 분석
+  title_en: Financial Stability Evaluation and Policy Effect Analysis Using Big Data Techniques
+  client: 한국은행 금융안정국
+  client_en: Bank of Korea, Financial Stability Department
+  role: 책임
 
-- start: "2016-12"
-  period: "2016.12–2017.9"
-  title: "시공간 행렬을 이용한 아파트 가격의 지역 간 확산 효과 분석"
-  client: "한국금융연구원"
-  role: "책임"
+- start: 2016-12
+  period: 2016.12–2017.9
+  title: 시공간 행렬을 이용한 아파트 가격의 지역 간 확산 효과 분석
+  title_en: Analysis of Cross-regional Diffusion Effects of Apartment Prices Using Spatio-temporal Matrices
+  client: 한국금융연구원
+  client_en: Korea Institute of Finance
+  role: 책임

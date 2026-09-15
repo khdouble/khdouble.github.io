@@ -140,8 +140,51 @@ def build_research():
         out += [f"## {heading}", "", '<ol class="entries">']
         out += [render_entry(e) for e in items]
         out += ["</ol>", ""]
+
+    grants = load("grants.yml") or []
+    if grants:
+        total += len(grants)
+        out += ["## Research Grants", "", '<ol class="entries entries-grant">']
+        for g in sorted(grants, key=lambda x: x["year"], reverse=True):
+            meta = [esc(g["funder"]), esc(g["role"])]
+            if g.get("amount"):
+                meta.append(esc(g["amount"]))
+            out.append(
+                "<li>"
+                f'<span class="grant-year">{esc(g["year"])}</span>'
+                f'<span class="entry-title">{esc(g["title"])}</span>'
+                f'<span class="entry-meta"><span class="proj-client">'
+                f'{" · ".join(meta)}</span></span>'
+                "</li>"
+            )
+        out += ["</ol>", ""]
+
     write("research.qmd", out)
     return total
+
+
+ROLE_EN = {"책임": "Principal investigator", "공동": "Co-investigator"}
+
+
+def project_list(projects, lang):
+    """Render one language's list. `entries-proj` puts the period in its own
+    grid column so that a title wrapping to a second line stays aligned with
+    the first, instead of running back under the period."""
+    rows = ['<ol class="entries entries-proj">']
+    for p in projects:
+        title = p["title_en"] if lang == "en" else p["title"]
+        client = p["client_en"] if lang == "en" else p["client"]
+        role = ROLE_EN[p["role"]] if lang == "en" else p["role"]
+        rows.append(
+            "<li>"
+            f'<span class="proj-period">{esc(p["period"])}</span>'
+            f'<span class="entry-title">{esc(title)}</span>'
+            f'<span class="entry-meta"><span class="proj-client">'
+            f'{esc(client)} · {esc(role)}</span></span>'
+            "</li>"
+        )
+    rows.append("</ol>")
+    return rows
 
 
 def build_projects():
@@ -153,21 +196,17 @@ def build_projects():
         "",
         BANNER.format(src="projects.yml"),
         "",
-        "Commissioned research projects (연구용역). Titles appear in the language of "
-        "the original contract. 책임 = principal investigator, 공동 = co-investigator.",
+        "Commissioned research projects. 연구용역 목록입니다.",
         "",
-        '<ol class="entries">',
+        "::: {.panel-tabset}",
+        "",
+        "## 한국어",
+        "",
     ]
-    for p in projects:
-        out.append(
-            "<li>"
-            f'<span class="proj-period">{esc(p["period"])}</span>'
-            f'<span class="entry-title">{esc(p["title"])}</span>'
-            f'<span class="entry-meta"><span class="proj-client">'
-            f'{esc(p["client"])} · {esc(p["role"])}</span></span>'
-            "</li>"
-        )
-    out += ["</ol>", ""]
+    out += project_list(projects, "ko")
+    out += ["", "## English", ""]
+    out += project_list(projects, "en")
+    out += ["", ":::", ""]
     write("projects.qmd", out)
     return len(projects)
 

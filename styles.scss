@@ -352,16 +352,80 @@ ol.entries > li::before {
   }
 }
 
-// projects
-.proj-period {
-  display: inline-block;
-  min-width: 8.6rem;
+// Projects and grants: the period sits in its own column, so a title that
+// wraps stays aligned with its own first line instead of running back under
+// the period. Inline spans cannot do this - the second line would return to
+// the list's left edge.
+ol.entries-proj > li,
+ol.entries-grant > li {
+  display: grid;
+  grid-template-columns: var(--label-col) minmax(0, 1fr);
+  column-gap: .9rem;
+  align-items: baseline;
+}
+
+ol.entries-proj  { --label-col: 8.4rem; }
+ol.entries-grant { --label-col: 3.2rem; }
+
+ol.entries-proj > li > .entry-title,
+ol.entries-proj > li > .entry-meta,
+ol.entries-grant > li > .entry-title,
+ol.entries-grant > li > .entry-meta {
+  grid-column: 2;
+}
+
+.proj-period,
+.grant-year {
+  grid-column: 1;
   color: $faint;
   font-size: .84rem;
   font-variant-numeric: tabular-nums;
 }
 
 .proj-client { color: $muted; font-size: .89rem; }
+
+// On narrow screens the label goes above the title rather than squeezing it.
+@media (max-width: 620px) {
+  ol.entries-proj > li,
+  ol.entries-grant > li { grid-template-columns: minmax(0, 1fr); }
+
+  ol.entries-proj > li > .entry-title,
+  ol.entries-proj > li > .entry-meta,
+  ol.entries-grant > li > .entry-title,
+  ol.entries-grant > li > .entry-meta,
+  .proj-period,
+  .grant-year { grid-column: 1; }
+}
+
+// language tabs on the Projects page
+.panel-tabset {
+  margin-top: 1.6rem;
+
+  > .nav-tabs {
+    border-bottom: 1px solid $rule;
+    gap: .2rem;
+
+    .nav-link {
+      border: none;
+      border-bottom: 2px solid transparent;
+      border-radius: 0;
+      padding: .35rem .8rem;
+      color: $muted;
+      font-size: .9rem;
+
+      &:hover { color: $ink; }
+
+      &.active {
+        color: $accent;
+        font-weight: 600;
+        background: transparent;
+        border-bottom-color: $accent;
+      }
+    }
+  }
+
+  > .tab-content { padding-top: .4rem; }
+}
 
 // ======================================================================
 // Blog listing: one note, two languages side by side
