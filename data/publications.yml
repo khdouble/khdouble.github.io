@@ -7,7 +7,10 @@
 #   title   : required
 #   authors : co-authors only, in printed order (the site owner is implicit)
 #   venue   : journal / outlet name
-#   detail  : volume(issue):pages, or a status such as "Forthcoming" / "submitted"
+#   detail  : volume(issue):pages, or a status such as "Forthcoming" / "submitted".
+#             Only forthcoming work carries a year: "Forthcoming (2026)".
+#             Published entries show volume/pages, and submitted work shows
+#             neither a year nor a venue.
 #   lang    : "ko" when the work itself is in Korean
 #   url     : canonical landing page (DOI preferred); repo-relative path for a local PDF
 #   extras  : supplementary links -> {label, href}
@@ -159,7 +162,7 @@ journal:
   - title: "Digital Transformation of the Service Industry in the Regional Perspective"
     authors: ["D. Yoon"]
     venue: "Quality and Quantity"
-    detail: "Forthcoming"
+    detail: "Forthcoming (2026)"
     url: "https://link.springer.com/article/10.1007/s11135-026-02882-z"
 
   - title: "Measuring Concentration Risk with a Herd Sentiment Index: Evidence from Korean Financial Markets"
@@ -240,6 +243,7 @@ wp:
     url: "files/wp/comparator-choice-density-neural-midas.pdf"
 
   - title: "Greenwashing Without Lying: Claim-Type Selection in Corporate Climate Disclosure"
+    detail: "submitted"
     url: "files/wp/greenwashing-without-lying-claim-type-selection.pdf"
 
   - title: "When the toolkit runs out: single-host event studies and the limits of causal inference"
