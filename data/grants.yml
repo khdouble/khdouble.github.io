@@ -1,34 +1,32 @@
 # Research grants, taken from the RESEARCH GRANTS section of the CV.
 #
 # `role`: PI = principal investigator, CI = co-investigator
-# `amount` is the awarded budget as the CV states it; drop the field to hide it.
+#
+# Award amounts are deliberately not published here, though the CV states them.
+# build.py renders an `amount` field if one is present, so do not add it back
+# from the CV without asking.
 
 - year: 2025
   role: CI
   title: "Study on the Economic and Social Impact and Utilization of AI-Generated Synthetic Data"
   funder: "National Research Foundation of Korea"
-  amount: "KRW 660M"
 
 - year: 2022
   role: CI
   title: "Development of a Macroeconomic Forecasting Model Based on Big Data and Artificial Intelligence"
   funder: "National Research Foundation of Korea"
-  amount: "KRW 450M"
 
 - year: 2022
   role: PI
   title: "Narrative Analysis of the Climate Change Crisis and the Future of Korea"
   funder: "National Research Foundation of Korea"
-  amount: "KRW 450M"
 
 - year: 2022
   role: PI
   title: "Business Cycle Analysis Using Text Mining"
   funder: "National Research Foundation of Korea"
-  amount: "KRW 60M"
 
 - year: 2018
   role: PI
   title: "Estimation of Trend Inflation through Stochastic Volatility Models"
   funder: "National Research Foundation of Korea"
-  amount: "KRW 600M"

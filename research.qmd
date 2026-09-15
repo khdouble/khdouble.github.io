@@ -95,9 +95,9 @@ title: "Research"
 ## Research Grants
 
 <ol class="entries entries-grant">
-<li><span class="grant-year">2025</span><span class="entry-title">Study on the Economic and Social Impact and Utilization of AI-Generated Synthetic Data</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · CI · KRW 660M</span></span></li>
-<li><span class="grant-year">2022</span><span class="entry-title">Development of a Macroeconomic Forecasting Model Based on Big Data and Artificial Intelligence</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · CI · KRW 450M</span></span></li>
-<li><span class="grant-year">2022</span><span class="entry-title">Narrative Analysis of the Climate Change Crisis and the Future of Korea</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · PI · KRW 450M</span></span></li>
-<li><span class="grant-year">2022</span><span class="entry-title">Business Cycle Analysis Using Text Mining</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · PI · KRW 60M</span></span></li>
-<li><span class="grant-year">2018</span><span class="entry-title">Estimation of Trend Inflation through Stochastic Volatility Models</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · PI · KRW 600M</span></span></li>
+<li><span class="grant-year">2025</span><span class="entry-title">Study on the Economic and Social Impact and Utilization of AI-Generated Synthetic Data</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · CI</span></span></li>
+<li><span class="grant-year">2022</span><span class="entry-title">Development of a Macroeconomic Forecasting Model Based on Big Data and Artificial Intelligence</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · CI</span></span></li>
+<li><span class="grant-year">2022</span><span class="entry-title">Narrative Analysis of the Climate Change Crisis and the Future of Korea</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · PI</span></span></li>
+<li><span class="grant-year">2022</span><span class="entry-title">Business Cycle Analysis Using Text Mining</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · PI</span></span></li>
+<li><span class="grant-year">2018</span><span class="entry-title">Estimation of Trend Inflation through Stochastic Volatility Models</span><span class="entry-meta"><span class="proj-client">National Research Foundation of Korea · PI</span></span></li>
 </ol>
