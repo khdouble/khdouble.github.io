@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-09-17">
+<meta name="description" content="About three-quarters of Korean households spend almost none of an increase in public transfers, while a quarter spend about a sixth of it. This note sets out what fourteen years of survey data establish — and why the spenders are hard to find in advance.">
+
+<title>The Distribution of Spending Out of Cash Transfers – Hyun Hak Kim</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0b873dab1a9bb082c1df6b2c2700682a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-d7d8c43c9bbf52025258093b17e489d4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-0b873dab1a9bb082c1df6b2c2700682a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="The Distribution of Spending Out of Cash Transfers – Hyun Hak Kim">
+<meta property="og:description" content="About three-quarters of Korean households spend almost none of an increase in public transfers, while a quarter spend about a sixth of it. This note sets out what fourteen years of survey data establish — and why the spenders are hard to find in advance.">
+<meta property="og:image" content="https://khdouble.github.io/posts/2026-09-mpc-heterogeneity-en/figures/figure3_mixture_components.png">
+<meta property="og:site_name" content="Hyun Hak Kim">
+<meta property="og:image:height" content="910">
+<meta property="og:image:width" content="1560">
+<meta property="og:image:alt" content="Transfer MPC and population share of three latent household types">
+</head>
+
+<body class="nav-sidebar docked article quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Hyun Hak Kim
+      </li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../../">Hyun Hak Kim</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="../../files/cv-hyunhak-kim.pdf" title="Curriculum Vitae" class="quarto-navigation-tool px-1" aria-label="Curriculum Vitae"><i class="bi bi-file-earmark-text"></i></a>
+    <a href="mailto:hyunhak.kim@kookmin.ac.kr" title="Email" class="quarto-navigation-tool px-1" aria-label="Email"><i class="bi bi-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/khdouble/" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/khdouble" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../projects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../blog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Links</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#how-much-of-a-cash-transfer-is-spent-and-by-whom" id="toc-how-much-of-a-cash-transfer-is-spent-and-by-whom" class="nav-link active" data-scroll-target="#how-much-of-a-cash-transfer-is-spent-and-by-whom">How much of a cash transfer is spent, and by whom?</a></li>
+  <li><a href="#the-pandemic-transfers-do-not-provide-a-natural-experiment-in-these-data" id="toc-the-pandemic-transfers-do-not-provide-a-natural-experiment-in-these-data" class="nav-link" data-scroll-target="#the-pandemic-transfers-do-not-provide-a-natural-experiment-in-these-data">1. The pandemic transfers do not provide a natural experiment in these data</a></li>
+  <li><a href="#the-average-mpc-turns-on-a-single-control-and-on-the-estimator" id="toc-the-average-mpc-turns-on-a-single-control-and-on-the-estimator" class="nav-link" data-scroll-target="#the-average-mpc-turns-on-a-single-control-and-on-the-estimator">2. The average MPC turns on a single control and on the estimator</a></li>
+  <li><a href="#published-korean-estimates-largely-agree-once-units-are-aligned" id="toc-published-korean-estimates-largely-agree-once-units-are-aligned" class="nav-link" data-scroll-target="#published-korean-estimates-largely-agree-once-units-are-aligned">3. Published Korean estimates largely agree once units are aligned</a></li>
+  <li><a href="#responses-are-widely-dispersed-and-a-minority-produces-most-of-the-aggregate" id="toc-responses-are-widely-dispersed-and-a-minority-produces-most-of-the-aggregate" class="nav-link" data-scroll-target="#responses-are-widely-dispersed-and-a-minority-produces-most-of-the-aggregate">4. Responses are widely dispersed, and a minority produces most of the aggregate</a></li>
+  <li><a href="#observable-characteristics-explain-little-of-who-spends" id="toc-observable-characteristics-explain-little-of-who-spends" class="nav-link" data-scroll-target="#observable-characteristics-explain-little-of-who-spends">5. Observable characteristics explain little of who spends</a></li>
+  <li><a href="#a-targeting-rule-raises-spending-per-won-but-lowers-the-total" id="toc-a-targeting-rule-raises-spending-per-won-but-lowers-the-total" class="nav-link" data-scroll-target="#a-targeting-rule-raises-spending-per-won-but-lowers-the-total">6. A targeting rule raises spending per won but lowers the total</a></li>
+  <li><a href="#the-boundary-of-what-the-current-evidence-supports" id="toc-the-boundary-of-what-the-current-evidence-supports" class="nav-link" data-scroll-target="#the-boundary-of-what-the-current-evidence-supports">7. The boundary of what the current evidence supports</a></li>
+  <li><a href="#linked-data-not-a-larger-sample-of-the-same-survey" id="toc-linked-data-not-a-larger-sample-of-the-same-survey" class="nav-link" data-scroll-target="#linked-data-not-a-larger-sample-of-the-same-survey">8. Linked data, not a larger sample of the same survey</a></li>
+  <li><a href="#working-paper" id="toc-working-paper" class="nav-link" data-scroll-target="#working-paper">Working paper</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Distribution of Spending Out of Cash Transfers</h1>
+<p class="subtitle lead">How the marginal propensity to consume is spread across Korean households, how much of that spread observable characteristics can explain, and what follows for targeting</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">English</div>
+    <div class="quarto-category">Consumption</div>
+    <div class="quarto-category">Fiscal Policy</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    About three-quarters of Korean households spend almost none of an increase in public transfers, while a quarter spend about a sixth of it. This note sets out what fourteen years of survey data establish — and why the spenders are hard to find in advance.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 17, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>한국어판</strong> — <a href="../2026-09-mpc-heterogeneity-ko/">현금 이전소득 소비반응의 분포</a></p>
+<p>Survey data cover the 2012–2025 waves of the public-use Survey of Household Finances and Living Conditions. Income and expenditure refer to the calendar year before each wave, so the 2020 and 2021 transfers appear in the 2021 and 2022 waves.</p>
+</div>
+</div>
+</div>
+<section id="how-much-of-a-cash-transfer-is-spent-and-by-whom" class="level2">
+<h2 class="anchored" data-anchor-id="how-much-of-a-cash-transfer-is-spent-and-by-whom">How much of a cash transfer is spent, and by whom?</h2>
+<p>Korea paid a universal cash transfer to every household in May 2020 and a means-tested one to the bottom 88 percent in September 2021. The debate over those two designs rests on a premise that is rarely tested directly: that the households who spend more of a transfer can be picked out in advance from information an administrator actually has. Showing that low-income households respond more on average establishes that responses differ. It does not establish that a targeting rule can find the high responders.</p>
+<p>This study separates the two questions using fourteen linked waves of the Survey of Household Finances and Living Conditions — 132,965 household-year first differences on 45,241 households. It asks what the data can say about the average response, estimates how responses are distributed across households, and then measures how much of that distribution observable characteristics account for. The clearest finding is that roughly a quarter of households produce most of the aggregate response, and that income, wealth, liquidity, debt and demographics together explain between six and ten percent of who they are.</p>
+<section id="headline-figures" class="level3">
+<h3 class="anchored" data-anchor-id="headline-figures">Headline figures</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Item</th>
+<th style="text-align: right;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Estimation sample</td>
+<td style="text-align: right;">132,965 household-years</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Average MPC across six estimators</td>
+<td style="text-align: right;">0.032–0.107</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">High-response type, share of households</td>
+<td style="text-align: right;">23%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">High-response type, MPC out of transfers</td>
+<td style="text-align: right;">0.163</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Variation in household MPCs explained by observables</td>
+<td style="text-align: right;">5.6–9.7%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Consumption response per household, learned rule vs.&nbsp;universal transfer</td>
+<td style="text-align: right;">KRW 409,000 vs.&nbsp;482,000</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="the-pandemic-transfers-do-not-provide-a-natural-experiment-in-these-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-pandemic-transfers-do-not-provide-a-natural-experiment-in-these-data">1. The pandemic transfers do not provide a natural experiment in these data</h2>
+<p>The 2020 payment rose with household size and was capped at four members: KRW 400,000 for a single person, rising to 1 million for four or more. The 2021 payment was KRW 250,000 per person, uncapped, for households in the bottom 88 percent of the health-insurance premium distribution. Both reached almost every household the survey records.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/figure1_transfer_receipt.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. Share of surveyed households reporting positive public transfer income, by survey wave. It rises from 0.68 in the 2020 wave to 0.999 in 2021 and 0.986 in 2022. The shaded waves record the two programmes.</figcaption>
+</figure>
+</div>
+<p>Two designs built on the programmes were attempted. Both fail, and the reasons can be quantified.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Design</th>
+<th style="text-align: left;">First stage</th>
+<th style="text-align: left;">Why it fails</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2020 household-size schedule as an instrument</td>
+<td style="text-align: left;">Coefficient 2.67, F = 287</td>
+<td style="text-align: left;">A coefficient above one means household size proxies for a bundle of pandemic-era transfers; two-stage least squares returns an MPC of 1.53</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Reversal between the 2020 and 2021 schedules</td>
+<td style="text-align: left;">Coefficient 1.16, F = 146</td>
+<td style="text-align: left;">The minimum detectable MPC is 0.48, and pre-programme coefficients are as large as the treatment-year coefficient</td>
+</tr>
+</tbody>
+</table>
+<p>The instrument violates its exclusion restriction. Household size affects consumption growth directly through the life cycle, and a childcare voucher programme operating in 2020 was also keyed to household composition. The reversal design is cleaner in principle, since households of five or more received relatively less in 2020 and relatively more in 2021. But the standard deviation of the annual consumption change, KRW 7.88 million, dwarfs that of the scheduled amount, KRW 282,000, and every plausible value of the MPC lies below the detectable threshold.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/figure2_event_study.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. The 2020 relief schedule interacted with survey-year indicators, relative to the 2020 wave, with 95 percent confidence intervals clustered on households. Three pre-programme coefficients — −2.13 in 2013, −1.90 in 2014 and −1.39 in 2016 — are individually significant and as large as the treatment-year coefficient of −1.40.</figcaption>
+</figure>
+</div>
+<p>These are properties of the data rather than of the implementation: annual frequency, a transfer small relative to annual consumption, universal coverage, and coincidence with an aggregate shock that was itself correlated with household size. Everything that follows is a partial association conditional on predetermined characteristics, not a causal estimate from a natural experiment.</p>
+</section>
+<section id="the-average-mpc-turns-on-a-single-control-and-on-the-estimator" class="level2">
+<h2 class="anchored" data-anchor-id="the-average-mpc-turns-on-a-single-control-and-on-the-estimator">2. The average MPC turns on a single control and on the estimator</h2>
+<p>The baseline specification is estimated in first differences:</p>
+<p><span class="math display">\[\Delta C_{it} = \alpha_t + \beta\,\Delta T_{it} + \gamma\,\Delta Y_{it} + X_{i,t-1}'\delta + \varepsilon_{it}\]</span></p>
+<p>Here <span class="math inline">\(\Delta C\)</span> is the change in annual consumption, <span class="math inline">\(\Delta T\)</span> the change in public transfer income, <span class="math inline">\(\Delta Y\)</span> the change in all other income, and <span class="math inline">\(X_{i,t-1}\)</span> twenty characteristics measured in the previous wave. Every covariate is lagged, because a contemporaneous one — the debt-service ratio of a household that used the transfer to repay debt, for instance — is itself an outcome of the transfer.</p>
+<p>Omitting <span class="math inline">\(\Delta Y\)</span> moves the estimate across zero. Without it the coefficient on transfers is −0.004; with it, +0.048. Transfers rise when other income falls, with a correlation of −0.164, which is what unemployment benefits, means-tested support and pensions are designed to do. A regression of consumption on transfers alone loads that negative co-movement onto the transfer coefficient.</p>
+<table class="caption-top table">
+<caption>Same data, estimand and covariates in every row. Cross-fitting folds are formed by household; random folds would place different years of the same household on both sides of the split.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Estimator</th>
+<th style="text-align: right;">MPC out of transfers</th>
+<th style="text-align: right;">(s.e.)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Ordinary least squares</td>
+<td style="text-align: right;">0.032</td>
+<td style="text-align: right;">(0.006)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Causal forest DML, gradient boosting</td>
+<td style="text-align: right;">0.075</td>
+<td style="text-align: right;">(0.042)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Linear DML, gradient boosting</td>
+<td style="text-align: right;">0.075</td>
+<td style="text-align: right;">(0.006)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Linear DML, lasso</td>
+<td style="text-align: right;">0.085</td>
+<td style="text-align: right;">(0.007)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Generalized random forest</td>
+<td style="text-align: right;">0.102</td>
+<td style="text-align: right;">(0.009)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sparse linear DML, gradient boosting</td>
+<td style="text-align: right;">0.107</td>
+<td style="text-align: right;">(0.034)</td>
+</tr>
+</tbody>
+</table>
+<p>Fixing the specification does not fix the estimate: the range is a factor of 3.4, and no principle selects among the flexible estimators. The comparison also earned its keep as a diagnostic. An early specification that controlled for contemporaneous covariates raised the out-of-fold <span class="math inline">\(R^2\)</span> for the treatment from 0.12 to 0.64 and cut the DML estimate from 0.058 to 0.019. That error surfaced only because two estimators disagreed by a factor of three.</p>
+</section>
+<section id="published-korean-estimates-largely-agree-once-units-are-aligned" class="level2">
+<h2 class="anchored" data-anchor-id="published-korean-estimates-largely-agree-once-units-are-aligned">3. Published Korean estimates largely agree once units are aligned</h2>
+<p>Korean estimates of the MPC span roughly 0.07 to 0.61. Much of that range reflects differences of measurement rather than of behaviour.</p>
+<table class="caption-top table">
+<caption>Elasticities are converted by multiplying by an average propensity to consume. For Song (2020) this is 0.592, the ratio of consumption to disposable income over his sample period, with 0.47 as a lower bound for his non-durable measure; Hong (2021) converts at 0.75.</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Study</th>
+<th style="text-align: left;">Data and method</th>
+<th style="text-align: right;">Reported</th>
+<th style="text-align: right;">Level MPC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Song (2020)</td>
+<td style="text-align: left;">SHFLC restricted release; elasticity</td>
+<td style="text-align: right;">0.180 (transitory)</td>
+<td style="text-align: right;">0.085–0.107</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hong (2021)</td>
+<td style="text-align: left;">KLIPS, KLoSA; elasticity</td>
+<td style="text-align: right;">0.2 (transitory)</td>
+<td style="text-align: right;">0.15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Baek et al.&nbsp;(2023)</td>
+<td style="text-align: left;">Card data; difference-in-differences across provinces</td>
+<td style="text-align: right;">0.36–0.58</td>
+<td style="text-align: right;">0.36–0.58</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Kim, Koh and Lyou (2023)</td>
+<td style="text-align: left;">Seoul card data; difference-in-differences</td>
+<td style="text-align: right;">≥ 0.59</td>
+<td style="text-align: right;">≥ 0.59</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Kim and Oh (2020)</td>
+<td style="text-align: left;">Card and sales data; event study</td>
+<td style="text-align: right;">0.26–0.36</td>
+<td style="text-align: right;">0.26–0.36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lee, Kang and Woo (2022)</td>
+<td style="text-align: left;">Household Income and Expenditure Survey; triple differences</td>
+<td style="text-align: right;">0.36–0.48</td>
+<td style="text-align: right;">0.36–0.48</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Noh (2021)</td>
+<td style="text-align: left;">SHFLC 2019 cross-section; regression</td>
+<td style="text-align: right;">0.07–0.21</td>
+<td style="text-align: right;">0.07–0.21</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">This study</td>
+<td style="text-align: left;">SHFLC public release, 2013–2025; forests and finite mixture</td>
+<td style="text-align: right;">0.032–0.107</td>
+<td style="text-align: right;">0.032–0.107</td>
+</tr>
+</tbody>
+</table>
+<p>The first difference is one of units. Song (2020) estimates in log residuals, so his coefficients are elasticities, and reading his overall 0.288 as an MPC overstates the level by roughly a factor of two. Converted, his transitory-income estimate becomes 0.085–0.107, a range that contains this study’s forest estimate of 0.102.</p>
+<p>The second is what is measured. Card-transaction studies observe spending in the weeks after a payment. They capture the immediate response but miss cash and account-transfer spending and cannot net out substitution later in the year; annual surveys record the net change over a full year and so mechanically produce smaller numbers. The two should not be pooled. The third is method: on fixed data, the choice of estimator alone spans a factor of 3.4.</p>
+</section>
+<section id="responses-are-widely-dispersed-and-a-minority-produces-most-of-the-aggregate" class="level2">
+<h2 class="anchored" data-anchor-id="responses-are-widely-dispersed-and-a-minority-produces-most-of-the-aggregate">4. Responses are widely dispersed, and a minority produces most of the aggregate</h2>
+<p>Dispersion in fitted values is not by itself evidence of heterogeneity. A calibration test on held-out data returns a coefficient of 1.02 on the forest’s differential prediction, with a standard error of 0.165 and a p-value of 3 × 10⁻¹⁰, so the variation the forest detects is not an artefact of fitting. Across the distribution of consumption changes, the transfer coefficient rises more than threefold, from 0.029 at the 10th percentile to 0.098 at the 90th, while the coefficient on other income rises only from 0.071 to 0.128.</p>
+<p>Quantiles describe how transfers move the distribution of consumption changes, not how responses are distributed across households. For that, following Lewis, Melcangi and Pilossoph (2024), each household is treated as belonging to one of <span class="math inline">\(K\)</span> unobserved types with its own transfer coefficient:</p>
+<p><span class="math display">\[\Delta C_{it} = \alpha_k + \beta_k\,\Delta T_{it} + \gamma_k\,\Delta Y_{it} + \varepsilon_{it}, \qquad \varepsilon_{it} \sim N(0, \sigma_k^2)\]</span></p>
+<table class="caption-top table">
+<caption>Three-component mixture on 123,609 household-year first differences, estimated by EM from five random starts. Intervals are percentiles from 300 bootstrap replications resampling households, with components ordered by their MPC within each replication.</caption>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Type</th>
+<th style="text-align: right;">MPC out of transfers</th>
+<th style="text-align: right;">95% interval</th>
+<th style="text-align: right;">Share of households</th>
+<th style="text-align: right;">95% interval</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Type 1</td>
+<td style="text-align: right;">−0.003</td>
+<td style="text-align: right;">−0.051 to 0.025</td>
+<td style="text-align: right;">43.8%</td>
+<td style="text-align: right;">33.4 to 44.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Type 2</td>
+<td style="text-align: right;">0.018</td>
+<td style="text-align: right;">0.001 to 0.043</td>
+<td style="text-align: right;">33.6%</td>
+<td style="text-align: right;">31.8 to 44.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Type 3</td>
+<td style="text-align: right;">0.163</td>
+<td style="text-align: right;">0.070 to 0.243</td>
+<td style="text-align: right;">22.6%</td>
+<td style="text-align: right;">20.7 to 27.5</td>
+</tr>
+</tbody>
+</table>
+<p>The probability-weighted mean is 0.042, inside the range of the linear estimates. The mixture is not producing a different average; it is decomposing the same average into very unequal parts, and Type 3 alone accounts for close to nine-tenths of it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/figure3_mixture_components.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. Component MPCs and population shares of the three latent types, with 95 percent bootstrap intervals. The high-response type is shown in red. The between-type standard deviation of 0.066 has a confidence interval of 0.020 to 0.118, which excludes zero.</figcaption>
+</figure>
+</div>
+<p>The three types are a parsimonious summary, not behavioural categories. The information criterion keeps falling out to seven components, where the high-response type has an MPC of 0.26 and a 15 percent share. The magnitude is also sensitive to how outliers are trimmed: at the mildest threshold the high-response component is 0.071 with a 48.5 percent share, and at the most aggressive it is 0.266 with 20.0 percent. What survives every variant is the shape — wide dispersion, with a minority of high responders.</p>
+</section>
+<section id="observable-characteristics-explain-little-of-who-spends" class="level2">
+<h2 class="anchored" data-anchor-id="observable-characteristics-explain-little-of-who-spends">5. Observable characteristics explain little of who spends</h2>
+<p>A subgroup comparison looks like strong evidence for liquidity constraints: the least liquid quartile has an estimated MPC of 0.169 against 0.065 for the most liquid. In a joint projection, however, only lagged income and the debt-service ratio remain significant. Liquidity and income move together, and the liquidity gradient is largely income operating through a correlated proxy.</p>
+<p>The sharper test projects each household’s posterior expected MPC from the mixture onto what a programme administrator could observe: income, consumption, liquid assets, net wealth, debt, debt service, household size, age and year.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Measure</th>
+<th style="text-align: right;">Explained share</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Linear projection, three types</td>
+<td style="text-align: right;">5.6% (95% interval 1.2–12.0%)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Linear projection, seven types</td>
+<td style="text-align: right;">7.0%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Regression forest, out-of-bag, seven types</td>
+<td style="text-align: right;">9.7%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">United States (Lewis, Melcangi and Pilossoph, 2024)</td>
+<td style="text-align: right;">about 8%</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/figure4_explained_share.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. Bootstrap distribution of the share of household-level MPC variation explained by observables, across 300 household-level replications. The solid line is the bootstrap sample’s point estimate and the dotted lines the 95 percent interval. The US figure lies well inside the interval, so the comparison supports agreement rather than a difference in either direction.</figcaption>
+</figure>
+</div>
+<p>On any of these measures, roughly ninety percent of the variation in how households spend a transfer is invisible to a rich balance-sheet survey. What little is explained is mostly the familiar resource gradient. On their own, baseline consumption and income deliver 98 percent of the explained variation; removing the entire liquidity block costs 1.4 percent of it, and removing debt and debt service 0.3 percent.</p>
+<p>The forest’s conditional effects and the mixture’s household MPCs are close to orthogonal, with a correlation of 0.21. Covariates do spread predicted responses out — the forest’s standard deviation is 0.045 against 0.027 for the mixture — but that spread does not line up with the latent heterogeneity that drives aggregate spending.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/figure5_mixture_vs_forest.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. Panel (a) compares the density of household-level MPCs implied by the mixture with the forest’s conditional means. Panel (b) plots one against the other for a random subsample of 12,000 household-years. The households the forest ranks highest are largely not those the mixture identifies as high responders.</figcaption>
+</figure>
+</div>
+</section>
+<section id="a-targeting-rule-raises-spending-per-won-but-lowers-the-total" class="level2">
+<h2 class="anchored" data-anchor-id="a-targeting-rule-raises-spending-per-won-but-lowers-the-total">6. A targeting rule raises spending per won but lowers the total</h2>
+<p>The value of targeting has to be evaluated on households that were not used to learn the rule. Ranking and evaluating on the same sample suggests that giving only to the top fifth would raise the effect per won by a factor of 1.84. On held-out households the gain is 1.2 to 1.6, and it does not grow as targeting tightens.</p>
+<table class="caption-top table">
+<caption>Average doubly robust scores among households ranked in the top k percent by a conditional effect estimated on a disjoint set of households. The sample is split by household into 22,620 training and 22,621 evaluation households.</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Households receiving</th>
+<th style="text-align: right;">Effect (KRW 10,000)</th>
+<th style="text-align: right;">(s.e.)</th>
+<th style="text-align: right;">Relative to uniform</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">All (uniform allocation)</td>
+<td style="text-align: right;">43.98</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Top 50%</td>
+<td style="text-align: right;">63.84</td>
+<td style="text-align: right;">(13.55)</td>
+<td style="text-align: right;">1.45</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Top 40%</td>
+<td style="text-align: right;">65.06</td>
+<td style="text-align: right;">(15.43)</td>
+<td style="text-align: right;">1.48</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Top 30%</td>
+<td style="text-align: right;">71.75</td>
+<td style="text-align: right;">(17.72)</td>
+<td style="text-align: right;">1.63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Top 20%</td>
+<td style="text-align: right;">53.79</td>
+<td style="text-align: right;">(20.89)</td>
+<td style="text-align: right;">1.22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Top 10%</td>
+<td style="text-align: right;">71.24</td>
+<td style="text-align: right;">(29.39)</td>
+<td style="text-align: right;">1.62</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/figure6_targeting_curve.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 6. The targeting curve on held-out households, with 95 percent confidence intervals. The dashed line marks uniform allocation. Point estimates lie above it, but the intervals widen as targeting tightens, because the ranking is least reliable where it is most selective.</figcaption>
+</figure>
+</div>
+<p>A depth-two policy tree (Athey and Wager, 2021) learned from balance-sheet variables does what one would expect. It excludes the visibly affluent — splitting on the liquid-asset ratio, then on net wealth above KRW 267 million or liquid assets above KRW 296 million — and assigns transfers to 80 percent of households, whose median income is KRW 29.0 million against 64.6 million among those excluded. Evaluated on held-out households with complete covariates, it delivers a consumption response of KRW 409,000 per household, against 482,000 for giving to everyone.</p>
+<p>The excluded fifth are not non-spenders: their average conditional MPC is still 0.036. Dropping them lowers the total by more than concentration raises the response among the remaining 80 percent. Targeting raises the response per won; excluding households lowers the total. The choice is between efficiency and scale, and which to prefer depends on whether the binding constraint is the budget or the level of stimulus sought.</p>
+</section>
+<section id="the-boundary-of-what-the-current-evidence-supports" class="level2">
+<h2 class="anchored" data-anchor-id="the-boundary-of-what-the-current-evidence-supports">7. The boundary of what the current evidence supports</h2>
+<p><strong>Established.</strong> Heterogeneity in the transfer MPC is real: a calibration test rejects a constant response, and the between-type dispersion is estimated away from zero. A minority of households accounts for most of the aggregate response. Observable characteristics explain between six and ten percent of household-level variation, statistically indistinguishable from the US figure.</p>
+<p><strong>Ruled out.</strong> Reading the 2020 and 2021 programmes as natural experiments in annual survey data. Treating the dispersion of published Korean estimates as disagreement about behaviour before units, horizons and estimators are aligned. Inferring the value of a targeting rule from a subgroup gradient: the bottom income quintile’s MPC of 0.165, against 0.045 for the top, does not translate into an allocation rule that outperforms a universal transfer.</p>
+<p><strong>Still admissible.</strong> Liquidity may matter more than these data show. The public release measures savings deposits rather than the cash holdings recorded in the restricted release, and measurement error attenuates the liquidity coefficient. Administrators with richer data could build better rules, and targeting may be justified on distributional or insurance grounds that this evaluation does not address.</p>
+<p><strong>Unresolved.</strong> The causal level of the MPC, for which survey-based levels are best read as lower bounds given measurement error in reported consumption. The exact magnitude and share of the high-response type, which depend on trimming and on the number of components. And what actually distinguishes a household with an MPC of 0.16 from an otherwise similar one with an MPC of zero.</p>
+</section>
+<section id="linked-data-not-a-larger-sample-of-the-same-survey" class="level2">
+<h2 class="anchored" data-anchor-id="linked-data-not-a-larger-sample-of-the-same-survey">8. Linked data, not a larger sample of the same survey</h2>
+<p>None of the limits above would be removed by more observations of the same kind. Each points to a different source of information.</p>
+<p><strong>Survey households linked to transaction records.</strong> Card and administrative spending records carry the timing precision that identification requires; the survey carries the balance-sheet detail they lack. Linking the two would combine both.</p>
+<p><strong>Intertemporal responses.</strong> Fourteen linked waves are now long enough to trace how spending out of a transfer unfolds over several years — the intertemporal MPCs that heterogeneous-agent models take as inputs (Auclert, Rognlie and Straub, 2024).</p>
+<p><strong>Elicited responses to hypothetical windfalls.</strong> If balance sheets explain so little of who spends, questions on intended responses (Colarieti, Mei and Stantcheva, 2024) are the most direct route to the preferences and expectations that balance-sheet data cannot reach.</p>
+<p><strong>Cash holdings.</strong> Repeating the projection with the restricted release’s direct measure of cash would show whether liquidity is uninformative or merely mismeasured.</p>
+</section>
+<section id="working-paper" class="level2">
+<h2 class="anchored" data-anchor-id="working-paper">Working paper</h2>
+<p>The working paper reports the full estimating equations, the construction of the fourteen-wave panel, the corrections made to the distributed variable mapping, and robustness checks on the pandemic waves, trimming, sample composition, attrition and the number of mixture components, in 18 tables and 8 figures with an appendix.</p>
+<p><a href="https://khdouble.github.io/files/wp/unobservable-heterogeneity-mpc-korea.pdf">Download the PDF</a></p>
+<section id="suggested-citation" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-citation">Suggested citation</h3>
+<blockquote class="blockquote">
+<p>Kim, Hyun Hak (2026). “Unobservable Heterogeneity in the Marginal Propensity to Consume: Evidence from Korean Household Panel Data.” Working Paper, August 25.</p>
+</blockquote>
+</section>
+<section id="data-and-code" class="level3">
+<h3 class="anchored" data-anchor-id="data-and-code">Data and code</h3>
+<p>The analysis uses the public-use microdata of the Survey of Household Finances and Living Conditions, produced jointly by Statistics Korea, the Bank of Korea and the Financial Supervisory Service and available to registered users of Statistics Korea’s <a href="https://mdis.kostat.go.kr">Microdata Integrated Service</a>. The terms of use do not permit redistribution, so the microdata are not included here.</p>
+<p>Code and replication materials will be released with the published version of the paper. Until then, requests for academic replication or verification are handled individually. Please write to <a href="mailto:hyunhak.kim@kookmin.ac.kr">hyunhak.kim@kookmin.ac.kr</a>.</p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<p>Athey, S. and Wager, S. (2021). Policy learning with observational data. <em>Econometrica</em>, 89(1), 133–161.</p>
+<p>Auclert, A., Rognlie, M. and Straub, L. (2024). The intertemporal Keynesian cross. <em>Journal of Political Economy</em>, 132(12), 4068–4121.</p>
+<p>Baek, S., Kim, S., Rhee, T. and Shin, W. (2023). How effective are universal payments for raising consumption? Evidence from a natural experiment. <em>Empirical Economics</em>, 65, 1–30.</p>
+<p>Colarieti, R., Mei, P. and Stantcheva, S. (2024). The how and why of household reactions to income shocks. NBER Working Paper 32191.</p>
+<p>Hong, K. (2021). <em>Analysis of the Marginal Propensity to Consume Considering Household Characteristics</em>. National Assembly Budget Office. In Korean.</p>
+<p>Kim, M. and Oh, Y. (2020). <em>Analysis of the Effects of the Emergency Disaster Relief Payments</em>. Korea Development Institute. In Korean.</p>
+<p>Kim, S., Koh, K. and Lyou, W. (2023). Means-tested COVID-19 stimulus payment and consumer spending: Evidence from card transaction data in South Korea. <em>Economic Analysis and Policy</em>, 78, 1359–1371.</p>
+<p>Lee, W., Kang, C. and Woo, S. (2022). The effects of the 2020 COVID-19 emergency income support on household consumption in Korea. <em>Korean Journal of Economic Studies</em>, 70(1). In Korean.</p>
+<p>Lewis, D. J., Melcangi, D. and Pilossoph, L. (2024). Latent heterogeneity in the marginal propensity to consume. <em>Review of Economic Studies</em>, forthcoming.</p>
+<p>Noh, Y. (2021). Consumption effects of transfer payments: Estimating the marginal propensity to consume. <em>Health and Social Welfare Review</em>, 41(2). In Korean.</p>
+<p>Song, S. (2020). Leverage, hand-to-mouth households, and heterogeneity of the marginal propensity to consume: Evidence from South Korea. <em>Review of Economics of the Household</em>, 18(4), 1213–1244.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/khdouble\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© Hyun Hak Kim · Department of Economics, Kookmin University</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
