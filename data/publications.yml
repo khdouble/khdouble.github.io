@@ -218,9 +218,11 @@ wp:
     detail: "submitted"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379698"
 
-  - title: "Validating Generated Latent Quantities for Survey"
-    detail: "submitted"
+  - title: "Return-aware validation of an earnings coefficient under household masking in the Current Population Survey"
+    detail: "Working paper, 19 September 2026"
     url: "files/wp/validating-generated-latent-quantities-survey.pdf"
+    extras:
+      - {label: "Supplement", href: "files/wp/validating-generated-latent-quantities-survey-supplement.pdf"}
 
   - title: "Unobservable Heterogeneity in the Marginal Propensity to Consume: Evidence from Korean Household Panel Data"
     detail: "submitted"
