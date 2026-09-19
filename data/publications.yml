@@ -219,7 +219,7 @@ wp:
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379698"
 
   - title: "Return-aware validation of an earnings coefficient under household masking in the Current Population Survey"
-    detail: "Working paper, 19 September 2026"
+    detail: "submitted"
     url: "files/wp/validating-generated-latent-quantities-survey.pdf"
     extras:
       - {label: "Supplement", href: "files/wp/validating-generated-latent-quantities-survey-supplement.pdf"}
