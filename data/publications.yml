@@ -260,6 +260,12 @@ wp:
   - title: "Cheaper but Farther: Rent Gradients and Commuting in the Residential Choices of Young Korean Workers"
     url: "files/wp/cheaper-but-farther-rent-gradients-commuting-korea.pdf"
 
+  - title: "Who Verifies the Number? Market Concentration and Verifier Effects in Mandatory Emissions Verification"
+    detail: "submitted"
+    url: "files/wp/verifier-market-concentration-emissions-verification.pdf"
+    extras:
+      - {label: "Supplement", href: "files/wp/verifier-market-concentration-emissions-verification-supplement.pdf"}
+
 wip:
   - title: "Macroeconomic Nowcasting using Naver Probabilities"
     authors: ["Gary Koop", "Sungyup Chung"]
