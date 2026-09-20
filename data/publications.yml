@@ -265,6 +265,10 @@ wp:
     extras:
       - {label: "Supplement", href: "files/wp/verifier-market-concentration-emissions-verification-supplement.pdf"}
 
+  - title: "Sensitivity of Daily Nursing-Home Staffing Assessments to Conserved Reporting Errors"
+    detail: "submitted"
+    url: "files/wp/sensitivity-daily-nursing-home-staffing-assessments.pdf"
+
   - title: "When the toolkit runs out: single-host event studies and the limits of causal inference"
     authors: ["S. Yoon"]
     url: "files/wp/single-host-event-studies-limits-causal-inference.pdf"
