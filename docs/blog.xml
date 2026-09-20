@@ -10,7 +10,1031 @@
 <atom:link href="https://khdouble.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Professor of Economics, Kookmin University. Empirical macroeconomics, forecasting, and time-series econometrics.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 16 Sep 2026 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 19 Sep 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Where Imported Climate Risk Stops</title>
+  <link>https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>한국어판</strong> — <a href="../2026-09-imported-climate-risk-ko/">수입된 기후 리스크는 어디에서 멈추는가</a></p>
+<p>Plant and sales-office coordinates come from the subsidiary tables of listed manufacturers’ annual reports — the 2024 filings, with 2022 addresses for plants that had left by then — and daily ERA5 and ERA5-Land weather is evaluated at each site over 2015–2024. The establishment panel is the Mining and Manufacturing Survey, 2002–2024, in 21 usable survey years.</p>
+</div>
+</div>
+</div>
+<section id="how-far-does-a-climate-shock-abroad-travel-into-a-korean-manufacturers-accounts" class="level2">
+<h2 class="anchored" data-anchor-id="how-far-does-a-climate-shock-abroad-travel-into-a-korean-manufacturers-accounts">How far does a climate shock abroad travel into a Korean manufacturer’s accounts?</h2>
+<p>Physical climate risk realised abroad reaches a manufacturing economy in two ways. Its firms buy intermediate inputs from countries that are getting hotter, drier and more frequently flooded, and they own plants in those same countries. Supervisors treat both as channels through which foreign disasters could impair domestic balance sheets, and both are now written into stress-testing frameworks.</p>
+<p>Whether either channel operates at a magnitude that matters is an empirical question, and answering it requires measuring exposure where the shock actually lands and then following it outward, one step at a time. This study does that for Korean manufacturing over 2015–2024, using geocoded subsidiary disclosures, daily reanalysis weather, international input–output tables, customs records and establishment microdata. The clearest finding is that the shock reaches the accounts and stops there: a severe flood or drought at a firm’s principal overseas plant leaves consolidated asset growth about two percentage points below the parent’s separate-statement growth, and moves nothing else.</p>
+<section id="headline-figures" class="level3">
+<h3 class="anchored" data-anchor-id="headline-figures">Headline figures</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Item</th>
+<th style="text-align: right;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Overseas plants geocoded</td>
+<td style="text-align: right;">1,399</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Consolidated asset growth after a severe flood, against separate</td>
+<td style="text-align: right;">−2.15 points</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Profitability, capital expenditure and plant survival</td>
+<td style="text-align: right;">No effect</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Capital expenditure, minimum detectable effect</td>
+<td style="text-align: right;">0.18σ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Input bill after a one-σ drought in an industry’s largest foreign origin</td>
+<td style="text-align: right;">0.22%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Capital misallocation ruled out above</td>
+<td style="text-align: right;">2% of dispersion</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">National averages overstate plant heat in Thailand by</td>
+<td style="text-align: right;">3.6×</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="two-channels-and-only-one-can-be-measured-where-the-shock-lands" class="level2">
+<h2 class="anchored" data-anchor-id="two-channels-and-only-one-can-be-measured-where-the-shock-lands">1. Two channels, and only one can be measured where the shock lands</h2>
+<p>The trade channel is built from the Asian Development Bank’s multi-region input–output tables, which trace the value added embodied in Korean manufacturing output back to its country of origin. Foreign value added accounts for roughly a third of that output — 28 to 41 percent depending on the year, and 32.8 percent on the basis used in the dilution calculation below — and within the foreign component the largest single origin averages 23.5 percent across industries. Hazards in supplier economies are then weighted by each origin’s share of an industry’s foreign value added, lagged one year so the weights are fixed before the weather is known and renormalised to sum to one, so that the measure is the average risk of an industry’s foreign suppliers rather than a quantity that grows mechanically with how much the industry sources abroad. The resolution of this measure is the country-year, and that is its principal limitation.</p>
+<p>For the ownership channel the resolution can be much finer, because Korean listed firms disclose the address of every consolidated subsidiary. From the annual reports of 2,240 listed manufacturers, subsidiaries whose stated business indicates production and whose address lies outside Korea yield 2,269 records with 1,859 distinct addresses.</p>
+<p>Geocoding them is harder than it looks, and the difficulty is instructive about what disclosure data can support. Submitting the raw address strings to a gazetteer resolves 48 percent to city level or better, and the failures are not random: Korean filings render Chinese and Vietnamese place names in Korean transliteration, and industrial-park names that are locally canonical are absent from open gazetteers. A transliteration dictionary, sliding-window queries over address tokens, and a mapping of recurring park names to their host cities raise the rate to 92 percent on a 200-address development sample and 73 percent across all addresses.</p>
+<p>Two classes of apparent successes mattered more than the failures, because they are silent. Ninety-six records carry romanised Korean addresses that the industry filter missed — the gazetteer resolves them correctly, but to Korea. Another 96 resolve to a country that contradicts a country name stated in the address itself: an address reading only “U.S.A” matching a street of that name in the Philippines, a Vietnamese address matching a building in Canada. Both classes were dropped.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/figures/figure1_sites_map.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. Overseas sites of Korean listed manufacturers. The final panel is 1,399 manufacturing plants with city-level or better coordinates in 55 countries, belonging to 474 parent firms, alongside 1,844 sales offices of the same parents that serve as a placebo. Red marks the 271 plants that were a firm’s principal plant and were hit by a severe event between 2015 and 2024.</figcaption>
+</figure>
+</div>
+<p>Daily ERA5-Land temperature and ERA5 precipitation and wind are then evaluated at every site. A validation against the Copernicus archive for the Chinese sites returns a correlation of 1.000 and a root-mean-square difference of 0.03°C. Tropical cyclone exposure is built separately, from the 2,775 IBTrACS storms that reached tropical-storm strength — 34 knots or more — between 1995 and 2025, a plant counting as exposed when a track point passes within a set radius. Its geography is itself a check on the coordinates: exposure rates of 79 percent in the Philippines and 78 percent in Japan, against 34 percent in China, 0.3 percent in near-equatorial Indonesia and zero in inland Europe, reproduce cyclone climatology without tuning.</p>
+</section>
+<section id="national-averages-describe-territory-not-production" class="level2">
+<h2 class="anchored" data-anchor-id="national-averages-describe-territory-not-production">2. National averages describe territory, not production</h2>
+<p>Having both a country-year and a plant-coordinate measure of the same hazards makes it possible to ask how much the country-year convention misstates what firms actually face. The two disagree systematically, and in opposite directions for heat and for rain.</p>
+<table class="caption-top table">
+<caption>Six of the twelve countries in the paper’s table, chosen to span the range. Annual values 2015–2024, averaged over years. “Plant” is the mean over Korean-owned manufacturing plants in the country, each evaluated at its coordinates. “National” is the country-year value published by the World Bank Climate Change Knowledge Portal from the same reanalysis. Rx5day is the maximum five-day precipitation total. Two omitted rows sharpen the point: Poland’s plants see 0.1 days above 35°C against a national 0.4, and Malaysia’s see none at all against a national 4.2.</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Country</th>
+<th style="text-align: right;">Plants</th>
+<th style="text-align: right;">Days &gt;35°C, plant</th>
+<th style="text-align: right;">Days &gt;35°C, national</th>
+<th style="text-align: right;">Rx5day (mm), plant</th>
+<th style="text-align: right;">Rx5day (mm), national</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">China</td>
+<td style="text-align: right;">434</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">145</td>
+<td style="text-align: right;">59</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">United States</td>
+<td style="text-align: right;">228</td>
+<td style="text-align: right;">9.9</td>
+<td style="text-align: right;">14.6</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">45</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vietnam</td>
+<td style="text-align: right;">194</td>
+<td style="text-align: right;">16.5</td>
+<td style="text-align: right;">14.2</td>
+<td style="text-align: right;">169</td>
+<td style="text-align: right;">135</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">India</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">74.7</td>
+<td style="text-align: right;">81.1</td>
+<td style="text-align: right;">173</td>
+<td style="text-align: right;">132</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brazil</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">7.7</td>
+<td style="text-align: right;">32.5</td>
+<td style="text-align: right;">116</td>
+<td style="text-align: right;">90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Thailand</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">14.3</td>
+<td style="text-align: right;">51.4</td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">113</td>
+</tr>
+</tbody>
+</table>
+<p>National averages overstate extreme heat where Korean plants cluster in the temperate or coastal parts of a hot country — by a factor of 3.6 in Thailand, where plants sit around Bangkok and the eastern seaboard rather than the interior, and 4.2 in Brazil. Where plants instead sit in the hotter part of the country, as in Vietnam, the national average understates the heat they face. And they understate extreme rainfall wherever plants sit on the wet coast of a country with a dry interior: China’s national five-day maximum is 59 millimetres against 145 at its plants, and the United States’ 45 against 94.</p>
+<p>The discrepancy is not noise. It is the geography of where production is, and any exposure measure built from country-year data inherits it — including the trade channel of this study. For that channel the bias works against finding an effect on heat and towards finding one on flood. The plant-level results, measured at the coordinates themselves, are free of it, which is why they carry more weight than their aggregate counterparts. Supervisory frameworks that assign foreign physical risk from country-year data are assigning the wrong hazards to the wrong firms, and the direction of the error differs by hazard.</p>
+</section>
+<section id="damage-reaches-the-consolidated-balance-sheet-and-stops-there" class="level2">
+<h2 class="anchored" data-anchor-id="damage-reaches-the-consolidated-balance-sheet-and-stops-there">3. Damage reaches the consolidated balance sheet and stops there</h2>
+<p>The ownership-channel design compares a firm’s consolidated accounts, which include overseas subsidiaries, with its separate accounts, which exclude them. A shock at an overseas plant should move the first and not the second.</p>
+<p>One pattern stands out. After a severe flood or drought at the principal plant, consolidated asset growth is about two percentage points lower than separate-statement growth. The components have the sign an overseas effect requires: consolidated growth falls and separate growth does not.</p>
+<table class="caption-top table">
+<caption>Static coefficients on the consolidated-minus-separate difference, with firm and host-country-by-year fixed effects. Wild cluster bootstrap p-values in parentheses, 474 firm clusters. The last row is a compound indicator, defined because typhoons and floods coincide in 49 percent of firm-years.</caption>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Event at principal plant</th>
+<th style="text-align: right;">Δlog assets</th>
+<th style="text-align: right;">ROA</th>
+<th style="text-align: right;">Capex / lagged assets</th>
+<th style="text-align: right;">Events</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Flood</td>
+<td style="text-align: right;">−0.0215 (0.04)</td>
+<td style="text-align: right;">−0.0151 (0.07)</td>
+<td style="text-align: right;">−0.0270 (0.08)</td>
+<td style="text-align: right;">119</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Drought</td>
+<td style="text-align: right;">−0.0210 (0.05)</td>
+<td style="text-align: right;">−0.0053 (0.29)</td>
+<td style="text-align: right;">+0.0009 (0.83)</td>
+<td style="text-align: right;">152</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Typhoon</td>
+<td style="text-align: right;">−0.0155 (0.12)</td>
+<td style="text-align: right;">−0.0019 (0.89)</td>
+<td style="text-align: right;">−0.0188 (0.13)</td>
+<td style="text-align: right;">183</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Heat</td>
+<td style="text-align: right;">+0.0005 (0.97)</td>
+<td style="text-align: right;">+0.0083 (0.88)</td>
+<td style="text-align: right;">+0.0003 (0.98)</td>
+<td style="text-align: right;">192</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Typhoon ∩ flood</td>
+<td style="text-align: right;">−0.0398 (0.09)</td>
+<td style="text-align: right;">−0.0389 (0.07)</td>
+<td style="text-align: right;">−0.0579 (0.22)</td>
+<td style="text-align: right;">64</td>
+</tr>
+</tbody>
+</table>
+<p>For flood and drought — the two hazards that move the difference — the separate-statement coefficients are small, positive and insignificant, at +0.017 and +0.001 on asset growth, while the consolidated components are negative. That contrast is the numerical basis for reading the difference as an overseas effect rather than a parent-side shock.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/figures/figure2_event_study.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Dynamic event study around a severe event at the principal overseas plant, with 95 percent confidence intervals from firm-clustered standard errors. The year before the event is k = −1. The drought pre-trend coefficient is as negative as the event coefficient, which is why the drought result is reported as weaker than the flood result.</figcaption>
+</figure>
+</div>
+<p>This is reported as a trace rather than a finding, for three reasons stated in the paper. Of 375 coefficients in the full event-study table, 24 reach five percent against 18.8 expected under the null, and none survives a Benjamini–Hochberg correction at q = 0.05. The drought pre-trend is as negative as the event coefficient. And the compound typhoon-and-flood indicator, which carries the largest coefficients in the table, has a significant pre-trend in revenue. Only the flood pattern is clean.</p>
+<p>What the shock does not do is better identified than what it does. If a two-percent decline in consolidated asset growth reflected lost production it should show in profitability; if it reflected a decision to invest less at the damaged site it should show in capital expenditure; if it reflected abandonment it should show in plant exit. It shows in none of them.</p>
+<p><strong>Profitability.</strong> Pooling all four hazards gives a consolidated-minus-separate coefficient of −0.0005 (p = 0.96). Among the four single hazards the largest estimate is the flood coefficient of −0.015 (p = 0.07), and it appears with the same magnitude when the event is at a sales office rather than a plant, so it is not a production effect.</p>
+<p><strong>Capital expenditure.</strong> No hazard moves it at conventional levels. Drought is a precisely estimated zero — +0.001 (p = 0.83), with a minimum detectable effect of 0.18 standard deviations — and the largest coefficient, flood at −0.027, is significant only at ten percent and does not survive the correction applied to the table. What does not respond is the investment decision itself, rather than the book value that accumulates from it.</p>
+<p><strong>Plant survival.</strong> Among the 1,189 plants with exposure listed in the 2022 filings, 12.8 percent of those hit by a severe event in 2022 had disappeared from the 2024 filings, against a baseline disappearance rate of about 15 percent — so the raw comparison runs, if anything, in the hit plants’ favour. The regression estimates are no more informative in either direction: +1.8 percentage points with host-country fixed effects (p = 0.65), and −0.3 points once parent fixed effects are added (p = 0.96). The design would detect only a doubling of the exit rate, so this is the loosest bound in the ladder.</p>
+<p>Taken together, the trace on consolidated assets is a write-down: damage that the accounts record and that the firm neither loses money over, responds to with investment, nor walks away from.</p>
+</section>
+<section id="three-placebos-separate-three-confounds-that-usually-travel-together" class="level2">
+<h2 class="anchored" data-anchor-id="three-placebos-separate-three-confounds-that-usually-travel-together">4. Three placebos separate three confounds that usually travel together</h2>
+<p>Earthquakes destroy productive capacity exactly as storms do but have nothing to do with climate. Consolidated statements include overseas subsidiaries while separate statements exclude them. Sales offices sit in the same countries as plants but produce nothing. The first comparison is run on the trade channel, where the outcome is capital misallocation; the second and third on the ownership channel, where the outcome is the firm’s accounts.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Comparison</th>
+<th style="text-align: left;">Confound it removes</th>
+<th style="text-align: left;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Earthquakes vs.&nbsp;climate hazards (trade channel)</td>
+<td style="text-align: left;">Any effect of disaster exposure as such</td>
+<td style="text-align: left;">Null at equal precision: +0.017, bootstrap p = 0.64, at 0.28σ</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Consolidated vs.&nbsp;separate statements</td>
+<td style="text-align: left;">Parent-side shocks correlated with plant location</td>
+<td style="text-align: left;">Signal in consolidated, not separate</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Plants vs.&nbsp;sales offices</td>
+<td style="text-align: left;">Any “overseas presence” effect unrelated to production</td>
+<td style="text-align: left;">Null at sales offices; typhoon at equal power</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/figures/figure3_plant_vs_sales.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. Principal plant versus principal sales office, static coefficients on consolidated-minus-separate outcomes with 95 percent confidence intervals. At sales offices the asset-growth coefficients are zero or positive, the ROA coefficients match the plant ones, and capital expenditure is null throughout. The placebo is underpowered for flood and drought — its minimum detectable effects are two to three times the plant coefficient — but at equal power for typhoons, where it is null.</figcaption>
+</figure>
+</div>
+<p>The asset-growth trace passes the second test. The nulls on profits and investment pass all three.</p>
+</section>
+<section id="through-the-trade-channel-the-shock-arrives-as-a-fifth-of-a-percent" class="level2">
+<h2 class="anchored" data-anchor-id="through-the-trade-channel-the-shock-arrives-as-a-fifth-of-a-percent">5. Through the trade channel the shock arrives as a fifth of a percent</h2>
+<p>The qualitative claim that sourcing is diversified, so shocks are diluted, leaves the quantitative question unanswered. Every term in the following calculation is estimated rather than assumed.</p>
+<p>Foreign value added is 32.8 percent of Korean manufacturing gross output. Within that foreign component the largest single origin averages 23.5 percent across industries. And a one standard deviation increase in a partner country’s drought exposure reduces Korean imports from it by 2.8 percent. Whether that decline reflects supply disruption or a contraction in the partner economy does not matter for the arithmetic: either way it is the reduction in inputs Korean industry actually experiences. The three magnitudes multiply:</p>
+<p><img src="https://latex.codecogs.com/png.latex?0.328%20%5Ctimes%200.235%20%5Ctimes%200.0284%20=%200.22%20%5Ctext%7B%20percent%7D."></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/figures/figure4_value_added_origin.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. Origin of the foreign value added embodied in Korean manufacturing output, 2020–2024. China contributes the largest single share at 19 percent of the foreign component, the United States 14 percent and Japan 7 percent, with the remainder spread across some sixty economies. Economies in grey fall inside the input–output tables’ rest-of-world aggregate and cannot be attributed individually. Exposure is concentrated but not dominated, which is what makes the dilution above arithmetic rather than incidental.</figcaption>
+</figure>
+</div>
+<p>Suppose instead, counterfactually, that every foreign supplier were struck simultaneously by a one standard deviation drought. Dropping the concentration term gives 0.93 percent. Even that upper bound leaves the input bill essentially unmoved.</p>
+<p>The sourcing structure behind the dilution is visible directly in customs records linked to the business register. The value-weighted average number of partner countries is between 18 and 23 in five of seven industry groups and 13.1 in a sixth, and firms trading with ten or more partners account for roughly 75 percent of manufacturing imports. One industry departs sharply: textiles and leather averages 8.5 partners, with a fifth of its imports coming from single-partner firms.</p>
+<p>The natural alternative account — that firms notice climate stress and re-source, as Pankratz and Schiller (2024) find of supplier relationships and Blaum, Esposito and Heise (2026) of US manufacturers’ sourcing — is testable here and fails. Trade with drought-stressed countries does fall, but imports and exports fall by the same amount, which is the signature of a contraction in the partner economy rather than of reallocation by Korean buyers. For the other hazards neither direction moves at all.</p>
+<table class="caption-top table">
+<caption>Log Korean import value from the partner, log export value to it, and their log ratio, per standard deviation of exposure. Industry-by-year and industry-by-country fixed effects; bootstrap p-values in parentheses. Import-specific reallocation in trade value larger than about two percent is ruled out for every hazard.</caption>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Hazard</th>
+<th style="text-align: right;">Imports</th>
+<th style="text-align: right;">Exports</th>
+<th style="text-align: right;">Import/export ratio</th>
+<th style="text-align: right;">MDE (ratio)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Drought</td>
+<td style="text-align: right;">−0.0284 (0.027)</td>
+<td style="text-align: right;">−0.0282 (0.010)</td>
+<td style="text-align: right;">−0.0008 (0.961)</td>
+<td style="text-align: right;">0.017</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Heat &gt;35°C</td>
+<td style="text-align: right;">−0.0064 (0.605)</td>
+<td style="text-align: right;">−0.0072 (0.495)</td>
+<td style="text-align: right;">+0.0010 (0.909)</td>
+<td style="text-align: right;">0.011</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Flood</td>
+<td style="text-align: right;">+0.0006 (0.976)</td>
+<td style="text-align: right;">+0.0002 (0.992)</td>
+<td style="text-align: right;">−0.0010 (0.953)</td>
+<td style="text-align: right;">0.021</td>
+</tr>
+</tbody>
+</table>
+<p>One import-side pattern survives. Heat reduces the number of Korean firms importing from a stressed partner by 0.67 percent without reducing the value imported and without moving exports, which implies consolidation among larger importers rather than reallocation across countries. The paper reports it and builds nothing on it.</p>
+<p>Absorption here is a property of how sourcing is organised, not of how firms respond. A firm drawing on twenty origins has little reason to act, precisely because a disaster in any one of them moves a small share of its input bill.</p>
+</section>
+<section id="most-hazards-are-precise-nulls-and-flood-is-the-exception" class="level2">
+<h2 class="anchored" data-anchor-id="most-hazards-are-precise-nulls-and-flood-is-the-exception">6. Most hazards are precise nulls, and flood is the exception</h2>
+<p>A null is worth only the bound it carries. Minimum detectable effects — the smallest coefficient the design would reject against, at five percent significance and eighty percent power — vary by a factor of seven across hazards, so a single summary figure would misrepresent the evidence.</p>
+<table class="caption-top table">
+<caption>A selection of the sixteen rows the paper reports, ordered by precision. The dependent variable is the within-industry dispersion of log marginal revenue products of capital, built from 1.11 million establishment-year observations following Hsieh and Klenow (2009).</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Hazard measure</th>
+<th style="text-align: right;">MDE (σ of outcome)</th>
+<th style="text-align: left;">Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Maximum wind speed</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: left;">precise null</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Drought events</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: left;">precise null</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Storm count, typhoon count</td>
+<td style="text-align: right;">0.11</td>
+<td style="text-align: left;">see below</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Drought, consecutive dry days</td>
+<td style="text-align: right;">0.12</td>
+<td style="text-align: left;">precise null</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Power dissipation index, ACE</td>
+<td style="text-align: right;">0.12</td>
+<td style="text-align: left;">precise null</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Heat, days &gt;40°C</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: left;"><strong>effect found</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Flood events</td>
+<td style="text-align: right;">0.26</td>
+<td style="text-align: left;">moderate</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Heat, days &gt;35°C</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: left;"><strong>effect found</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Flood, days precip. &gt;20 mm</td>
+<td style="text-align: right;">0.44</td>
+<td style="text-align: left;">weak</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Flood, max. 5-day precipitation</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: left;">weak</td>
+</tr>
+</tbody>
+</table>
+<p>The precipitation-based flood measures are the one place the table licenses no conclusion — 0.44σ and 0.49σ, against 0.26σ for the measure built from counts of realised flood disasters — and since floods are the hazard most often assumed to disrupt supply chains, the paper pursues them. The imprecision turns out to be mechanical and remediable: essentially all of the inflation in the clustered standard error comes from coke and refined petroleum, the industry whose exposure measure covers the smallest share of actual sourcing. Excluding it cuts the flood standard error from 0.049 to 0.021 and the minimum detectable effect from 0.49σ to 0.25σ — from roughly ten percent of the dispersion to 4.2 percent — with the point estimate still indistinguishable from zero. A second and independent correction, replacing the precipitation proxy with the disaster counts on the full sample, lands at 0.26σ. That two different corrections converge is more reassuring than either alone, and the paper nonetheless keeps the conservative 0.49σ in its headline bound.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/figures/figure5_hazard_coefficients.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. Estimated effect of each hazard on capital misallocation, with 68 and 95 percent confidence intervals. Exposure is standardised, so coefficients are responses to a one standard deviation change. Most point estimates are negative — the opposite sign to what a disruption channel predicts. The earthquake placebo in black is null at essentially the same precision as the 35°C heat measure.</figcaption>
+</figure>
+</div>
+<p>The storm measures are the paper’s most instructive non-finding. Lined up by how heavily they weight intensity — a raw count treats all storms alike, a typhoon count applies a threshold, maximum wind takes the peak, and the accumulated-energy and dissipation indices weight by V² and V³ — the bootstrap p-values rise monotonically along that ordering: 0.019, 0.145, 0.320, 0.479, 0.553.</p>
+<p>If wind damage were transmitting to Korean capital allocation, the gradient would run the other way: damage scales with dissipated power, so the V³ measure should carry the signal. The reverse is observed. The measure with no intensity information is significant at conventional levels — though not after correction for the nineteen hazard measures reported — with a negative sign that no disruption mechanism predicts, and the measure that best represents damage is the weakest in the table. The reader who suspects a strengthening cyclone could damage a supplier without producing a flood can be answered directly: that channel is measured at the intensity where damage occurs, and an effect above roughly a tenth of a standard deviation is ruled out.</p>
+</section>
+<section id="extreme-heat-is-where-the-evidence-divides" class="level2">
+<h2 class="anchored" data-anchor-id="extreme-heat-is-where-the-evidence-divides">7. Extreme heat is where the evidence divides</h2>
+<p>Heat produces the largest coefficients in the table and the only significant ones with the sign a disruption channel predicts: +0.069 for days above 35°C and +0.053 for days above 40°C, per standard deviation of exposure. Most point estimates in the table are negative, and the two positive flood coefficients are indistinguishable from zero. The heat coefficients deserve scrutiny rather than either dismissal or acceptance, and they pass three filters and fail three.</p>
+<p><strong>They pass.</strong> Under a multiple-testing correction defined at the level of hazards — seven families rather than each individual measure — both clear the Bonferroni and Benjamini–Hochberg thresholds. Defined instead at the level of all nineteen individual measures, neither clears: the 40°C estimate fails Bonferroni at p = 0.003 against a threshold of 0.0026, the 35°C estimate at p = 0.007, and Benjamini–Hochberg at a five percent false discovery rate rejects nothing. The paper reports both answers rather than the more favourable one, and rests the claim on neither. The threshold measures do enter positively on all three outcome variables, with p-values between 0.021 and 0.105 — though two other heat measures fail to cooperate, and the paper says so: the annual maximum temperature is insignificant (p = 0.120) and the EM-DAT extreme-temperature event count carries the opposite sign (−0.026, p = 0.325), so the result rests on the two reanalysis threshold counts alone. And the geophysical placebo holds: earthquake exposure, constructed identically, gives +0.017 with a bootstrap p of 0.642, at a precision of 0.28σ against the heat measure’s 0.27σ. It has the power to find an effect of the size heat produces, and finds nothing.</p>
+<p><strong>They fail.</strong> Three checks cut the other way, and the paper states the pattern plainly: the association holds for one supplier country, under one of two defensible normalisations of exposure, and under one of two defensible standardisations of the hazard.</p>
+<p>The first is origin. Splitting exposure into the Chinese component and everything else puts the entire effect in China: +0.0859 (p = 0.039) against +0.0063 (p = 0.766). This is not a power failure — the non-China component is estimated more precisely, and its confidence interval of [−0.036, 0.049] excludes an effect of China’s magnitude. Nor is it an artefact of a single industry: dropping each of the fourteen industries in turn leaves the 35°C coefficient between 0.048 and 0.091, significant in all fourteen cases.</p>
+<p>Inside that first break sits a sharper problem. If heat damages production, the effect should be strongest where suppliers are hottest. Splitting three ways gives the opposite ordering.</p>
+<table class="caption-top table">
+<caption>Hot suppliers are those averaging at least five days above 35°C, some 21 percent of foreign value added: India (78.7 days), Australia (80.2), Thailand (43.6), Brazil (22.1), the United States (12.5) and Vietnam (10.0). Temperate suppliers include Japan (0.6), Germany (0.3), the United Kingdom and Taiwan (both ≈ 0). Classification uses long-run levels and was fixed before estimation.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Component</th>
+<th style="text-align: right;">Days &gt;35°C (long-run mean)</th>
+<th style="text-align: right;">β</th>
+<th style="text-align: right;">Boot. p</th>
+<th style="text-align: right;">MDE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">China</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">+0.0711</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.33σ</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Other hot suppliers</td>
+<td style="text-align: right;">high</td>
+<td style="text-align: right;">−0.0373</td>
+<td style="text-align: right;">0.185</td>
+<td style="text-align: right;">0.24σ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Temperate suppliers</td>
+<td style="text-align: right;">≈ 0</td>
+<td style="text-align: right;">+0.0361</td>
+<td style="text-align: right;">0.098</td>
+<td style="text-align: right;">0.17σ</td>
+</tr>
+</tbody>
+</table>
+<p>A heat mechanism predicts hot &gt; China &gt; temperate. The data give China &gt; temperate &gt; hot, and the hot-supplier component is estimated at better precision than China’s own. Two facts therefore hold simultaneously: within China the association is specific to heat rather than to Chinese years in general, and across countries it bears no relation to how much heat suppliers actually experience. The paper does not reconcile them.</p>
+<p>The second break is normalisation. The estimate does not survive replacing the renormalised exposure measure with the unnormalised one (p = 0.831 and 0.587), and controlling separately for the foreign value-added share does not restore it (−0.032, p = 0.802) while leaving the renormalised coefficient untouched (+0.057, p = 0.003). The obvious conjecture is therefore rejected, and the paper reports that it has no account of why the two constructions differ so sharply.</p>
+<p>The third is standardisation of the hazard. Measured in days rather than standardised anomalies the coefficient reverses sign and loses significance, whereas the drought and flood nulls are entirely insensitive to the same choice. The sensitivity is specific to heat, which is the only hazard whose measure is a threshold count with near-degenerate baselines.</p>
+<p>The plant-level test cannot settle it either. At plant coordinates, where no standardisation across countries is needed, heat is absent — but Korean plants sit where days above 40°C are rare, so that test is weak by construction. The paper’s own verdict is that it does not claim imported heat propagates and does not claim it does not; what the design establishes is the bound, and heat is the one hazard whose checks disagree among themselves.</p>
+</section>
+<section id="the-boundary-of-what-the-current-evidence-supports" class="level2">
+<h2 class="anchored" data-anchor-id="the-boundary-of-what-the-current-evidence-supports">8. The boundary of what the current evidence supports</h2>
+<p><strong>Established.</strong> A severe flood or drought at a firm’s principal overseas plant leaves a trace of about two percentage points on consolidated asset growth, absent from the parent’s separate statements — though it does not survive a false-discovery correction, and the sales-office placebo is underpowered for precisely these two hazards, so it is the consolidated-versus-separate contrast and not the plant-versus-sales-office one that carries this result. National-aggregate exposure overstates the heat that plants face by a factor of three to four wherever plants cluster in the temperate or coastal parts of a hot country, and understates their extreme rainfall wherever they sit on a wet coast, because production sits on coasts and in river basins. A one-σ drought in an industry’s largest foreign origin reaches the input bill as 0.22 percent, and trade with a drought-stressed partner falls symmetrically in both directions.</p>
+<p><strong>Ruled out.</strong> That the trace reflects lost production, a disinvestment decision, or abandonment — profitability, capital expenditure and plant survival are null, and the capex null is tight, with a minimum detectable effect of 0.18σ on the drought estimate. The one residual is flood, where ROA is −0.015 (p = 0.07) and capex −0.027 (p = 0.08); the flood ROA coefficient appears at the same magnitude when the event is at a sales office, which is why the paper does not read it as a production effect. That Korean firms re-source away from climate-stressed suppliers: import-specific reallocation in trade value above about two percent is excluded for every hazard. That foreign physical risk moves the allocation of capital across domestic establishments: effects above two percent of dispersion are excluded for storms, drought and landslide, and above four to five percent for flood once the petroleum sector’s noise is removed. And that the effect is disaster exposure in general rather than climate — earthquakes are null at equal precision.</p>
+<p><strong>Still admissible.</strong> Amplification through production networks — of the kind Baqaee and Farhi (2019) formalise and Barrot and Sauvagnat (2016) and Boehm, Flaaen and Pandalai-Nayar (2019) document — may operate at a scale below what this design bounds. Smaller firms, which are less likely to hold insurance, inventories or alternative sites, may respond differently; the sample is listed manufacturers with disclosed subsidiaries. Disruptions that depress one quarter and are recovered within the fiscal year leave no trace in annual accounts, so the asset trace is a lower bound on transient damage. And heat may yet matter through a mechanism this design misreads.</p>
+<p><strong>Unresolved.</strong> Whether the heat association is a climate effect at all, given that it is confined to one supplier country and runs opposite to supplier climate elsewhere. Which of insurance recoveries, production shifted to other sites, or inventories does the absorbing on the ownership side — all three are consistent with a write-down that leaves profits untouched, and the data do not distinguish among them. And the unexplained negative storm-count coefficient, stable across all three outcomes but contradicted by every intensity-weighted measure of the same hazard.</p>
+</section>
+<section id="finer-resolution-not-a-longer-sample" class="level2">
+<h2 class="anchored" data-anchor-id="finer-resolution-not-a-longer-sample">9. Finer resolution, not a longer sample</h2>
+<p>None of the limits above would be removed by more years of the same data. Each points to a different source of information.</p>
+<p><strong>Sub-annual outcomes.</strong> Quarterly or monthly accounts would detect the disruption that annual statements average away, and would turn the lower bound on transient damage into an estimate.</p>
+<p><strong>Firm-level sourcing.</strong> Dispersion of marginal revenue products within an industry is invariant to a shock that hits every establishment equally. Customs records linked to the business register at the firm-by-partner-country level would let exposure vary within an industry, which is what the outcome measure requires and what country-year data cannot supply.</p>
+<p><strong>Insurance claims and inventory records.</strong> These would separate the three candidate absorption mechanisms on the ownership side, which the accounts alone cannot.</p>
+<p><strong>More clusters, not a better measure.</strong> For heat the paper regards the measurement problem as solved and the sample problem as open: plant coordinates remove both sources of ambiguity in the country-year measure, and the remaining constraint is that fourteen industry clusters over fifteen years is thin for an effect worth a few percent of dispersion. Firm-level sourcing data would raise the cluster count by orders of magnitude. Plant-level output for Korean sites in the few genuinely hot host countries would do the same for the ownership-side test, which is weak only because those plants rarely see days above 40°C.</p>
+<p><strong>The price of the buffer.</strong> The margin on which the shock is absorbed — diversified sourcing on the trade side, and whatever combination of insurance, inventories and alternative sites on the ownership side — is itself costly to maintain. That cost is the part of imported physical risk this design does not price, and the part a supervisor would most want to know.</p>
+</section>
+<section id="working-paper" class="level2">
+<h2 class="anchored" data-anchor-id="working-paper">Working paper</h2>
+<p>The working paper reports the full estimating equations, the geocoding pipeline and its validation, the construction of both exposure measures, the complete grid of every outcome the establishment microdata supports against every hazard, and the robustness checks behind each bound, with an appendix that includes the negative results and the abandoned specifications.</p>
+<p><a href="https://khdouble.github.io/files/wp/imported-physical-climate-risk-supply-chains.pdf">Download the PDF</a></p>
+<section id="suggested-citation" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-citation">Suggested citation</h3>
+<blockquote class="blockquote">
+<p>Kim, Hyun Hak (2026). “Where Imported Physical Climate Risk Stops: Supply Chains, Overseas Plants, and the Manufacturing Balance Sheet.” Working Paper, September 1.</p>
+</blockquote>
+</section>
+<section id="data-and-code" class="level3">
+<h3 class="anchored" data-anchor-id="data-and-code">Data and code</h3>
+<p>The analysis combines public and restricted sources. Subsidiary disclosures come from the Financial Supervisory Service’s <a href="https://dart.fss.or.kr">DART</a> filings; daily weather from ERA5 and ERA5-Land; cyclone tracks from IBTrACS; disaster records from EM-DAT, whose terms do not permit redistribution; input–output tables from the Asian Development Bank; and trade statistics from Statistics Korea. The establishment panel is microdata of the Mining and Manufacturing Survey, a census of establishments with ten or more employees, obtained through Statistics Korea’s <a href="https://mdis.kostat.go.kr">Microdata Integrated Service</a>, whose terms of use likewise do not permit redistribution.</p>
+<p>Code and replication materials will be released with the published version of the paper. Until then, requests for academic replication or verification are handled individually. Please write to <a href="mailto:hyunhak.kim@kookmin.ac.kr">hyunhak.kim@kookmin.ac.kr</a>.</p>
+</section>
+<section id="funding" class="level3">
+<h3 class="anchored" data-anchor-id="funding">Funding</h3>
+<p>This research was supported by the Graduate School Specialized in Climate Change, funded by the Ministry of Climate, Energy and Environment (MCEE).</p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<p>Baqaee, D. R. and Farhi, E. (2019). The macroeconomic impact of microeconomic shocks: beyond Hulten’s theorem. <em>Econometrica</em>, 87(4), 1155–1203.</p>
+<p>Barrot, J.-N. and Sauvagnat, J. (2016). Input specificity and the propagation of idiosyncratic shocks in production networks. <em>Quarterly Journal of Economics</em>, 131(3), 1543–1592.</p>
+<p>Blaum, J., Esposito, F. and Heise, S. (2026). Input sourcing under climate risk: evidence from U.S. manufacturing firms. <em>Review of Economic Studies</em>, forthcoming.</p>
+<p>Boehm, C. E., Flaaen, A. and Pandalai-Nayar, N. (2019). Input linkages and the transmission of shocks: firm-level evidence from the 2011 Tōhoku earthquake. <em>Review of Economics and Statistics</em>, 101(1), 60–75.</p>
+<p>Hsieh, C.-T. and Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. <em>Quarterly Journal of Economics</em>, 124(4), 1403–1448.</p>
+<p>Pankratz, N. M. C. and Schiller, C. (2024). Climate change and adaptation in global supply-chain networks. <em>Review of Financial Studies</em>, 37(6), 1729–1777.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Climate Risk</category>
+  <category>Global Value Chains</category>
+  <guid>https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/</guid>
+  <pubDate>Sat, 19 Sep 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/figures/figure1_sites_map.png" medium="image" type="image/png" height="64" width="144"/>
+</item>
+<item>
+  <title>수입된 기후 리스크는 어디에서 멈추는가</title>
+  <link>https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>English version</strong> — <a href="../2026-09-imported-climate-risk-en/">Where Imported Climate Risk Stops</a></p>
+<p>공장과 판매법인 좌표는 상장 제조기업 사업보고서의 종속회사 표에서 추출했다. 2024년 보고서를 기준으로 하되 2024년 전에 사라진 공장은 2022년 주소를 사용했으며, 각 사업장의 일별 기상은 2015~2024년 ERA5·ERA5-Land로 산출했다. 사업체 패널은 2002~2024년 광업제조업조사이며 사용 가능한 조사연도는 21개다.</p>
+</div>
+</div>
+</div>
+<section id="해외에서-실현된-기후-충격은-한국-제조기업의-재무제표까지-얼마나-전달되는가" class="level2">
+<h2 class="anchored" data-anchor-id="해외에서-실현된-기후-충격은-한국-제조기업의-재무제표까지-얼마나-전달되는가">해외에서 실현된 기후 충격은 한국 제조기업의 재무제표까지 얼마나 전달되는가?</h2>
+<p>해외에서 실현된 물리적 기후리스크는 제조업 경제에 두 경로로 닿는다. 기업은 점점 더 덥고 건조해지며 자주 침수되는 나라에서 중간재를 사들이고, 같은 나라에 공장을 두고 있다. 감독당국은 두 경로 모두를 해외 재해가 국내 재무건전성을 훼손할 수 있는 통로로 보며, 둘 다 이미 스트레스 테스트 체계에 들어와 있다.</p>
+<p>두 경로가 실제로 유의미한 크기로 작동하는지는 실증의 문제다. 답하려면 충격이 실제로 떨어지는 지점에서 익스포저를 측정하고, 거기서부터 한 단계씩 따라가야 한다. 이 연구는 종속회사 공시를 좌표로 변환한 자료, 일별 재분석 기상, 국제산업연관표, 관세자료, 사업체 마이크로데이터를 사용해 2015~2024년 한국 제조업에 대해 그 작업을 수행한다. 가장 뚜렷한 결과는 충격이 회계에 닿은 뒤 거기서 멈춘다는 점이다. 주력 해외 공장의 극심한 홍수나 가뭄이 발생하면 연결 자산증가율이 모기업 별도 기준보다 약 2%포인트 낮아지고, 그 밖의 어떤 것도 움직이지 않는다.</p>
+<section id="핵심-요약" class="level3">
+<h3 class="anchored" data-anchor-id="핵심-요약">핵심 요약</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">항목</th>
+<th style="text-align: right;">값</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">좌표를 확보한 해외 공장</td>
+<td style="text-align: right;">1,399개</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">주력 공장 극심 홍수 후 연결 자산증가율(별도 대비)</td>
+<td style="text-align: right;">−2.15%포인트</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">수익성·설비투자·공장 존속에 대한 효과</td>
+<td style="text-align: right;">없음</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">설비투자 최소검출효과</td>
+<td style="text-align: right;">0.18σ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">산업 최대 해외 원산지 1σ 가무의 투입비용 효과</td>
+<td style="text-align: right;">0.22%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">자본 오배분에서 배제되는 크기</td>
+<td style="text-align: right;">분산의 2% 초과</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">국가평균이 태국 공장 폭염을 과대평가하는 배수</td>
+<td style="text-align: right;">3.6배</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="두-경로-그리고-충격이-떨어지는-지점에서-측정-가능한-쪽" class="level2">
+<h2 class="anchored" data-anchor-id="두-경로-그리고-충격이-떨어지는-지점에서-측정-가능한-쪽">1. 두 경로, 그리고 충격이 떨어지는 지점에서 측정 가능한 쪽</h2>
+<p>무역 경로는 아시아개발은행의 국제산업연관표에서 만들었다. 한국 제조업 산출에 체화된 부가가치를 원산지 국가까지 역추적하는 자료다. 해외 부가가치는 제조업 총산출의 3분의 1가량을 차지하며 — 연도에 따라 28~41%이고, 아래 희석 계산에 쓰는 기준으로는 32.8%다 — 그 해외 부분 안에서 단일 최대 원산지가 산업별로 평균 23.5%를 차지한다. 공급국의 재해지표는 각 원산지가 해당 산업의 해외 부가가치에서 차지하는 비중으로 가중하되, 날씨를 알기 전에 가중치가 확정되도록 1년 시차를 두고 합이 1이 되도록 재정규화한다. 그래야 이 측정치가 해외 조달 규모에 따라 기계적으로 커지는 값이 아니라 해당 산업 해외 공급국의 평균 리스크가 된다. 이 측정의 해상도는 국가-연도이고, 그것이 이 측정의 근본적 한계다.</p>
+<p>소유 경로에서는 해상도를 훨씬 높일 수 있다. 한국 상장기업은 연결대상 종속회사의 주소를 모두 공시하기 때문이다. 상장 제조기업 2,240개의 사업보고서에서, 주된 사업이 생산이고 주소가 국외인 종속회사를 추리면 2,269개 레코드, 고유 주소 1,859개가 남는다.</p>
+<p>이 주소를 좌표로 바꾸는 작업은 보기보다 어렵고, 그 어려움 자체가 공시자료로 무엇을 할 수 있는지 알려준다. 원문 주소를 그대로 지명 데이터베이스에 넣으면 48%만 도시 수준 이상의 좌표로 변환된다. 실패는 무작위가 아니다. 한국 공시는 중국·베트남 지명을 한글 음차나 한자 독음으로 표기하고, 현지에서는 통용되는 산업단지 이름이 공개 지명 데이터베이스에는 없다. 음차 사전, 주소 토큰에 대한 슬라이딩 윈도 질의, 반복 출현하는 산업단지명과 소재 도시의 매핑을 더하면 개발용 200개 표본에서 92%, 전체 주소에서 73%까지 올라간다.</p>
+<p>실패보다 중요한 것은 두 종류의 겉보기 성공이었다. 조용히 통과하기 때문이다. 96개 레코드는 업종 필터가 걸러내지 못한 로마자 표기 국내 주소였다. 지명 데이터베이스는 이를 정확히 변환하지만, 변환된 좌표가 한국이다. 다른 96개는 주소 문자열 안에 적힌 국가명과 모순되는 국가로 변환됐다. “U.S.A”라고만 적힌 주소가 필리핀의 같은 이름 거리에 대응되고, 베트남 주소가 캐나다의 건물에 대응되는 식이다. 두 부류 모두 제거했다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/figures/figure1_sites_map.png" class="img-fluid figure-img"></p>
+<figcaption>그림 1. 한국 상장 제조기업의 해외 사업장. 최종 패널은 도시 수준 이상 좌표를 가진 55개국 1,399개 제조 공장으로, 474개 모기업에 속한다. 같은 모기업의 판매법인 1,844개는 위약검정(placebo test)에 사용한다. 붉은 점은 2015~2024년 중 주력 공장으로서 극단 사건을 겪은 271개 공장이다.</figcaption>
+</figure>
+</div>
+<p>각 사업장 좌표에서 ERA5-Land 기온과 ERA5 강수·풍속의 일별 값을 산출한다. 중국 소재 사업장에 대해 코페르니쿠스 원자료와 대조한 검증에서 상관계수는 1.000, 평균제곱근 차이는 0.03℃였다. 열대저기압 익스포저는 1995~2025년 중 열대폭풍 강도, 즉 34노트 이상에 도달한 IBTrACS 폭풍 2,775개로 별도로 구성했다. 경로점이 일정 반경 안을 지나면 그 공장-연도를 노출로 본다. 그 지리적 분포는 좌표 자체에 대한 점검이 된다. 필리핀 79%, 일본 78%인 반면 중국 34%, 적도 부근 인도네시아 0.3%, 내륙 유럽 0%라는 노출률은 별도 조정 없이 열대저기압의 실제 발생 분포를 그대로 재현한다.</p>
+</section>
+<section id="국가평균은-생산이-아니라-국토를-서술한다" class="level2">
+<h2 class="anchored" data-anchor-id="국가평균은-생산이-아니라-국토를-서술한다">2. 국가평균은 생산이 아니라 국토를 서술한다</h2>
+<p>같은 재해를 국가-연도와 공장 좌표 두 방식으로 측정하면, 국가-연도 관행이 기업이 실제로 겪는 위험을 얼마나 잘못 말하는지 물을 수 있다. 두 값은 체계적으로 어긋나며, 폭염과 강우에서 방향이 반대다.</p>
+<table class="caption-top table">
+<caption>이 연구 표의 12개국 중 범위를 보여주도록 고른 6개국이다. 2015~2024년 연간값의 연도 평균. “공장”은 해당 국가 내 한국계 제조 공장 각각의 좌표에서 산출한 값의 평균이고, “국가”는 같은 재분석 자료로 산출된 세계은행 기후변화지식포털의 국가-연도 값이다. Rx5day는 최대 5일 누적강수량이다. 생략한 두 행이 요점을 더 분명히 한다. 폴란드 공장의 35℃ 초과일은 0.1일인데 국가값은 0.4일이고, 말레이시아 공장은 0일인데 국가값은 4.2일이다.</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">국가</th>
+<th style="text-align: right;">공장 수</th>
+<th style="text-align: right;">35℃ 초과일, 공장</th>
+<th style="text-align: right;">35℃ 초과일, 국가</th>
+<th style="text-align: right;">Rx5day(mm), 공장</th>
+<th style="text-align: right;">Rx5day(mm), 국가</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">중국</td>
+<td style="text-align: right;">434</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">145</td>
+<td style="text-align: right;">59</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">미국</td>
+<td style="text-align: right;">228</td>
+<td style="text-align: right;">9.9</td>
+<td style="text-align: right;">14.6</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">45</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">베트남</td>
+<td style="text-align: right;">194</td>
+<td style="text-align: right;">16.5</td>
+<td style="text-align: right;">14.2</td>
+<td style="text-align: right;">169</td>
+<td style="text-align: right;">135</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">인도</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">74.7</td>
+<td style="text-align: right;">81.1</td>
+<td style="text-align: right;">173</td>
+<td style="text-align: right;">132</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">브라질</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">7.7</td>
+<td style="text-align: right;">32.5</td>
+<td style="text-align: right;">116</td>
+<td style="text-align: right;">90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">태국</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">14.3</td>
+<td style="text-align: right;">51.4</td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">113</td>
+</tr>
+</tbody>
+</table>
+<p>한국 공장이 더운 나라의 온대 지역이나 해안에 몰려 있는 곳에서는 국가평균이 극단 고온을 과대평가한다. 태국에서 3.6배인데, 공장이 내륙이 아니라 방콕 일대와 동부 해안에 있기 때문이다. 브라질은 4.2배다. 반대로 공장이 그 나라의 더운 지역에 있는 베트남 같은 경우에는 국가평균이 공장이 겪는 폭염을 과소평가한다. 그리고 내륙이 건조한 나라의 습한 해안에 공장이 있는 곳에서는 극단 강우를 과소평가한다. 중국의 국가 기준 5일 최대 강수량은 59mm인 반면 공장 기준은 145mm이고, 미국은 45mm 대 94mm다.</p>
+<p>이 차이는 잡음이 아니라 생산이 어디에 자리 잡고 있는지를 그대로 반영한 결과다. 국가-연도 자료로 만든 모든 익스포저 측정치가 이 오차를 물려받으며, 이 연구의 무역 경로도 예외가 아니다. 무역 경로에서 이 편의는 폭염 효과를 찾기는 더 어렵게, 홍수 효과를 찾기는 더 쉽게 만든다. 반면 좌표에서 직접 측정한 공장 단위 결과는 이 오차에서 자유롭고, 그래서 대응하는 집계 결과보다 무게가 실린다. 국가-연도 자료로 해외 물리적 리스크를 배분하는 감독 체계는 잘못된 재해를 잘못된 기업에 배분하고 있으며, 오차의 방향은 재해마다 다르다.</p>
+</section>
+<section id="피해는-연결재무제표까지-닿고-거기서-멈춘다" class="level2">
+<h2 class="anchored" data-anchor-id="피해는-연결재무제표까지-닿고-거기서-멈춘다">3. 피해는 연결재무제표까지 닿고 거기서 멈춘다</h2>
+<p>소유 경로의 설계는 해외 종속회사를 포함하는 연결재무제표와 이를 제외하는 별도재무제표를 대조한다. 해외 공장의 충격이라면 앞의 것은 움직이고 뒤의 것은 움직이지 않아야 한다.</p>
+<p>한 패턴이 두드러진다. 주력 공장에서 극심한 홍수나 가뭄이 발생한 뒤 연결 기준 자산증가율은 별도 기준보다 약 2%포인트 낮다. 구성요소의 부호도 해외에서 발생한 효과라면 나타나야 할 방향과 일치한다. 연결 기준은 떨어지고 별도 기준은 떨어지지 않는다.</p>
+<table class="caption-top table">
+<caption>연결−별도 차이에 대한 정태 모형 계수. 기업 및 소재국×연도 고정효과 포함. 괄호 안은 와일드 클러스터 부트스트랩 p값이며 기업 군집은 474개다. 마지막 행은 태풍과 홍수가 기업-연도의 49%에서 동시에 발생하기 때문에 정의한 복합 지표이며, 매출 사전추세가 유의해 아래에서 할인한다.</caption>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">주력 공장에서의 사건</th>
+<th style="text-align: right;">Δlog 자산</th>
+<th style="text-align: right;">ROA</th>
+<th style="text-align: right;">설비투자 / 전기말 자산</th>
+<th style="text-align: right;">사건 수</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">홍수</td>
+<td style="text-align: right;">−0.0215 (0.04)</td>
+<td style="text-align: right;">−0.0151 (0.07)</td>
+<td style="text-align: right;">−0.0270 (0.08)</td>
+<td style="text-align: right;">119</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">가뭄</td>
+<td style="text-align: right;">−0.0210 (0.05)</td>
+<td style="text-align: right;">−0.0053 (0.29)</td>
+<td style="text-align: right;">+0.0009 (0.83)</td>
+<td style="text-align: right;">152</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">태풍</td>
+<td style="text-align: right;">−0.0155 (0.12)</td>
+<td style="text-align: right;">−0.0019 (0.89)</td>
+<td style="text-align: right;">−0.0188 (0.13)</td>
+<td style="text-align: right;">183</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">폭염</td>
+<td style="text-align: right;">+0.0005 (0.97)</td>
+<td style="text-align: right;">+0.0083 (0.88)</td>
+<td style="text-align: right;">+0.0003 (0.98)</td>
+<td style="text-align: right;">192</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">태풍 ∩ 홍수</td>
+<td style="text-align: right;">−0.0398 (0.09)</td>
+<td style="text-align: right;">−0.0389 (0.07)</td>
+<td style="text-align: right;">−0.0579 (0.22)</td>
+<td style="text-align: right;">64</td>
+</tr>
+</tbody>
+</table>
+<p>차이를 움직이는 두 재해, 즉 홍수와 가뭄에 대해 별도 기준 계수는 작고 양수이며 유의하지 않은 반면(자산증가율 +0.017, +0.001) 연결 기준 구성요소는 음수다. 이 대비가 그 차이를 해외 효과로 읽는 수치적 근거다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/figures/figure2_event_study.png" class="img-fluid figure-img"></p>
+<figcaption>그림 2. 주력 해외 공장의 극단 사건 전후 동태 사건연구. 기업 단위 군집 표준오차 기준 95% 신뢰구간이다. k = −1은 사건 전년이다. 가뭄의 사전추세 계수가 사건 계수만큼 음수이며, 이것이 가뭄 결과를 홍수 결과보다 약하게 보고하는 이유다.</figcaption>
+</figure>
+</div>
+<p>이 결과는 발견이 아니라 흔적으로 보고한다. 이유는 세 가지다. 사건연구 전체 표의 375개 계수 중 24개가 5% 유의수준에 도달하는데 귀무가설 하 기대치는 18.8개이고, Benjamini–Hochberg 보정을 q = 0.05에서 통과하는 계수는 없다. 가뭄의 사전추세는 사건 계수만큼 음수다. 그리고 표에서 가장 큰 계수를 갖는 태풍∩홍수 복합 지표는 매출에서 유의한 사전추세를 보인다. 깨끗한 것은 홍수 패턴뿐이다.</p>
+<p>충격이 일으키지 않는 일은 일으키는 일보다 더 분명하게 식별된다. 연결 자산증가율 2% 하락이 생산 손실을 반영한다면 수익성에 나타나야 하고, 피해 사업장에 덜 투자하기로 한 결정이라면 설비투자에 나타나야 하며, 철수라면 공장 폐쇄에 나타나야 한다. 어디에도 나타나지 않는다.</p>
+<p><strong>수익성.</strong> 네 재해를 하나의 극단 사건 더미로 묶으면 연결−별도 계수는 −0.0005 (p = 0.96)다. 개별 재해 넷 가운데 가장 큰 홍수 계수 −0.015 (p = 0.07)는 사건이 공장이 아니라 판매법인에서 발생한 경우에도 같은 크기로 나타나므로 생산 효과가 아니다.</p>
+<p><strong>설비투자.</strong> 어느 재해도 통상적 유의수준에서 이를 움직이지 못한다. 가뭄에서는 0이 정밀하게 추정되어 +0.001 (p = 0.83), 최소검출효과 — 유의수준 5%, 검정력 80%에서 기각할 수 있는 가장 작은 계수 — 는 0.18 표준편차이며, 가장 큰 계수인 홍수 −0.027은 10%에서만 유의하며 표에 적용한 보정을 통과하지 못한다. 반응하지 않는 것은 축적된 장부가액이 아니라 투자 결정 자체다.</p>
+<p><strong>공장 존속.</strong> 2022년 사업보고서에 익스포저와 함께 기재된 1,189개 공장 중, 2022년에 극단 사건을 겪은 공장의 12.8%가 2024년 보고서에서 사라졌고 전체 소멸률은 약 15%였다. 단순 비교는 오히려 피격 공장에 유리한 방향이다. 회귀 추정치도 어느 방향으로든 더 많은 정보를 주지 않는다. 소재국 고정효과에서 +1.8%포인트 (p = 0.65), 모기업 고정효과를 추가하면 −0.3%포인트 (p = 0.96)다. 이 설계는 폐쇄율이 두 배가 되는 수준만 검출할 수 있으므로, 사다리 전체에서 가장 느슨한 경계값이다.</p>
+<p>종합하면 연결 자산에 남은 흔적은 손상차손이다. 회계가 기록하지만 기업이 그로 인해 손실을 내지도, 투자로 대응하지도, 사업장을 떠나지도 않는 종류의 피해다.</p>
+</section>
+<section id="세-개의-위약검정이-함께-움직이는-세-교란요인을-분리한다" class="level2">
+<h2 class="anchored" data-anchor-id="세-개의-위약검정이-함께-움직이는-세-교란요인을-분리한다">4. 세 개의 위약검정이 함께 움직이는 세 교란요인을 분리한다</h2>
+<p>지진은 폭풍과 똑같이 생산설비를 파괴하지만 기후와는 무관하다. 연결재무제표는 해외 종속회사를 포함하고 별도재무제표는 제외한다. 판매법인은 공장과 같은 나라에 있지만 아무것도 생산하지 않는다. 첫 번째 대조는 성과지표가 자본 오배분인 무역 경로에서, 두 번째와 세 번째는 성과지표가 기업 재무제표인 소유 경로에서 수행한다.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">대조</th>
+<th style="text-align: left;">제거하는 교란요인</th>
+<th style="text-align: left;">결과</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">지진 대 기후재해 (무역 경로)</td>
+<td style="text-align: left;">재해 노출 자체의 효과</td>
+<td style="text-align: left;">동등한 정밀도에서 0: +0.017, 부트스트랩 p = 0.64, 0.28σ</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">연결 대 별도 재무제표</td>
+<td style="text-align: left;">공장 소재지와 상관된 모기업 측 충격</td>
+<td style="text-align: left;">연결에만 신호, 별도에는 없음</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">공장 대 판매법인</td>
+<td style="text-align: left;">생산과 무관한 “해외 진출” 효과</td>
+<td style="text-align: left;">판매법인에서 0, 태풍은 동등한 검정력</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/figures/figure3_plant_vs_sales.png" class="img-fluid figure-img"></p>
+<figcaption>그림 3. 주력 공장 대 주력 판매법인, 연결−별도 성과지표에 대한 정태 모형 계수와 95% 신뢰구간. 판매법인에서는 자산증가율 계수가 0이거나 양수이고, ROA 계수는 공장의 것과 일치하며, 설비투자는 전 구간에서 0이다. 이 위약검정은 홍수와 가뭄에 대해서는 검정력이 부족하지만 — 최소검출효과가 공장 계수의 2~3배 — 태풍에서는 동등한 검정력을 가지며 영이다.</figcaption>
+</figure>
+</div>
+<p>자산증가율의 흔적은 두 번째 검정을 통과한다. 수익성과 투자의 무효과 결과는 셋 모두를 통과한다.</p>
+</section>
+<section id="무역-경로를-거친-충격은-0.2로-줄어든다" class="level2">
+<h2 class="anchored" data-anchor-id="무역-경로를-거친-충격은-0.2로-줄어든다">5. 무역 경로를 거친 충격은 0.2%로 줄어든다</h2>
+<p>조달이 분산되어 있어 충격이 희석된다는 정성적 주장은 크기에 대한 질문을 남긴다. 아래 계산의 모든 항은 가정이 아니라 이 연구에서 추정한 값이다.</p>
+<p>해외 부가가치는 한국 제조업 총산출의 32.8%다. 그 해외 부분 안에서 단일 최대 원산지가 산업별로 평균 23.5%를 차지한다. 그리고 상대국 가뭄 익스포저가 1 표준편차 증가하면 해당국으로부터의 한국 수입은 2.8% 감소한다. 이 감소가 공급 교란 때문인지 상대국 경제의 수축 때문인지는 이 산술에서 중요하지 않다. 어느 쪽이든 한국 산업이 실제로 겪는 투입 감소이기 때문이다. 세 크기를 곱하면 된다.</p>
+<p><img src="https://latex.codecogs.com/png.latex?0.328%20%5Ctimes%200.235%20%5Ctimes%200.0284%20=%200.22%5C%25"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/figures/figure4_value_added_origin.png" class="img-fluid figure-img"></p>
+<figcaption>그림 4. 한국 제조업 산출에 체화된 해외 부가가치의 원산지, 2020~2024년. 중국이 해외 부분의 19%로 단일 최대이고 미국이 14%, 일본이 7%이며, 나머지는 약 60개 경제에 흩어져 있다. 회색 국가는 산업연관표의 기타지역 집계에 포함되어 개별 귀속이 불가능한 경우다. 익스포저는 집중되어 있지만 지배적이지는 않으며, 위의 희석이 우연이 아니라 산술의 결과인 이유가 여기에 있다.</figcaption>
+</figure>
+</div>
+<p>반대로 모든 해외 공급국이 동시에 1 표준편차 가뭄을 겪는 반사실을 가정해 보자. 집중도 항을 빼면 0.93%다. 그 상한조차 투입비용을 사실상 움직이지 못한다.</p>
+<p>희석의 배경이 되는 조달 구조는 사업자등록과 관세자료를 연결한 통계에서 직접 확인된다. 거래 상대국 수의 수입액 가중평균은 7개 산업군 중 5개에서 18~23개이고 여섯 번째가 13.1개이며, 10개국 이상과 거래하는 기업이 제조업 수입의 약 75%를 차지한다. 한 산업이 뚜렷하게 예외다. 섬유·가죽은 가중평균이 8.5개국이고 수입의 5분의 1이 단일 상대국 의존 기업에서 나온다.</p>
+<p>가장 자연스러운 대안 설명 — 기업이 기후 스트레스를 인지하고 조달처를 바꾼다는 것으로, Pankratz and Schiller (2024)가 공급망 거래관계에서, Blaum, Esposito and Heise (2026)가 미국 제조기업 조달에서 발견한 바다 — 은 여기서 검정 가능하며 기각된다. 가뭄 스트레스를 받은 나라와의 교역은 실제로 줄지만, 수입과 수출이 같은 크기만큼 줄어든다. 이는 한국 기업의 조달처 전환이 아니라 상대국 경제의 수축이 남기는 흔적이다. 다른 재해에서는 어느 방향도 움직이지 않는다.</p>
+<table class="caption-top table">
+<caption>익스포저 1 표준편차당 상대국으로부터의 로그 수입액, 상대국으로의 로그 수출액, 그리고 두 값의 로그 비율. 산업×연도 및 산업×국가 고정효과 포함, 괄호 안은 부트스트랩 p값이다. 교역 금액 기준으로 약 2%를 넘는 수입에서만 나타나는 재배분은 모든 재해에서 배제된다.</caption>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">재해</th>
+<th style="text-align: right;">수입</th>
+<th style="text-align: right;">수출</th>
+<th style="text-align: right;">수입/수출 비율</th>
+<th style="text-align: right;">최소검출효과(비율)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">가뭄</td>
+<td style="text-align: right;">−0.0284 (0.027)</td>
+<td style="text-align: right;">−0.0282 (0.010)</td>
+<td style="text-align: right;">−0.0008 (0.961)</td>
+<td style="text-align: right;">0.017</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">폭염 35℃ 초과</td>
+<td style="text-align: right;">−0.0064 (0.605)</td>
+<td style="text-align: right;">−0.0072 (0.495)</td>
+<td style="text-align: right;">+0.0010 (0.909)</td>
+<td style="text-align: right;">0.011</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">홍수</td>
+<td style="text-align: right;">+0.0006 (0.976)</td>
+<td style="text-align: right;">+0.0002 (0.992)</td>
+<td style="text-align: right;">−0.0010 (0.953)</td>
+<td style="text-align: right;">0.021</td>
+</tr>
+</tbody>
+</table>
+<p>수입 측에 남는 패턴이 하나 있다. 폭염은 스트레스를 받은 상대국으로부터 수입하는 한국 기업 수를 0.67% 줄이지만 수입 금액은 줄이지 않고 수출도 움직이지 않는다. 이는 국가 간 재배분이 아니라 대형 수입기업으로의 집중을 뜻한다. 이 연구는 이를 보고하되 여기에 아무것도 쌓지 않는다.</p>
+<p>여기서 충격이 흡수되는 것은 기업이 어떻게 반응해서가 아니라 조달 구조 자체가 그렇게 짜여 있기 때문이다. 20개 원산지에서 조달하는 기업은 애초에 움직일 이유가 별로 없다. 어느 한 곳의 재해가 투입비용의 작은 몫만 움직이기 때문이다.</p>
+</section>
+<section id="대부분의-재해는-정밀한-무효과-결과이고-홍수가-예외다" class="level2">
+<h2 class="anchored" data-anchor-id="대부분의-재해는-정밀한-무효과-결과이고-홍수가-예외다">6. 대부분의 재해는 정밀한 무효과 결과이고, 홍수가 예외다</h2>
+<p>무효과 결과의 가치는 그것이 함께 제시하는 경계값만큼이다. 최소검출효과 — 유의수준 5%, 검정력 80%에서 기각할 수 있는 가장 작은 계수 — 는 재해에 따라 7배까지 차이가 나므로, 하나의 요약 수치로 말하면 증거를 잘못 전달하게 된다.</p>
+<table class="caption-top table">
+<caption>논문이 보고하는 16개 행 중 일부를 정밀도 순으로 추린 것이다. 종속변수는 자본의 한계수입생산(log MRPK)의 산업 내 표준편차로, Hsieh and Klenow (2009)를 따라 사업체-연도 관측치 111만 개에서 구성했다.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">재해 측정</th>
+<th style="text-align: right;">최소검출효과(성과지표 표준편차)</th>
+<th style="text-align: left;">판정</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">최대 풍속</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: left;">0으로 정밀하게 추정</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">가뭄 사건 수</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: left;">0으로 정밀하게 추정</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">폭풍 횟수, 태풍 횟수</td>
+<td style="text-align: right;">0.11</td>
+<td style="text-align: left;">아래 참조</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">가뭄, 연속 무강수일</td>
+<td style="text-align: right;">0.12</td>
+<td style="text-align: left;">0으로 정밀하게 추정</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">소산지수, ACE</td>
+<td style="text-align: right;">0.12</td>
+<td style="text-align: left;">0으로 정밀하게 추정</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">폭염, 40℃ 초과일</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: left;"><strong>효과 발견</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">홍수 사건 수</td>
+<td style="text-align: right;">0.26</td>
+<td style="text-align: left;">중간</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">폭염, 35℃ 초과일</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: left;"><strong>효과 발견</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">홍수, 20mm 초과 강수일</td>
+<td style="text-align: right;">0.44</td>
+<td style="text-align: left;">약함</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">홍수, 최대 5일 강수량</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: left;">약함</td>
+</tr>
+</tbody>
+</table>
+<p>이 표가 아무 결론도 허용하지 않는 지점은 강수 기반 홍수 측정치다. 0.44σ와 0.49σ로, 실현된 홍수 재해 건수로 만든 측정치의 0.26σ와 대비된다. 공급망을 교란한다고 가장 흔히 가정되는 재해이므로 이 연구는 이를 그대로 두지 않는다. 정밀도가 낮은 원인은 기계적이고 교정 가능한 것으로 드러난다. 군집 표준오차 팽창의 사실상 전부가 코크스·석유정제, 즉 익스포저 측정치가 실제 조달을 가장 적게 포괄하는 산업에서 나온다. 이 산업을 제외하면 홍수 표준오차가 0.049에서 0.021로, 최소검출효과가 0.49σ에서 0.25σ로 — 분산의 약 10%에서 4.2%로 — 줄어들며, 점추정치는 여전히 0과 구분되지 않는다. 두 번째 독립적인 교정, 즉 강수 대리변수를 전체 표본의 재해 건수로 바꾸면 0.26σ에 도달한다. 서로 다른 두 교정이 같은 곳으로 수렴하는 편이 어느 한쪽보다 안심할 만하지만, 이 연구는 그럼에도 보수적인 0.49σ를 대표 경계값으로 유지한다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/figures/figure5_hazard_coefficients.png" class="img-fluid figure-img"></p>
+<figcaption>그림 5. 재해별 자본 오배분에 대한 추정 효과와 68·95% 신뢰구간. 익스포저는 표준화되어 있어 계수는 1 표준편차 변화에 대한 반응이다. 대부분의 점추정치가 음수로, 교란 경로가 예측하는 것과 반대 부호다. 검은색 지진 위약검정은 35℃ 폭염 측정치와 사실상 같은 정밀도에서 영이다.</figcaption>
+</figure>
+</div>
+<p>폭풍 측정치는 이 연구에서 가장 시사적인 무효과 결과다. 강도를 얼마나 무겁게 반영하는지에 따라 늘어놓으면 — 단순 횟수는 모든 폭풍을 동일하게 취급하고, 태풍 횟수는 문턱을 적용하며, 최대 풍속은 정점을 취하고, 누적에너지와 소산지수는 V²와 V³로 가중한다 — 부트스트랩 p값이 그 순서를 따라 단조 증가한다. 0.019, 0.145, 0.320, 0.479, 0.553이다.</p>
+<p>풍해가 한국의 자본배분으로 전달되고 있다면 이 기울기는 반대로 나타나야 한다. 피해는 소산된 에너지에 비례하므로 V³ 측정치가 신호를 담아야 한다. 관측된 것은 그 반대다. 강도 정보가 전혀 없는 측정치가 통상적 유의수준에서 유의하고 — 보고된 19개 재해 측정치에 대한 보정을 거치면 유의하지 않다 — 그것도 어떤 교란 메커니즘도 예측하지 않는 음의 부호이며, 피해를 가장 잘 대표하는 측정치가 표에서 가장 약하다. 강해지는 열대저기압이 홍수 없이도 공급국에 피해를 줄 수 있다고 보는 독자에게는 직접 답할 수 있다. 그 경로는 피해가 발생하는 강도 수준에서 측정되었고, 표준편차의 약 10분의 1을 넘는 효과는 배제된다.</p>
+</section>
+<section id="극단-고온은-증거가-갈리는-지점이다" class="level2">
+<h2 class="anchored" data-anchor-id="극단-고온은-증거가-갈리는-지점이다">7. 극단 고온은 증거가 갈리는 지점이다</h2>
+<p>폭염은 표에서 가장 큰 계수를 만드는 재해이고, 교란 경로가 예측하는 부호를 가진 유의 계수도 폭염뿐이다. 익스포저 1 표준편차당 35℃ 초과일은 +0.069, 40℃ 초과일은 +0.053이다. 표의 점추정치는 대부분 음수이고, 양수인 두 홍수 계수는 0과 구분되지 않는다. 이 계수는 기각할 수도 받아들일 수도 없어 따로 검토가 필요하며, 세 개의 필터를 통과하고 세 곳에서 실패한다.</p>
+<p><strong>통과한 것.</strong> 다중검정 보정을 개별 측정치가 아니라 7개 재해 수준에서 적용하면 두 계수 모두 Bonferroni와 Benjamini–Hochberg 문턱을 넘는다. 반면 19개 개별 측정치 수준에서 적용하면 둘 다 넘지 못한다. 40℃ 추정치는 p = 0.003으로 문턱 0.0026에, 35℃ 추정치는 p = 0.007로 같은 문턱에 미치지 못하고, 거짓발견율 5%의 Benjamini–Hochberg 절차는 아무것도 기각하지 않는다. 이 연구는 유리한 쪽만 고르지 않고 두 답을 모두 보고하며, 어느 쪽에도 주장을 걸지 않는다. 문턱 기반 측정치는 세 성과지표 모두에서 양의 부호로 p값 0.021~0.105로 들어간다. 다만 다른 두 폭염 측정치는 호응하지 않으며 이 연구도 이를 밝힌다. 연최고기온은 유의하지 않고 (p = 0.120), EM-DAT 극단기온 사건 수는 반대 부호다 (−0.026, p = 0.325). 결과는 두 개의 재분석 문턱 측정치에만 기대고 있다. 그리고 지구물리 위약검정이 성립한다. 동일한 방식으로 만든 지진 익스포저는 +0.017, 부트스트랩 p = 0.642이며, 정밀도는 0.28σ로 폭염 측정치의 0.27σ와 사실상 같다. 폭염이 만드는 크기의 효과를 찾아낼 검정력이 있는데도 아무것도 찾지 못한다.</p>
+<p><strong>실패한 것.</strong> 세 가지 점검이 반대 방향을 가리키며, 이 연구는 그 양상을 분명히 적는다. 이 연관은 하나의 공급국에서, 두 가지 방어 가능한 익스포저 정규화 중 하나에서, 그리고 두 가지 방어 가능한 재해 표준화 중 하나에서만 성립한다.</p>
+<p>첫째는 원산지다. 익스포저를 중국 기여분과 나머지로 나누면 효과가 전부 중국에 몰린다. +0.0859 (p = 0.039) 대 +0.0063 (p = 0.766)이다. 검정력의 문제가 아니다. 비중국 성분이 더 정밀하게 추정되며, 그 신뢰구간 [−0.036, 0.049]는 중국에서 나온 크기의 효과를 배제한다. 특정 산업 하나가 만든 결과도 아니다. 14개 산업을 하나씩 제외해도 35℃ 계수는 0.048~0.091 사이에 머물고 14번 모두 유의하다.</p>
+<p>이 첫 번째 균열 안에 더 날카로운 문제가 있다. 폭염이 생산에 피해를 준다면 효과는 공급국이 가장 더운 곳에서 가장 커야 한다. 세 갈래로 나누면 순서가 정반대로 나온다.</p>
+<table class="caption-top table">
+<caption>더운 공급국은 35℃ 초과일 장기 평균이 5일 이상인 나라로, 해외 부가가치의 약 21%를 차지한다. 인도(78.7일), 호주(80.2일), 태국(43.6일), 브라질(22.1일), 미국(12.5일), 베트남(10.0일)이다. 온대 공급국에는 일본(0.6일), 독일(0.3일), 영국과 대만(둘 다 ≈ 0)이 포함된다. 분류는 장기 수준을 기준으로 하며 추정 전에 확정했다. 이 열의 35℃ 초과일은 국가 단위 장기 평균이므로 2절 표의 2015~2024년 값과는 산출 기간이 다르다.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">성분</th>
+<th style="text-align: right;">35℃ 초과일(장기 평균)</th>
+<th style="text-align: right;">β</th>
+<th style="text-align: right;">부트스트랩 p</th>
+<th style="text-align: right;">최소검출효과</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">중국</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">+0.0711</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.33σ</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">그 밖의 더운 공급국</td>
+<td style="text-align: right;">높음</td>
+<td style="text-align: right;">−0.0373</td>
+<td style="text-align: right;">0.185</td>
+<td style="text-align: right;">0.24σ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">온대 공급국</td>
+<td style="text-align: right;">≈ 0</td>
+<td style="text-align: right;">+0.0361</td>
+<td style="text-align: right;">0.098</td>
+<td style="text-align: right;">0.17σ</td>
+</tr>
+</tbody>
+</table>
+<p>폭염 메커니즘은 더운 곳 &gt; 중국 &gt; 온대의 순서를 예측한다. 자료가 주는 순서는 중국 &gt; 온대 &gt; 더운 곳이고, 더운 공급국 성분은 중국보다 높은 정밀도로 추정된다. 두 사실이 동시에 성립한다. 중국 안에서 그 연관은 중국의 특정 연도가 아니라 폭염에 국한되어 나타나고, 국가 간으로 보면 공급국이 실제로 겪는 폭염의 양과 아무 관계가 없다. 이 연구는 둘을 정합적으로 설명하지 못한다.</p>
+<p>둘째는 정규화다. 재정규화한 익스포저 측정치를 정규화하지 않은 것으로 바꾸면 추정치가 살아남지 못한다 (p = 0.831, 0.587). 해외 부가가치 비중을 따로 통제해도 회복되지 않으며(−0.032, p = 0.802), 재정규화 계수는 그대로다(+0.057, p = 0.003). 가장 그럴듯한 추측이 기각된 셈이고, 이 연구는 두 구성 방식이 왜 그렇게 크게 다른지 설명할 길이 없다고 적는다.</p>
+<p>셋째는 재해의 표준화다. 표준화 아노말리가 아니라 일수로 측정하면 계수의 부호가 뒤집히고 유의성을 잃는다. 반면 가뭄과 홍수의 무효과 결과는 같은 선택에 전혀 민감하지 않다. 이 민감성은 폭염에만 특유한데, 폭염은 기준선이 거의 0에 가까운 문턱 계수를 측정치로 쓰는 유일한 재해이기 때문이다.</p>
+<p>공장 단위 검정도 이를 해결하지 못한다. 국가 간 표준화가 필요 없는 공장 좌표에서 폭염은 나타나지 않는다. 그러나 한국 공장은 40℃ 초과일이 드문 곳에 있으므로, 이 검정은 설계상 약하다. 이 연구 자신의 판정은 수입된 폭염이 전파된다고도, 전파되지 않는다고도 주장하지 않는다는 것이다. 이 설계가 확립하는 것은 경계값이며, 폭염은 점검 결과가 서로 엇갈리는 유일한 재해다.</p>
+</section>
+<section id="현재-증거가-허용하는-결론의-경계" class="level2">
+<h2 class="anchored" data-anchor-id="현재-증거가-허용하는-결론의-경계">8. 현재 증거가 허용하는 결론의 경계</h2>
+<p><strong>확인된 것.</strong> 주력 해외 공장의 극심한 홍수나 가뭄은 연결 자산증가율에 약 2%포인트의 흔적을 남기며, 이 흔적은 모기업 별도재무제표에도 판매법인에도 없다. 국가평균 익스포저는 가장 더운 공급국에서 공장이 겪는 폭염을 3~4배 과대평가하고 극단 강우는 과소평가하는데, 생산이 해안과 하천 유역에 있기 때문이다. 산업의 최대 해외 원산지에서 발생한 1 표준편차 가뭄은 투입비용을 0.22% 움직이는 데 그치고, 스트레스를 받은 상대국과의 교역은 양방향으로 대칭적으로 감소한다.</p>
+<p><strong>배제할 수 있는 해석.</strong> 그 흔적이 생산 손실, 투자 축소 결정, 또는 철수를 반영한다는 해석. 수익성·설비투자·공장 존속이 모두 영이고 설비투자 영 결과는 0.18σ로 정밀하다. 한국 기업이 기후 스트레스를 받은 공급국에서 조달을 옮긴다는 해석. 약 2%를 넘는 수입에서만 나타나는 재배분은 모든 재해에서 배제된다. 해외 물리적 리스크가 국내 사업체 간 자본배분을 움직인다는 해석. 폭풍·가뭄·산사태는 분산의 2%, 홍수는 석유정제 산업의 잡음을 제거한 뒤 4~5%를 넘는 효과가 배제된다. 그리고 이것이 기후가 아니라 재해 노출 일반의 효과라는 해석. 지진은 동등한 정밀도에서 영이다.</p>
+<p><strong>여전히 가능한 설명.</strong> Baqaee and Farhi (2019)가 정식화하고 Barrot and Sauvagnat (2016), Boehm, Flaaen and Pandalai-Nayar (2019)가 기록한 생산 네트워크 증폭이 이 설계가 경계 짓는 수준 아래에서 작동할 수 있다. 보험·재고·대체 사업장을 갖출 가능성이 낮은 중소기업은 다르게 반응할 수 있으며, 표본은 종속회사를 공시하는 상장 제조기업이다. 한 분기를 눌렀다가 회계연도 안에 회복되는 교란은 연간 재무제표에 흔적을 남기지 않으므로, 자산의 흔적은 일시적 피해의 하한이다. 그리고 폭염은 이 설계가 잘못 읽는 경로를 통해 여전히 중요할 수 있다.</p>
+<p><strong>미해결인 것.</strong> 폭염 연관이 애초에 기후 효과인지 여부. 그것은 한 공급국에 국한되고 다른 곳의 공급국 기후와는 반대로 움직인다. 소유 경로에서 보험금 수령, 다른 사업장으로의 생산 이전, 재고 중 무엇이 흡수하는지. 셋 모두 수익성을 건드리지 않는 상각과 양립하며 자료는 이를 구분하지 못한다. 그리고 설명되지 않은 음의 폭풍 횟수 계수. 세 성과지표 모두에서 안정적이지만 같은 재해의 모든 강도 가중 측정치와 모순된다.</p>
+</section>
+<section id="더-긴-표본이-아니라-더-정밀한-해상도가-필요하다" class="level2">
+<h2 class="anchored" data-anchor-id="더-긴-표본이-아니라-더-정밀한-해상도가-필요하다">9. 더 긴 표본이 아니라 더 정밀한 해상도가 필요하다</h2>
+<p>위의 한계는 같은 자료를 더 오래 모은다고 해소되지 않는다. 각각이 다른 종류의 정보를 가리킨다.</p>
+<p><strong>분기 이하 빈도의 성과지표.</strong> 분기나 월 단위 재무자료는 연간 재무제표가 평균으로 지워버리는 교란을 포착하고, 일시적 피해의 하한을 추정치로 바꿀 수 있다.</p>
+<p><strong>기업 단위 조달자료.</strong> 산업 내 한계수입생산 분산은 모든 사업체에 동일하게 작용하는 충격에는 반응하지 않는다. 사업자등록에 연결된 관세자료를 기업×상대국 수준으로 쓰면 익스포저가 산업 안에서 달라질 수 있는데, 이것이 성과지표가 요구하는 조건이고 국가-연도 자료가 줄 수 없는 것이다.</p>
+<p><strong>보험금 청구와 재고 기록.</strong> 소유 경로의 세 흡수 메커니즘 후보를 분리할 수 있으며, 재무제표만으로는 할 수 없는 일이다.</p>
+<p><strong>재해가 구속력을 갖는 공장.</strong> 공장 단위 폭염 검정이 약한 것은 한국 공장이 서늘한 곳에 있기 때문이다. 인도와 태국에 있는 한국 공장의 사업장 단위 생산자료를 얻거나, 같은 설계를 더 더운 나라에 본사를 둔 기업에 적용하면 검정력이 생긴다.</p>
+<p><strong>완충장치의 가격.</strong> 충격이 흡수되는 지점 — 무역 측면의 분산된 조달, 소유 측면의 보험·재고·대체 사업장의 어떤 조합 — 은 그 자체로 유지 비용이 든다. 그 비용이야말로 이 설계가 가격을 매기지 못한 수입된 물리적 리스크의 일부이며, 감독당국이 가장 알고 싶어 할 부분이다.</p>
+</section>
+<section id="working-paper" class="level2">
+<h2 class="anchored" data-anchor-id="working-paper">Working paper</h2>
+<p>영문 Working Paper에는 전체 추정식, 좌표 변환 파이프라인과 그 검증, 두 익스포저 측정치의 구성, 사업체 마이크로데이터로 구성 가능한 모든 성과지표와 모든 재해의 전체 격자, 그리고 각 경계값의 근거가 되는 강건성 점검이 수록되어 있다. 부록에는 음의 결과와 중단된 분석도 함께 담았다.</p>
+<p><a href="https://khdouble.github.io/files/wp/imported-physical-climate-risk-supply-chains.pdf">PDF 내려받기</a></p>
+<section id="권장-인용" class="level3">
+<h3 class="anchored" data-anchor-id="권장-인용">권장 인용</h3>
+<blockquote class="blockquote">
+<p>Kim, Hyun Hak (2026). “Where Imported Physical Climate Risk Stops: Supply Chains, Overseas Plants, and the Manufacturing Balance Sheet.” Working Paper, September 1.</p>
+</blockquote>
+</section>
+<section id="데이터와-코드" class="level3">
+<h3 class="anchored" data-anchor-id="데이터와-코드">데이터와 코드</h3>
+<p>분석에는 공개 자료와 이용이 제한된 자료가 함께 쓰였습니다. 종속회사 공시는 금융감독원 <a href="https://dart.fss.or.kr">DART</a>, 일별 기상은 ERA5 및 ERA5-Land, 열대저기압 경로는 IBTrACS, 재해 기록은 재배포가 허용되지 않는 EM-DAT, 국제산업연관표는 아시아개발은행, 무역통계는 통계청 자료입니다. 사업체 패널은 통계청 <a href="https://mdis.kostat.go.kr">마이크로데이터 통합서비스</a> 등록 이용자에게 제공되는 광업제조업조사 공개용 마이크로데이터이며, 이용약관상 재배포가 허용되지 않습니다.</p>
+<p>코드와 재현 자료는 논문의 게재본과 함께 공개할 예정입니다. 그 전까지 학술적 재현·검증을 위한 공유 요청은 개별적으로 처리합니다. 문의는 <a href="mailto:hyunhak.kim@kookmin.ac.kr">hyunhak.kim@kookmin.ac.kr</a>로 주시기 바랍니다.</p>
+</section>
+<section id="연구-지원" class="level3">
+<h3 class="anchored" data-anchor-id="연구-지원">연구 지원</h3>
+<p>이 연구는 기후에너지환경부 기후변화특성화대학원 사업의 일환으로 수행되었습니다.</p>
+</section>
+<section id="참고문헌" class="level3">
+<h3 class="anchored" data-anchor-id="참고문헌">참고문헌</h3>
+<p>Baqaee, D. R. and Farhi, E. (2019). The macroeconomic impact of microeconomic shocks: beyond Hulten’s theorem. <em>Econometrica</em>, 87(4), 1155–1203.</p>
+<p>Barrot, J.-N. and Sauvagnat, J. (2016). Input specificity and the propagation of idiosyncratic shocks in production networks. <em>Quarterly Journal of Economics</em>, 131(3), 1543–1592.</p>
+<p>Blaum, J., Esposito, F. and Heise, S. (2026). Input sourcing under climate risk: evidence from U.S. manufacturing firms. <em>Review of Economic Studies</em>, forthcoming.</p>
+<p>Boehm, C. E., Flaaen, A. and Pandalai-Nayar, N. (2019). Input linkages and the transmission of shocks: firm-level evidence from the 2011 Tōhoku earthquake. <em>Review of Economics and Statistics</em>, 101(1), 60–75.</p>
+<p>Hsieh, C.-T. and Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. <em>Quarterly Journal of Economics</em>, 124(4), 1403–1448.</p>
+<p>Pankratz, N. M. C. and Schiller, C. (2024). Climate change and adaptation in global supply-chain networks. <em>Review of Financial Studies</em>, 37(6), 1729–1777.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>한국어</category>
+  <category>기후리스크</category>
+  <category>글로벌가치사슬</category>
+  <guid>https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/</guid>
+  <pubDate>Sat, 19 Sep 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/figures/figure1_sites_map.png" medium="image" type="image/png" height="64" width="144"/>
+</item>
 <item>
   <title>The Distribution of Spending Out of Cash Transfers</title>
   <link>https://khdouble.github.io/posts/2026-09-mpc-heterogeneity-en/</link>

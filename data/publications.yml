@@ -235,6 +235,9 @@ wp:
   - title: "Where imported physical climate risk stops: supply chains, overseas plants, and the manufacturing balance sheet"
     detail: "submitted"
     url: "files/wp/imported-physical-climate-risk-supply-chains.pdf"
+    extras:
+      - {label: "Technical summary", href: "posts/2026-09-imported-climate-risk-en/"}
+      - {label: "기술 요약 (국문)", href: "posts/2026-09-imported-climate-risk-ko/"}
 
   - title: "Auditing Real-Time Official Statistics: A Release-Event Ledger for U.S. GDP Nowcasting"
     detail: "submitted"
