@@ -87,9 +87,15 @@ def render_entry(e):
     url = e.get("url")
     title_html = f'<a href="{esc(url)}">{title}</a>' if url else title
 
-    parts = [f'<span class="entry-title">{title_html}</span>', authors_phrase(e.get("authors"))]
-
     detail, badge = split_badge(e.get("detail"))
+
+    # The badge sits on the title line, right after the authors. Putting it in
+    # .entry-meta instead dropped it to a line of its own for working papers,
+    # which carry no venue.
+    parts = [f'<span class="entry-title">{title_html}</span>', authors_phrase(e.get("authors"))]
+    if badge:
+        parts.append(f'<span class="badge-soft">{esc(badge)}</span>')
+
     meta = []
     if e.get("venue"):
         meta.append(emphasise(e["venue"]))
@@ -98,14 +104,10 @@ def render_entry(e):
     if e.get("lang") == "ko":
         meta.append("in Korean")
 
-    tail = ""
     if meta:
-        tail += f'<span class="entry-venue">{", ".join(meta)}</span>'
-    if badge:
-        sep = " " if tail else ""
-        tail += f'{sep}<span class="badge-soft">{esc(badge)}</span>'
-    if tail:
-        parts.append(f'<span class="entry-meta">{tail}</span>')
+        parts.append(
+            f'<span class="entry-meta"><span class="entry-venue">{", ".join(meta)}</span></span>'
+        )
 
     extras = e.get("extras") or []
     if extras:
