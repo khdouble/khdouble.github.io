@@ -224,6 +224,10 @@ wp:
     extras:
       - {label: "Supplement", href: "files/wp/validating-generated-latent-quantities-survey-supplement.pdf"}
 
+  - title: "Target-preserving diagnostics for household ratio indicators: a simulation study"
+    detail: "submitted"
+    url: "files/wp/target-preserving-diagnostics-household-ratio-indicators.pdf"
+
   - title: "Unobservable Heterogeneity in the Marginal Propensity to Consume: Evidence from Korean Household Panel Data"
     detail: "submitted"
     url: "files/wp/unobservable-heterogeneity-mpc-korea.pdf"
