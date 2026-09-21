@@ -254,9 +254,6 @@ wp:
   - title: "Capital Flows in an Exchange-Rate Reversal: Evidence from Korea"
     detail: "submitted"
     url: "https://khdouble.github.io/krw-exchange-rate-reversal/downloads/capital-flows-exchange-rate-reversal-korea.pdf"
-    extras:
-      - {label: "Technical summary", href: "posts/2026-09-krw-exchange-rate-reversal-en/"}
-      - {label: "기술 요약 (국문)", href: "posts/2026-09-krw-exchange-rate-reversal-ko/"}
 
   - title: "Cheaper but Farther: Rent Gradients and Commuting in the Residential Choices of Young Korean Workers"
     detail: "submitted"
