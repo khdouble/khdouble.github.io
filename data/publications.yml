@@ -228,6 +228,12 @@ wp:
     detail: "submitted"
     url: "files/wp/target-preserving-diagnostics-household-ratio-indicators.pdf"
 
+  - title: "Limits of Honest Adaptation in a Binary Instrumental-Variable Model"
+    detail: "submitted"
+    url: "files/wp/limits-honest-adaptation-binary-iv.pdf"
+    extras:
+      - {label: "Supplement", href: "files/wp/limits-honest-adaptation-binary-iv-supplement.pdf"}
+
   - title: "Unobservable Heterogeneity in the Marginal Propensity to Consume: Evidence from Korean Household Panel Data"
     detail: "submitted"
     url: "files/wp/unobservable-heterogeneity-mpc-korea.pdf"
