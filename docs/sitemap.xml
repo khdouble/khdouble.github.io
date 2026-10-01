@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://khdouble.github.io/research.html</loc>
-    <lastmod>2026-10-01T04:01:20.134Z</lastmod>
+    <lastmod>2026-10-01T15:41:36.205Z</lastmod>
   </url>
   <url>
     <loc>https://khdouble.github.io/posts/2026-09-mpc-heterogeneity-ko/index.html</loc>
@@ -50,6 +50,14 @@
   </url>
   <url>
     <loc>https://khdouble.github.io/projects.html</loc>
-    <lastmod>2026-10-01T04:01:20.159Z</lastmod>
+    <lastmod>2026-10-01T15:41:36.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/index.html</loc>
+    <lastmod>2026-10-01T16:02:22.821Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/index.html</loc>
+    <lastmod>2026-10-01T16:02:26.708Z</lastmod>
   </url>
 </urlset>

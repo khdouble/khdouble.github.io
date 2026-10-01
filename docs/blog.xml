@@ -10,7 +10,584 @@
 <atom:link href="https://khdouble.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Professor of Economics, Kookmin University. Empirical macroeconomics, forecasting, and time-series econometrics.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 28 Sep 2026 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Two Weeks to the Pump</title>
+  <link>https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>한국어판</strong> — <a href="../2026-10-fuel-price-cap-ko/">기름값 상한, 주유소까지 2주 걸렸다</a></p>
+<p>Retail prices are the daily prices of 10,744 Korean gas stations of the four refiners’ brands and the Altteul discount brand, 29 December 2024 to 30 September 2026, published by Opinet, the price portal of the Korea National Oil Corporation. Refiners’ weekly supply prices also come from Opinet, international product prices are Singapore spot quotes, and exchange rates come from the Bank of Korea’s ECOS. Hypotheses and methods were written down and frozen before the relevant results were examined.</p>
+</div>
+</div>
+</div>
+<section id="a-cap-on-the-wholesale-price-changed-on-announced-dates" class="level2">
+<h2 class="anchored" data-anchor-id="a-cap-on-the-wholesale-price-changed-on-announced-dates">A cap on the wholesale price, changed on announced dates</h2>
+<p>When international fuel prices spiked during the 2026 Middle East war, the Korean government put a maximum price on what refiners charge gas stations, starting 13 March 2026. The first cap was 1,724 won per liter for gasoline and 1,713 won for diesel. It rose by 210 won on 27 March, the same day the fuel-tax cut widened from 7 to 15 percent for gasoline and from 10 to 25 percent for diesel. The cap was then frozen four times, cut by 150 won on 27 June, and frozen three more times; from the sixth decision the review interval lengthened from two to four weeks.</p>
+<p>Two features make the episode informative. The cap sits on the wholesale price, not on what drivers pay. And each change is announced with its date and size, so for a station it is a cost shock of known timing and magnitude. Pass-through of temporary fuel-tax cuts has been studied extensively for Germany and other European countries in 2022, and Hungary’s 2021–22 retail cap has been analysed, but I have not found station-level daily evidence on a repeatedly revised cap on refiners’ prices. This note asks four questions: how fast cap changes reach pump prices and whether speed depends on local competition; whether increases and cuts travel at the same speed; whether neighbouring stations of the same brand time their changes together; and whether the cap actually bound, and if so who absorbed the gap.</p>
+<section id="headline-figures" class="level3">
+<h3 class="anchored" data-anchor-id="headline-figures">Headline figures</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Item</th>
+<th style="text-align: right;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Stations, daily</td>
+<td style="text-align: right;">10,744, 29 Dec 2024 – 30 Sep 2026</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stations changing price on 13 March (refiner brands)</td>
+<td style="text-align: right;">54–63%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Largest rise in that share on the seven no-change dates</td>
+<td style="text-align: right;">3.6 points</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Share passed through after 1 / 2 / 3 weeks, 27 March increase</td>
+<td style="text-align: right;">0.54 / 0.81 / 0.86</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Share passed through after 1 / 2 / 3 weeks, 27 June cut</td>
+<td style="text-align: right;">0.67 / 0.83 / 0.88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Increase minus cut after 1 week, same 9,933 stations</td>
+<td style="text-align: right;">−0.133 (0.010)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Coefficient on log stations in the city, cut, day 7</td>
+<td style="text-align: right;">0.054 (0.010)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cap minus estimated uncapped supply price, gasoline / diesel</td>
+<td style="text-align: right;">−17 to −236 / −23 to −1,131 won by week</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Station margin on gasoline, 2025 / cap period</td>
+<td style="text-align: right;">71 / 77–87 won per liter</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="data-and-measures" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-measures">1. Data and measures</h2>
+<p>Station prices are Opinet’s historical daily prices for regular gasoline and automotive diesel. The sample covers stations of SK Energy, GS Caltex, HD Hyundai Oilbank and S-OIL and the Altteul discount brand, including its highway and agricultural-cooperative variants; private-label stations are dropped. Each station’s city (<em>si-gun</em>) is fixed at its modal label before 1 July 2026, when the merger of Gwangju and South Jeolla and a reorganisation of Incheon’s districts changed the labels. A price that moves by 300 won or more and returns the next day is treated as a recording error (147 gasoline and 238 diesel observations).</p>
+<p>The cumulative pass-through of station <img src="https://latex.codecogs.com/png.latex?i">, <img src="https://latex.codecogs.com/png.latex?r"> days after a cap change on day <img src="https://latex.codecogs.com/png.latex?%5Ctau">, is</p>
+<p><img src="https://latex.codecogs.com/png.latex?PT_%7Bi,r%7D=%5Cfrac%7Bp_%7Bi,%5Ctau+r%7D-p_%7Bi,%5Ctau-1%7D%7D%7B%5CDelta%20c%7D,"></p>
+<p>with <img src="https://latex.codecogs.com/png.latex?%5CDelta%20c=210"> for the March increase and <img src="https://latex.codecogs.com/png.latex?-150"> for the June cut. The 13 March start is used only for timing, because weekly supply prices cannot measure the size of a change introduced mid-week. Each event sample keeps stations observed on at least 80 percent of days from a week before to three weeks after, observed the day before, and not changing brand. Market structure enters as</p>
+<p><img src="https://latex.codecogs.com/png.latex?PT_%7Bi,r%7D=%5Cbeta_1%5Clog%20N_%7Bm(i)%7D+%5Cbeta_2%5C,%5Ctext%7BSelf%7D_i+%5Cbeta_3%5C,%5Ctext%7BHighway%7D_i+%5Calpha_%7Bb(i),s(i)%7D+u_i,"></p>
+<p>where <img src="https://latex.codecogs.com/png.latex?N_m"> is the number of stations in city <img src="https://latex.codecogs.com/png.latex?m"> in February 2026 and <img src="https://latex.codecogs.com/png.latex?%5Calpha_%7Bb,s%7D"> is a brand-by-province effect, with standard errors clustered by city. The seven dates on which the cap was announced but left unchanged serve as placebos.</p>
+</section>
+<section id="stations-moved-on-the-day-the-cap-changed" class="level2">
+<h2 class="anchored" data-anchor-id="stations-moved-on-the-day-the-cap-changed">2. Stations moved on the day the cap changed</h2>
+<p>On a normal day in 2026, 3–6 percent of stations changed their price. On 13 March, when the cap took effect, 54–63 percent of refiner-brand stations and 89 percent of Altteul stations did. About 40 percent changed on the day after the March increase and on the Monday after the Saturday cut in June. On the seven no-change dates the share rose by at most 3.6 percentage points. The busiest day of the year was earlier, in early March (83 percent of refiner-brand stations), during the surge in international prices before the cap; the spikes at each cap change are separate from it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/figures/figure1_change_share.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. Share of stations changing their gasoline price each day. Solid lines mark cap changes with a price change; dotted lines mark decisions that left the cap unchanged. The early-March spike precedes the cap and coincides with the surge in international prices.</figcaption>
+</figure>
+</div>
+</section>
+<section id="about-80-percent-in-two-weeks" class="level2">
+<h2 class="anchored" data-anchor-id="about-80-percent-in-two-weeks">3. About 80 percent in two weeks</h2>
+<p>The first price change came quickly, with a median of zero to two days at refiner-brand stations. Completing the adjustment took two to three weeks.</p>
+<table class="caption-top table">
+<caption>Mean cumulative pass-through, gasoline. Diesel is similar: 0.80 (increase) and 0.86 (cut) after two weeks.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Event</th>
+<th style="text-align: right;">Cap change</th>
+<th style="text-align: right;">1 week</th>
+<th style="text-align: right;">2 weeks</th>
+<th style="text-align: right;">3 weeks</th>
+<th style="text-align: right;">Stations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">27 March increase</td>
+<td style="text-align: right;">+210 won</td>
+<td style="text-align: right;">0.536</td>
+<td style="text-align: right;">0.808</td>
+<td style="text-align: right;">0.861</td>
+<td style="text-align: right;">10,151</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">27 June cut</td>
+<td style="text-align: right;">−150 won</td>
+<td style="text-align: right;">0.670</td>
+<td style="text-align: right;">0.830</td>
+<td style="text-align: right;">0.879</td>
+<td style="text-align: right;">10,038</td>
+</tr>
+</tbody>
+</table>
+<p>Altteul stations followed their own path. After the increase they barely moved for three days, then rose quickly and ended above the refiner brands at 0.89 after three weeks; after the cut they lagged slightly. This fits a supply price set weekly through the Korea National Oil Corporation’s group purchase.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/figures/figure2_passthrough_paths.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Cumulative pass-through after each cap change. Panels (a) and (b) show mean pass-through by brand group; the dashed line marks full pass-through. Panel (c) shows the within-station difference, increase minus cut, for the 9,933 stations in both samples, with 95 percent intervals clustered by city.</figcaption>
+</figure>
+</div>
+</section>
+<section id="faster-where-competition-is-stronger" class="level2">
+<h2 class="anchored" data-anchor-id="faster-where-competition-is-stronger">4. Faster where competition is stronger</h2>
+<p>Within a brand and province, the June cut reached pump prices faster in cities with more stations. One week after the cut, a city with twice as many stations had prices about 5.6 won lower (coefficient 0.054). Self-service stations were 0.127 ahead of full-service stations (about 19 won) and highway stations 0.154 ahead (about 23 won).</p>
+<table class="caption-top table">
+<caption>Coefficient on log stations in the city. Brand-by-province effects (by event when pooled), self-service and highway indicators included; city-clustered standard errors over 229 cities. On the placebo dates the same coefficient on the one-week price change is −0.34 won for gasoline, less than one-twentieth of the effect on event dates.</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">Day 3</th>
+<th style="text-align: right;">Day 7</th>
+<th style="text-align: right;">Day 14</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">27 June cut</td>
+<td style="text-align: right;">0.062 (0.010)</td>
+<td style="text-align: right;">0.054 (0.010)</td>
+<td style="text-align: right;">0.035 (0.008)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">27 March increase</td>
+<td style="text-align: right;">0.011 (0.010)</td>
+<td style="text-align: right;">−0.006 (0.009)</td>
+<td style="text-align: right;">0.023 (0.006)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Three events pooled, gasoline</td>
+<td style="text-align: right;">0.069 (0.016)</td>
+<td style="text-align: right;">0.053 (0.016)</td>
+<td style="text-align: right;">0.049 (0.014)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Three events pooled, diesel</td>
+<td style="text-align: right;">0.051 (0.011)</td>
+<td style="text-align: right;">0.039 (0.010)</td>
+<td style="text-align: right;">0.038 (0.008)</td>
+</tr>
+</tbody>
+</table>
+<p>For the increase, city size made no difference in the first week and mattered only in the second. Competitive markets passed the cut through first and caught up on the increase later. Self-service and highway stations were faster in both directions; highway stations were 0.381 ahead one week after the increase.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/figures/figure3_market_structure.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. Market structure and speed of pass-through. (a) Coefficient on log stations in the city; (b) self-service and highway coefficients at day 7, with 95 percent city-clustered intervals; (c) mean pass-through at day 7 by tercile of city station count.</figcaption>
+</figure>
+</div>
+</section>
+<section id="cuts-travelled-faster-than-increases" class="level2">
+<h2 class="anchored" data-anchor-id="cuts-travelled-faster-than-increases">5. Cuts travelled faster than increases</h2>
+<p>Fuel prices are said to rise like rockets and fall like feathers (Borenstein, Cameron and Gilbert, 1997). Here the reverse held. Among the 9,933 stations in both samples, pass-through after one week was 0.133 lower for the increase than for the cut (standard error 0.010), and 0.176 lower for diesel. After two weeks the gap had shrunk to 0.022. All four refiner brands moved the same way; Altteul showed no gap.</p>
+<p>The result needs care. There is one increase and one cut. The increase coincided with a larger fuel-tax cut that softened the change drivers saw, and fuel prices were under close government and press scrutiny. The asymmetry was also noticed after part of the data had been seen, so it is not a pre-registered result. I will re-test it on the next cap change with a method fixed in advance.</p>
+</section>
+<section id="no-sign-that-same-brand-neighbours-timed-their-changes-together" class="level2">
+<h2 class="anchored" data-anchor-id="no-sign-that-same-brand-neighbours-timed-their-changes-together">6. No sign that same-brand neighbours timed their changes together</h2>
+<p>Same-brand pairs in the same city changed price on the same day 0.2–0.5 percentage points more often than different-brand pairs. That gap is exactly what one expects when brands differ in how often they change prices. Two stations moving independently change together with probability equal to the product of their probabilities, and the cross-brand product <img src="https://latex.codecogs.com/png.latex?p_b%20p_%7Bb'%7D"> is smaller than the same-brand average <img src="https://latex.codecogs.com/png.latex?(p_b%5E2+p_%7Bb'%7D%5E2)/2">. The standard regression — same-day change on a same-brand indicator with city-by-day and brand-by-day effects — inherits this bias. I therefore measure excess co-movement: the observed same-day change minus the product of each station’s brand-province-day change rate, leaving the pair out. This correction was made before estimation.</p>
+<p>On event dates, excess co-movement for same-brand pairs was −0.89 per 1,000 pair-days (standard error 0.64), not positive. The standard regression gave +2.80 (0.63) on event dates and +0.94 (0.11) on dates when the cap did not change — the bias, not coordination. The exception was Altteul pairs, with excess co-movement of 8.6 (2.8), consistent with their weekly group-purchase pricing.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/figures/figure4_same_brand_timing.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. Excess same-day price changes of same-brand pairs, gasoline, eight days after each date. (a) The standard additive regression; (b) excess over the independent benchmark. Hollow markers are pooled estimates; intervals are 95 percent, clustered by city.</figcaption>
+</figure>
+</div>
+</section>
+<section id="the-cap-bound-throughout-and-refiners-and-the-tax-cut-absorbed-the-gap" class="level2">
+<h2 class="anchored" data-anchor-id="the-cap-bound-throughout-and-refiners-and-the-tax-cut-absorbed-the-gap">7. The cap bound throughout, and refiners and the tax cut absorbed the gap</h2>
+<p>Throughout the cap period the refiners’ supply prices sat 2–6 won below the cap. On its own that has two readings. The cap may have been below cost, so everyone charged up to it. Or costs may have fallen below the cap while the cap served as a reference point that kept prices up — the idea that a price ceiling can become a focal point for tacit collusion (Knittel and Stango, 2003; Zhang et al., 2020).</p>
+<p>To tell them apart I estimated a pre-cap pricing rule: pre-tax supply prices on the won value of Singapore product prices and two weekly lags, January 2025 to February 2026 (60 weeks; adjusted <img src="https://latex.codecogs.com/png.latex?R%5E2"> 0.844 for gasoline and 0.894 for diesel; residual standard deviation 15.8 and 18.0 won after tax). Applied to the cap period with the reported tax schedule, the rule gives the price refiners would have charged without the cap. In none of the 22 cap-period weeks, excluding transition weeks, did the cap exceed this estimate by more than two residual standard deviations, for either fuel; the same holds with a shorter estimation window, a fixed-markup rule and a four-week lag rule. The cap was 17–236 won below the estimate for gasoline and 23–1,131 won below it for diesel, the largest gap in early April.</p>
+<p>Crude oil prices alone suggest the cap was above cost in July and August. But in 2026 gasoline and diesel prices rose far more than crude, and on a product basis the cap never was. All four refiners sitting at the cap is therefore best read as the cap actually binding. It also means that parallel pricing during the cap carries no information about collusion.</p>
+<p>Station margins, retail minus supply price, barely changed. What drivers saved came from refiners’ supply prices and from the public budget through the tax cut.</p>
+<table class="caption-top table">
+<caption>Station margin, won per liter: weekly mean retail price of refiner-brand stations minus refiners’ weekly mean supply price. Transition weeks are excluded because weekly averages straddle the change date.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Period</th>
+<th style="text-align: right;">Gasoline</th>
+<th style="text-align: right;">Diesel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2025</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">81</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jan–Feb 2026</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">89</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Apr–Jun 2026 (cap 1,934 won)</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">82</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jul–Sep 2026 (cap 1,784 won)</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">83</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/figures/figure5_cap_binding.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. Supply price, cap and estimated uncapped supply price. In (a) and (b) the solid line is the refiners’ weekly mean supply price after tax, the step line the cap, and the dashed line the price implied by the pre-cap rule; shading marks the cap period. (c) Station margins; the spikes at transition weeks reflect weekly averages that straddle the change date.</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-is-established-and-what-is-not" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-established-and-what-is-not">8. What is established, and what is not</h2>
+<p><strong>Established.</strong> Cap changes concentrated price changes on the change date and reached pump prices by about 80 percent within two weeks and 85–90 percent within three. Cuts reached prices faster in cities with more stations and at self-service and highway stations, with no such differences on placebo dates. The cap bound throughout, and station margins did not change materially.</p>
+<p><strong>Ruled out.</strong> That same-brand neighbours time their changes together: the positive coefficient of the standard regression appears on placebo dates too. That the cap became a floor holding supply prices up after costs fell below it: on a product-price basis, costs never did. That the cap compressed price dispersion within cities: dispersion fell by 40–60 percent, but within the range implied by the pre-cap relation between price levels and dispersion (Lewis and Marvel, 2011).</p>
+<p><strong>Open.</strong> Whether cuts travelling faster than increases is a general feature of this kind of cap, given one event of each kind and an increase that coincided with a tax cut. The pass-through level at the 13 March start, which weekly supply prices cannot pin down. Total consumer gains and refiner losses, which need sales volumes. Supply responses such as exports or inventory draws while the cap sat far below cost. And the July 2026 indictment of the four refiners over how they set supply prices, which these data cannot speak to.</p>
+</section>
+<section id="implications" class="level2">
+<h2 class="anchored" data-anchor-id="implications">9. Implications</h2>
+<p>A wholesale cap reaches pump prices quickly but not at once: more than half in the first week and most within three. Judging a cap change by pump prices a few days later understates its effect. Speed depends on local competition, so drivers in areas with few stations see a cut later; monitoring right after a cut is best aimed there. When a cap sits far below cost, the supply side absorbs the gap — here refiners and the public budget — and the longer that lasts, the more sales and export data should be watched alongside prices. And while a cap binds, firms charge the same price near it whether or not they compete, so parallel pricing during the cap is weak evidence for a competition authority.</p>
+<section id="data-and-code" class="level3">
+<h3 class="anchored" data-anchor-id="data-and-code">Data and code</h3>
+<p>All data are public. Station prices, refiner supply prices and international product prices come from <a href="https://www.opinet.co.kr">Opinet</a>; exchange rates from the <a href="https://ecos.bok.or.kr">Bank of Korea ECOS</a>. Cap decisions and fuel-tax rates are compiled from government announcements and press reports. The pre-registered analysis plans, the deviation log and the estimation code are available on request at <a href="mailto:hyunhak.kim@kookmin.ac.kr">hyunhak.kim@kookmin.ac.kr</a>.</p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<p>Borenstein, S., Cameron, A. C. and Gilbert, R. (1997). Do gasoline prices respond asymmetrically to crude oil price changes? <em>Quarterly Journal of Economics</em>, 112(1), 305–339.</p>
+<p>Knittel, C. R. and Stango, V. (2003). Price ceilings as focal points for tacit collusion: evidence from credit cards. <em>American Economic Review</em>, 93(5), 1703–1729.</p>
+<p>Lewis, M. S. (2011). Asymmetric price adjustment and consumer search: an examination of the retail gasoline market. <em>Journal of Economics &amp; Management Strategy</em>, 20(2), 409–449.</p>
+<p>Lewis, M. S. and Marvel, H. P. (2011). When do consumers search? <em>Journal of Industrial Economics</em>, 59(3), 457–483.</p>
+<p>Zhang, X.-B., Fei, Y., Zheng, Y. and Zhang, L. (2020). Price ceilings as focal points to reach price uniformity: evidence from a Chinese gasoline market. <em>Energy Economics</em>, 92.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>English</category>
+  <category>Energy</category>
+  <category>Competition Policy</category>
+  <guid>https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/</guid>
+  <pubDate>Thu, 01 Oct 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/figures/figure5_cap_binding.png" medium="image" type="image/png" height="44" width="144"/>
+</item>
+<item>
+  <title>기름값 상한, 주유소까지 2주 걸렸다</title>
+  <link>https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>English version</strong> — <a href="../2026-10-fuel-price-cap-en/">Two Weeks to the Pump</a></p>
+<p>한국석유공사 오피넷이 공개하는 전국 주유소 10,744곳(정유 4사와 알뜰주유소)의 일별 판매가격(2024년 12월 29일~2026년 9월 30일)을 썼다. 정유사 주간 공급가격과 싱가포르 석유제품 시세도 오피넷에서, 원/달러 환율은 한국은행 ECOS에서 받았다. 무엇을 어떻게 검정할지는 결과를 보기 전에 문서로 정해 두었다.</p>
+</div>
+</div>
+</div>
+<section id="한눈에-보기" class="level2">
+<h2 class="anchored" data-anchor-id="한눈에-보기">한눈에 보기</h2>
+<p>정부는 2026년 3월 13일부터 정유사가 주유소에 넘기는 기름값에 상한을 걸었다. 소비자가 주유소에서 내는 값이 아니라 도매가격에 건 상한이다. 상한을 언제, 얼마나 바꿀지는 미리 발표된다. 주유소 입장에서는 날짜와 크기를 아는 원가 변화가 생기는 셈이다. 그래서 “알려진 원가 변화가 소비자 가격에 얼마나 빨리 전달되는가”를 비교적 깨끗하게 볼 수 있다.</p>
+<p>전국 주유소의 하루하루 가격을 따라가 보니 결론은 이렇다.</p>
+<ul>
+<li>상한이 바뀐 날, 가격을 바꾼 주유소가 평소의 몇 배로 늘었다. 상한을 동결한 날에는 그런 일이 없었다.</li>
+<li>상한 변경 폭의 약 80%가 2주 안에, 85~90%가 3주 안에 주유소 가격에 반영됐다.</li>
+<li>주유소가 많은 시·군, 셀프 주유소, 고속도로 주유소일수록 더 빨리 내렸다.</li>
+<li>같은 주유소끼리 비교하면 내릴 때가 올릴 때보다 빨랐다.</li>
+<li>같은 브랜드 주유소끼리 날짜를 맞춰 가격을 바꾼 흔적은 없었다.</li>
+<li>상한은 시행 내내 국제 시세로 따진 공급가격보다 낮았다. 그 차이는 주유소가 아니라 정유사와 유류세 인하가 떠안았다.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">항목</th>
+<th style="text-align: right;">수치</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">분석한 주유소</td>
+<td style="text-align: right;">10,744곳, 2024.12.29~2026.9.30 매일</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">상한 시행일(3.13) 가격을 바꾼 정유 4사 주유소</td>
+<td style="text-align: right;">54~63%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">상한 동결일 7번, 가격 변경 비율이 늘어난 최대 폭</td>
+<td style="text-align: right;">3.6%p</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3.27 인상분이 반영된 비율, 1주 / 2주 / 3주 뒤</td>
+<td style="text-align: right;">54% / 81% / 86%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6.27 인하분이 반영된 비율, 1주 / 2주 / 3주 뒤</td>
+<td style="text-align: right;">67% / 83% / 88%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">같은 주유소 9,933곳의 1주 뒤 반영 비율 차이(인상 − 인하)</td>
+<td style="text-align: right;">−13.3%p</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">상한과 국제 시세 기준 공급가격의 차이, 휘발유 / 경유</td>
+<td style="text-align: right;">주별 17~236원 / 23~1,131원 낮음</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">주유소 마진(휘발유), 2025년 / 상한 기간</td>
+<td style="text-align: right;">리터당 71원 / 77~87원</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="어떤-제도였나" class="level2">
+<h2 class="anchored" data-anchor-id="어떤-제도였나">어떤 제도였나</h2>
+<p>중동 전쟁으로 국제 기름값이 치솟자 정부는 3월 13일 정유사 공급가격에 최고가격을 정했다. 처음 상한은 리터당 휘발유 1,724원, 경유 1,713원이었다. 3월 27일에는 상한을 210원 올렸고, 같은 날 유류세 인하 폭도 휘발유 7%→15%, 경유 10%→25%로 키웠다. 그 뒤 네 번 연달아 동결했다가 6월 27일 150원 내렸고, 다시 세 번 동결했다. 조정 주기는 6차부터 2주에서 4주로 늘었다.</p>
+<p>유류세를 깎아 주거나 주유소 판매가격 자체에 상한을 두는 정책은 해외 연구가 꽤 쌓여 있다. 2022년 독일과 유럽 여러 나라의 유류세 인하, 2021~2022년 헝가리의 소매가격 상한이 대표적이다. 하지만 정유사 공급가격에 상한을 두고 몇 주마다 고치는 제도가 주유소 가격에 어떻게 이어지는지를 전국 주유소의 일별 자료로 본 연구는 찾지 못했다.</p>
+</section>
+<section id="어떻게-봤나" class="level2">
+<h2 class="anchored" data-anchor-id="어떻게-봤나">어떻게 봤나</h2>
+<p>가격이 실제로 움직인 상한 변경은 세 번이다. 3월 13일 시행, 3월 27일 210원 인상, 6월 27일 150원 인하다. 각 변경 전날 가격을 기준으로, 며칠 뒤 주유소 가격이 상한 변경 폭의 몇 %만큼 움직였는지(누적 반영률)를 주유소마다 계산했다. 3월 13일은 상한이 주중에 도입돼 정유사 주간 공급가격으로는 원가가 정확히 얼마나 변했는지 알 수 없어서, 반영률 대신 가격을 바꾼 시점만 봤다.</p>
+<p>지역 차이는 같은 브랜드, 같은 시·도 안에서 비교했다. 시·군의 주유소 수(2026년 2월 기준), 셀프 여부, 고속도로 여부에 따라 반영률이 어떻게 다른지 회귀분석으로 추정했다. 상한을 동결한 일곱 번의 날은 “아무 일도 없어야 하는 날”로 삼아 결과를 대조했다.</p>
+</section>
+<section id="상한이-바뀐-날-주유소가-한꺼번에-움직였다" class="level2">
+<h2 class="anchored" data-anchor-id="상한이-바뀐-날-주유소가-한꺼번에-움직였다">상한이 바뀐 날, 주유소가 한꺼번에 움직였다</h2>
+<p>평소 하루에 가격을 바꾸는 주유소는 많지 않다. 2026년 2월에는 6%, 8월에는 3% 안팎이었다. 그런데 상한이 시행된 3월 13일에는 정유 4사 주유소의 54~63%, 알뜰주유소의 89%가 그날 가격을 바꿨다. 3월 27일 인상 다음 날과, 토요일에 시행된 6월 27일 인하 뒤 첫 월요일에도 40% 안팎이 가격을 바꿨다. 반면 상한을 동결한 일곱 번은 가격 변경 비율이 많아야 3.6%p 늘었을 뿐이다.</p>
+<p>한 가지 짚어 둘 점이 있다. 올해 가격을 바꾼 주유소가 가장 많았던 날은 상한 시행 전인 3월 초(정유 4사 83%)였다. 국제 기름값이 급등하던 때다. 상한 변경일의 쏠림은 이 급등기와 별개로 변경일마다 따로 나타났다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/figures/figure1_change_share.png" class="img-fluid figure-img"></p>
+<figcaption>〈그림 1〉 하루에 가격을 바꾼 주유소 비율. 휘발유 기준. 실선은 상한이 실제로 바뀐 날, 점선은 상한을 동결한 날이다. 3월 초의 급등은 상한 시행 전 국제 기름값이 치솟던 때다.</figcaption>
+</figure>
+</div>
+</section>
+<section id="주에-80-3주에-90-가까이" class="level2">
+<h2 class="anchored" data-anchor-id="주에-80-3주에-90-가까이">2주에 80%, 3주에 90% 가까이</h2>
+<p>반응은 빨랐지만 한 번에 끝나지 않았다. 정유 4사 주유소가 처음 가격을 바꾸기까지는 보통 0~2일이면 충분했다. 그러나 상한 변경 폭이 다 반영되기까지는 2~3주가 걸렸다. 하루 10~15원씩 나눠서 따라간 셈이다.</p>
+<table class="caption-top table">
+<caption>〈표 1〉 상한 변경분이 휘발유 판매가격에 반영된 비율(주유소 평균). 경유도 2주 뒤 80%(인상), 86%(인하)로 비슷하다.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">사건</th>
+<th style="text-align: right;">상한 변경</th>
+<th style="text-align: right;">1주 뒤</th>
+<th style="text-align: right;">2주 뒤</th>
+<th style="text-align: right;">3주 뒤</th>
+<th style="text-align: right;">주유소</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3월 27일 인상</td>
+<td style="text-align: right;">+210원</td>
+<td style="text-align: right;">54%</td>
+<td style="text-align: right;">81%</td>
+<td style="text-align: right;">86%</td>
+<td style="text-align: right;">10,151곳</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6월 27일 인하</td>
+<td style="text-align: right;">−150원</td>
+<td style="text-align: right;">67%</td>
+<td style="text-align: right;">83%</td>
+<td style="text-align: right;">88%</td>
+<td style="text-align: right;">10,038곳</td>
+</tr>
+</tbody>
+</table>
+<p>알뜰주유소는 움직임이 달랐다. 인상 때는 사흘 동안 거의 꿈쩍하지 않다가 그 뒤 빠르게 올려, 3주 뒤에는 오히려 정유 4사보다 높은 89%까지 반영했다. 인하 때는 정유 4사보다 조금 늦었다. 알뜰주유소는 석유공사 공동구매로 공급가격이 주 단위로 정해지는데, 이런 구조와 맞는 모습이다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/figures/figure2_passthrough_paths.png" class="img-fluid figure-img"></p>
+<figcaption>〈그림 2〉 상한 변경 뒤 주유소 가격이 따라간 경로. (a)와 (b)는 브랜드 집단별 평균 반영률이고, 점선은 100% 반영이다. (c)는 두 번 모두 표본에 든 주유소 9,933곳에서 인상 반영률에서 인하 반영률을 뺀 값과 95% 신뢰구간이다.</figcaption>
+</figure>
+</div>
+</section>
+<section id="주유소가-많은-동네부터-싸졌다" class="level2">
+<h2 class="anchored" data-anchor-id="주유소가-많은-동네부터-싸졌다">주유소가 많은 동네부터 싸졌다</h2>
+<p>같은 브랜드, 같은 시·도 안에서 비교하면 주유소가 많은 시·군일수록 인하가 빨리 반영됐다. 6월 27일 인하 일주일 뒤, 주유소 수가 두 배인 시·군은 가격이 약 5.6원 더 내려가 있었다. 셀프 주유소는 일반 주유소보다 약 19원, 고속도로 주유소는 약 23원 더 내려가 있었다. 상한을 동결한 날에는 이런 차이가 보이지 않았다.</p>
+<table class="caption-top table">
+<caption>〈표 2〉 시·군 주유소 수(로그)가 반영률에 미친 영향. 같은 브랜드·같은 시·도끼리 비교했고 셀프·고속도로 여부를 함께 넣었다. 괄호 안은 시·군 단위 표준오차(229개 시·군). 상한 동결일에 같은 방식으로 재면 그 효과는 1주 뒤 가격 기준 −0.34원(휘발유)으로, 실제 변경일의 20분의 1도 안 된다.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">3일 뒤</th>
+<th style="text-align: right;">1주 뒤</th>
+<th style="text-align: right;">2주 뒤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">6월 27일 인하</td>
+<td style="text-align: right;">0.062 (0.010)</td>
+<td style="text-align: right;">0.054 (0.010)</td>
+<td style="text-align: right;">0.035 (0.008)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3월 27일 인상</td>
+<td style="text-align: right;">0.011 (0.010)</td>
+<td style="text-align: right;">−0.006 (0.009)</td>
+<td style="text-align: right;">0.023 (0.006)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">세 번 통합(휘발유)</td>
+<td style="text-align: right;">0.069 (0.016)</td>
+<td style="text-align: right;">0.053 (0.016)</td>
+<td style="text-align: right;">0.049 (0.014)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">세 번 통합(경유)</td>
+<td style="text-align: right;">0.051 (0.011)</td>
+<td style="text-align: right;">0.039 (0.010)</td>
+<td style="text-align: right;">0.038 (0.008)</td>
+</tr>
+</tbody>
+</table>
+<p>올릴 때는 사정이 달랐다. 첫 일주일까지는 시·군별 차이가 없다가 2주째에 차이가 났다. 경쟁이 치열한 곳은 내릴 때 먼저 내리고, 올릴 때는 나중에 따라 올린 것이다. 셀프와 고속도로 주유소는 올릴 때도 빨랐는데, 특히 고속도로 주유소는 인상 일주일 뒤 반영률이 38%p나 높았다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/figures/figure3_market_structure.png" class="img-fluid figure-img"></p>
+<figcaption>〈그림 3〉 시장 구조와 반영 속도. (a)는 시·군 주유소 수(로그)의 효과, (b)는 셀프·고속도로 주유소의 1주 뒤 효과이며 막대는 95% 신뢰구간이다. (c)는 시·군 주유소 수를 셋으로 나눠 본 1주 뒤 평균 반영률이다.</figcaption>
+</figure>
+</div>
+</section>
+<section id="내릴-땐-빨랐고-올릴-땐-느렸다" class="level2">
+<h2 class="anchored" data-anchor-id="내릴-땐-빨랐고-올릴-땐-느렸다">내릴 땐 빨랐고, 올릴 땐 느렸다</h2>
+<p>기름값은 흔히 “오를 땐 로켓, 내릴 땐 깃털”이라고 한다(Borenstein, Cameron and Gilbert, 1997). 이번에는 반대였다. 두 번 모두 표본에 든 주유소 9,933곳을 비교하면, 일주일 뒤 반영률이 인상 때가 인하 때보다 13.3%p 낮았다(경유 17.6%p). 2주가 지나면 차이는 2.2%p로 거의 사라진다. 정유 4사 모두 같은 방향이었고 알뜰주유소는 차이가 없었다.</p>
+<p>다만 조심해서 읽어야 한다. 인상과 인하가 한 번씩뿐이다. 3월 27일 인상은 유류세 인하 확대와 같은 날이어서 소비자가 느낀 가격 변화가 상쇄됐다. 상한 기간에는 정부와 언론이 기름값을 유난히 지켜보기도 했다. 게다가 이 비대칭은 자료 일부를 본 뒤에 눈에 띈 것이라, 미리 등록한 가설로 확인한 결과가 아니다. 상한이 다시 바뀌면 미리 정한 방법으로 다시 확인할 계획이다.</p>
+</section>
+<section id="같은-브랜드끼리-날짜를-맞추진-않았다" class="level2">
+<h2 class="anchored" data-anchor-id="같은-브랜드끼리-날짜를-맞추진-않았다">같은 브랜드끼리 날짜를 맞추진 않았다</h2>
+<p>같은 시·군의 같은 브랜드 주유소 두 곳이 같은 날 가격을 바꾸는 비율은 다른 브랜드 두 곳보다 0.2~0.5%p 높았다. 언뜻 같은 브랜드끼리 보조를 맞춘 것처럼 보인다. 하지만 이 차이는 브랜드마다 가격을 자주 바꾸는 정도가 조금씩 다르다는 사실만으로도 생긴다.</p>
+<p>간단한 예로 따져 보자. 서로 상관없이 움직이는 주유소 두 곳이 같은 날 가격을 바꿀 확률은 두 확률의 곱이다. 하루에 가격을 바꿀 확률이 20%인 브랜드와 40%인 브랜드가 있다면, 같은 브랜드 쌍의 평균 동시 변경 확률은 (4%+16%)/2=10%, 다른 브랜드 쌍은 8%다. 아무도 날짜를 맞추지 않아도 같은 브랜드 쌍이 더 자주 함께 움직이는 것처럼 나온다. 그래서 실제 동시 변경에서 이렇게 “우연히 겹칠 확률”을 빼고 남는 부분만 봤다. 이 보정은 추정 전에 정했다.</p>
+<p>보정하고 나면 같은 브랜드 쌍의 초과 동시 변경은 1,000쌍·일당 −0.89(표준오차 0.64)로 0보다 크지 않았다. 흔히 쓰는 회귀식은 상한 변경일에 +2.80을 줬지만, 상한을 동결한 날에도 +0.94를 줬다. 같은 브랜드끼리 날짜를 맞춘 게 아니라 계산 방식이 만든 착시라는 뜻이다. 예외는 알뜰주유소끼리였다. 알뜰주유소 쌍은 보정 뒤에도 8.6(2.8)으로 함께 움직이는 경향이 뚜렷했다. 공동구매 가격이 주 단위로 정해지는 구조 탓으로 보인다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/figures/figure4_same_brand_timing.png" class="img-fluid figure-img"></p>
+<figcaption>〈그림 4〉 같은 브랜드 주유소 두 곳이 같은 날 가격을 바꾼 정도. 휘발유, 각 날짜 뒤 8일. (a)는 흔히 쓰는 회귀식, (b)는 우연히 겹칠 확률을 뺀 값이다. 속이 빈 점은 통합 추정치, 막대는 95% 신뢰구간이다.</figcaption>
+</figure>
+</div>
+</section>
+<section id="상한은-내내-가격을-눌렀다" class="level2">
+<h2 class="anchored" data-anchor-id="상한은-내내-가격을-눌렀다">상한은 내내 가격을 눌렀다</h2>
+<p>상한 기간 내내 정유 4사의 공급가격은 상한보다 2~6원 낮은 수준에 붙어 있었다. 이것만 보면 두 가지로 읽을 수 있다. 원가가 상한보다 높아 모두가 상한까지 받았을 수도 있고, 원가가 상한 아래로 내려갔는데도 상한이 일종의 기준점이 돼 가격이 안 내려갔을 수도 있다. 뒤의 경우라면 상한이 사실상 담합의 길잡이 노릇을 한 셈이다. 실제로 가격 상한이 그런 역할을 한 사례가 미국 신용카드 금리(Knittel and Stango, 2003)와 중국 주유소(Zhang et al., 2020)에서 보고된 바 있다.</p>
+<p>어느 쪽인지 가리기 위해 상한 도입 전 60주(2025년 1월~2026년 2월)의 자료로 정유사 공급가격이 싱가포르 시세와 환율을 어떻게 따라갔는지 식을 세웠다. 이 식은 공급가격을 꽤 잘 설명했다(휘발유 설명력 84%, 경유 89%, 평균 오차 리터당 16~18원). 이 식을 상한 기간에 적용하면 “상한이 없었다면 받았을 공급가격”을 추정할 수 있다.</p>
+<p>결과는 분명했다. 상한은 시행 내내 이 추정치보다 낮았다. 상한이 바뀐 주를 뺀 22주 가운데 상한이 추정치보다 오차 범위 이상 높았던 주는 휘발유, 경유 모두 한 주도 없었다. 식을 바꿔 다시 계산해도 같았다. 상한은 추정치보다 휘발유는 주별로 17~236원, 경유는 23~1,131원(4월 초) 낮았다.</p>
+<p>원유 가격만 보면 7~8월에는 상한이 원가보다 높았던 것처럼 보인다. 하지만 올해는 원유보다 휘발유·경유 제품 시세가 훨씬 더 많이 올랐다. 제품 시세로 따지면 상한이 원가보다 높았던 적은 없다. 그러니 정유 4사 가격이 상한에 나란히 붙어 있었던 것은 상한이 실제로 가격을 눌렀기 때문으로 보는 게 자료와 맞다. 바꿔 말하면, 상한 기간에 가격이 나란했다는 사실만으로는 담합 여부를 판단할 수 없다.</p>
+<p>그렇다면 상한이 깎아 준 몫은 누가 떠안았을까. 주유소는 아니었다. 주유소 마진(판매가격에서 공급가격을 뺀 값)은 상한 전후로 거의 그대로였다. 소비자가 덜 낸 돈은 정유사의 공급가격과 정부의 유류세 인하에서 나왔다.</p>
+<table class="caption-top table">
+<caption>〈표 3〉 주유소 마진(리터당 원). 정유 4사 주유소의 주간 평균 판매가격에서 정유사 주간 평균 공급가격을 뺀 값의 평균이다. 상한이 바뀐 주는 주간 평균이 변경일 앞뒤를 섞어 일시적으로 크게 튀므로 뺐다.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">기간</th>
+<th style="text-align: right;">휘발유</th>
+<th style="text-align: right;">경유</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2025년</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">81</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026년 1~2월</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">89</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026년 4~6월(상한 1,934원)</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">82</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026년 7~9월(상한 1,784원)</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">83</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/figures/figure5_cap_binding.png" class="img-fluid figure-img"></p>
+<figcaption>〈그림 5〉 정유사 공급가격, 상한, 상한이 없었다면 받았을 공급가격. (a)와 (b)의 실선은 정유사 주간 평균 공급가격(세금 포함), 계단선은 상한, 점선은 상한 도입 전 관계로 추정한 공급가격이고, 회색 구간이 상한 시행 기간이다. (c)는 주유소 마진으로, 상한이 바뀐 주에 튀는 것은 주간 평균이 변경일 앞뒤를 섞기 때문이다.</figcaption>
+</figure>
+</div>
+</section>
+<section id="무엇이-확인됐고-무엇은-아직인가" class="level2">
+<h2 class="anchored" data-anchor-id="무엇이-확인됐고-무엇은-아직인가">무엇이 확인됐고, 무엇은 아직인가</h2>
+<p><strong>확인된 것.</strong> 상한이 바뀌면 그날 주유소들이 한꺼번에 가격을 바꿨고, 2주 안에 약 80%, 3주 안에 85~90%가 반영됐다. 주유소가 많은 시·군과 셀프·고속도로 주유소에서 더 빨리 내렸다. 상한은 시행 내내 실제로 가격을 눌렀고, 주유소 마진은 그대로였다.</p>
+<p><strong>아니었던 것.</strong> 같은 브랜드 주유소끼리 날짜를 맞춰 가격을 바꾼다는 해석은 근거가 없었다. 상한이 원가보다 높아진 뒤에도 가격을 붙잡아 두는 바닥 노릇을 했다는 해석도 맞지 않았다. 상한 기간에 시·군 안 주유소 간 가격 차이가 40~60% 줄긴 했지만, 원래 기름값이 비쌀수록 가격 차이가 줄어드는 경향이 있어서 상한 덕분이라고 볼 수는 없었다.</p>
+<p><strong>아직 모르는 것.</strong> 내릴 때가 올릴 때보다 빠른 현상이 이 제도의 일반적인 특징인지는 사건이 더 쌓여야 알 수 있다. 3월 13일 시행 때 반영률이 정확히 얼마였는지는 정유사 공급가격이 주 단위라 알 수 없다. 소비자가 얻은 이익과 정유사가 진 부담이 모두 얼마인지는 판매량 자료가 없어 계산하지 못했다. 상한이 원가보다 훨씬 낮았던 동안 정유사가 수출을 늘리거나 재고를 줄였는지도 확인하지 못했다. 2026년 7월 정유 4사 기소의 쟁점(공급가격을 정한 방식)은 이 자료로 판단할 수 없다.</p>
+</section>
+<section id="정책에-주는-시사점" class="level2">
+<h2 class="anchored" data-anchor-id="정책에-주는-시사점">정책에 주는 시사점</h2>
+<p>첫째, 도매가격 상한은 주유소 가격에 빠르게, 하지만 한 번에 다 반영되지는 않는다. 첫 주에 절반 남짓, 3주면 대부분이다. 상한을 바꾼 효과를 따질 때 며칠 뒤 주유소 가격만 보면 효과를 과소평가하게 된다. 적어도 2~3주는 지켜봐야 한다.</p>
+<p>둘째, 반영 속도는 동네 경쟁에 따라 다르다. 주유소가 적은 지역 소비자는 인하 혜택을 늦게 받는다. 상한을 내린 직후 가격 점검을 한다면 주유소가 적은 시·군부터 보는 게 효율적이다.</p>
+<p>셋째, 상한이 원가보다 크게 낮으면 그 차이는 공급하는 쪽이 떠안는다. 올해는 정유사와 나라 살림(유류세 인하)이 떠안았다. 이런 상태가 길어질수록 정유사가 수출로 물량을 돌리거나 재고를 줄일 유인이 커진다. 가격과 함께 판매량과 수출 동향을 살펴야 하는 이유다.</p>
+<p>넷째, 상한이 가격을 누르고 있는 동안에는 정유사들이 경쟁을 하든 안 하든 모두 상한 근처의 같은 값을 받게 된다. 따라서 상한 기간의 나란한 가격은 경쟁당국이 담합을 판단하는 근거로 쓰기 어렵다.</p>
+<p>앞으로 할 일도 세 가지다. 상한이 다시 바뀌면 인상·인하의 속도 차이를 미리 정한 방법으로 다시 확인하겠다. 오피넷의 세전 공급가격으로 유류세 일정을 맞춰 보고 추정을 확정하겠다. 판매량과 수출 자료를 구하면 상한의 이익과 부담이 각각 얼마였는지, 공급 쪽은 어떻게 반응했는지 따져 보겠다.</p>
+<section id="데이터와-코드" class="level3">
+<h3 class="anchored" data-anchor-id="데이터와-코드">데이터와 코드</h3>
+<p>분석에 쓴 자료는 모두 공개 자료다. 주유소 판매가격, 정유사 공급가격, 국제 석유제품 시세는 <a href="https://www.opinet.co.kr">오피넷</a>에서, 환율은 <a href="https://ecos.bok.or.kr">한국은행 ECOS</a>에서 받았다. 상한 변경 일정과 유류세 인하율은 정부 발표와 언론 보도로 정리했다. 미리 등록한 분석계획서, 계획에서 바꾼 점의 기록, 추정 코드는 요청하면 보내 드린다. 문의는 <a href="mailto:hyunhak.kim@kookmin.ac.kr">hyunhak.kim@kookmin.ac.kr</a>로 부탁드린다.</p>
+</section>
+<section id="참고문헌" class="level3">
+<h3 class="anchored" data-anchor-id="참고문헌">참고문헌</h3>
+<p>Borenstein, S., Cameron, A. C. and Gilbert, R. (1997). Do gasoline prices respond asymmetrically to crude oil price changes? <em>Quarterly Journal of Economics</em>, 112(1), 305–339.</p>
+<p>Knittel, C. R. and Stango, V. (2003). Price ceilings as focal points for tacit collusion: evidence from credit cards. <em>American Economic Review</em>, 93(5), 1703–1729.</p>
+<p>Lewis, M. S. (2011). Asymmetric price adjustment and consumer search: an examination of the retail gasoline market. <em>Journal of Economics &amp; Management Strategy</em>, 20(2), 409–449.</p>
+<p>Lewis, M. S. and Marvel, H. P. (2011). When do consumers search? <em>Journal of Industrial Economics</em>, 59(3), 457–483.</p>
+<p>Zhang, X.-B., Fei, Y., Zheng, Y. and Zhang, L. (2020). Price ceilings as focal points to reach price uniformity: evidence from a Chinese gasoline market. <em>Energy Economics</em>, 92.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>한국어</category>
+  <category>에너지</category>
+  <category>경쟁정책</category>
+  <guid>https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/</guid>
+  <pubDate>Thu, 01 Oct 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/figures/figure5_cap_binding.png" medium="image" type="image/png" height="44" width="144"/>
+</item>
 <item>
   <title>Cheaper but Farther</title>
   <link>https://khdouble.github.io/posts/2026-09-cheaper-but-farther-en/</link>
