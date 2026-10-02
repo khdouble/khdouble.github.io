@@ -283,9 +283,6 @@ wp:
   - title: "Capping the Refinery, Not the Pump: Pass-Through of Korea's 2026 Wholesale Fuel Price Cap"
     detail: "submitted"
     url: "files/wp/wholesale-fuel-price-cap-pass-through-korea.pdf"
-    extras:
-      - {label: "Korean blog summary", href: "https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/"}
-      - {label: "English blog summary", href: "https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/"}
 
 wip:
   - title: "Macroeconomic Nowcasting using Naver Probabilities"
