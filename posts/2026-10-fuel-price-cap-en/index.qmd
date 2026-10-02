@@ -34,7 +34,7 @@ Two features make the episode informative. The cap sits on the wholesale price, 
 | Share passed through after 1 / 2 / 3 weeks, 27 June cut | 0.67 / 0.83 / 0.88 |
 | Increase minus cut after 1 week, same 9,933 stations | −0.133 (0.010) |
 | Coefficient on log stations in the city, cut, day 7 | 0.054 (0.010) |
-| Cap minus estimated uncapped supply price, gasoline / diesel | −17 to −236 / −23 to −1,131 won by week |
+| Cap minus estimated uncapped supply price, gasoline / diesel | −4 to −208 / −4 to −1,042 won by week |
 | Station margin on gasoline, 2025 / cap period | 71 / 77–87 won per liter |
 
 ## 1. Data and measures
@@ -107,7 +107,7 @@ On event dates, excess co-movement for same-brand pairs was −0.89 per 1,000 pa
 
 Throughout the cap period the refiners' supply prices sat 2–6 won below the cap. On its own that has two readings. The cap may have been below cost, so everyone charged up to it. Or costs may have fallen below the cap while the cap served as a reference point that kept prices up — the idea that a price ceiling can become a focal point for tacit collusion (Knittel and Stango, 2003; Zhang et al., 2020).
 
-To tell them apart I estimated a pre-cap pricing rule: pre-tax supply prices on the won value of Singapore product prices and two weekly lags, January 2025 to February 2026 (60 weeks; adjusted $R^2$ 0.844 for gasoline and 0.894 for diesel; residual standard deviation 15.8 and 18.0 won after tax). Applied to the cap period with the reported tax schedule, the rule gives the price refiners would have charged without the cap. In none of the 22 cap-period weeks, excluding transition weeks, did the cap exceed this estimate by more than two residual standard deviations, for either fuel; the same holds with a shorter estimation window, a fixed-markup rule and a four-week lag rule. The cap was 17–236 won below the estimate for gasoline and 23–1,131 won below it for diesel, the largest gap in early April.
+To tell them apart I estimated a pre-cap pricing rule: pre-tax supply prices on the won value of Singapore product prices and two weekly lags, January 2025 to February 2026 (60 weeks; adjusted $R^2$ 0.919 for gasoline and 0.946 for diesel; residual standard deviation 10.6 and 11.9 won after tax). Applied to the cap period with the fuel-tax schedule implied by Opinet's pre-tax and after-tax supply prices, the rule gives the price refiners would have charged without the cap. In none of the 22 cap-period weeks, excluding transition weeks, did the cap exceed this estimate, for either fuel; the same holds with a shorter estimation window, a fixed-markup rule and a four-week lag rule. The cap was 4–208 won below the estimate for gasoline and 4–1,042 won below it for diesel, the largest gap in early April; the two or three closest weeks were within the rule's error, the rest far outside it.
 
 Crude oil prices alone suggest the cap was above cost in July and August. But in 2026 gasoline and diesel prices rose far more than crude, and on a product basis the cap never was. All four refiners sitting at the cap is therefore best read as the cap actually binding. It also means that parallel pricing during the cap carries no information about collusion.
 
@@ -138,7 +138,7 @@ A wholesale cap reaches pump prices quickly but not at once: more than half in t
 
 ### Data and code
 
-All data are public. Station prices, refiner supply prices and international product prices come from [Opinet](https://www.opinet.co.kr); exchange rates from the [Bank of Korea ECOS](https://ecos.bok.or.kr). Cap decisions and fuel-tax rates are compiled from government announcements and press reports. The pre-registered analysis plans, the deviation log and the estimation code are available on request at [hyunhak.kim@kookmin.ac.kr](mailto:hyunhak.kim@kookmin.ac.kr).
+All data are public. Station prices, refiner supply prices and international product prices come from [Opinet](https://www.opinet.co.kr); exchange rates from the [Bank of Korea ECOS](https://ecos.bok.or.kr). Cap decisions are compiled from government announcements and press reports; fuel-tax rates are read off the gap between Opinet's after-tax and pre-tax supply prices. The pre-registered analysis plans, the deviation log and the estimation code are available on request at [hyunhak.kim@kookmin.ac.kr](mailto:hyunhak.kim@kookmin.ac.kr).
 
 ### References
 
