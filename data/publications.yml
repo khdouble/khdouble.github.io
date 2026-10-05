@@ -284,6 +284,9 @@ wp:
     detail: "submitted"
     url: "files/wp/wholesale-fuel-price-cap-pass-through-korea.pdf"
 
+  - title: "When Do Stablecoins Crowd Out Bank Collateral?"
+    url: "files/wp/stablecoins-crowd-out-bank-collateral.pdf"
+
 wip:
   - title: "Macroeconomic Nowcasting using Naver Probabilities"
     authors: ["Gary Koop", "Sungyup Chung"]

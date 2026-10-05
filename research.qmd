@@ -80,6 +80,7 @@ title: "Research"
 <li><span class="entry-title"><a href="files/wp/sensitivity-daily-nursing-home-staffing-assessments.pdf">Sensitivity of Daily Nursing-Home Staffing Assessments to Conserved Reporting Errors</a></span><span class="badge-soft">submitted</span></li>
 <li><span class="entry-title"><a href="files/wp/single-host-event-studies-limits-causal-inference.pdf">Mega-event tourism effects with a single host city: Evidence from the 2025 APEC summit in Gyeongju, Korea</a></span><span class="entry-authors"> (with S. Yoon)</span></li>
 <li><span class="entry-title"><a href="files/wp/wholesale-fuel-price-cap-pass-through-korea.pdf">Capping the Refinery, Not the Pump: Pass-Through of Korea's 2026 Wholesale Fuel Price Cap</a></span><span class="badge-soft">submitted</span></li>
+<li><span class="entry-title"><a href="files/wp/stablecoins-crowd-out-bank-collateral.pdf">When Do Stablecoins Crowd Out Bank Collateral?</a></span></li>
 </ol>
 
 ## Book Chapter

@@ -1,15 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://khdouble.github.io/blog.html</loc>
-    <lastmod>2026-09-14T16:19:32.005Z</lastmod>
+    <loc>https://khdouble.github.io/research.html</loc>
+    <lastmod>2026-10-05T07:24:32.131Z</lastmod>
   </url>
   <url>
     <loc>https://khdouble.github.io/posts/2026-10-fuel-price-cap-ko/index.html</loc>
     <lastmod>2026-10-02T11:36:27.959Z</lastmod>
   </url>
   <url>
+    <loc>https://khdouble.github.io/posts/2026-09-mpc-heterogeneity-ko/index.html</loc>
+    <lastmod>2026-09-29T14:31:08.020Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-ko/index.html</loc>
+    <lastmod>2026-09-29T14:26:34.782Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-09-imported-climate-risk-ko/index.html</loc>
+    <lastmod>2026-09-29T14:36:04.568Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-09-cheaper-but-farther-ko/index.html</loc>
+    <lastmod>2026-09-29T14:05:08.826Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/links.html</loc>
+    <lastmod>2026-09-14T14:11:48.567Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/blog.html</loc>
+    <lastmod>2026-09-14T16:19:32.005Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/index.html</loc>
+    <lastmod>2026-09-14T23:38:36.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-09-cheaper-but-farther-en/index.html</loc>
+    <lastmod>2026-09-29T14:05:12.132Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-09-imported-climate-risk-en/index.html</loc>
+    <lastmod>2026-09-20T14:40:08.641Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-09-krw-exchange-rate-reversal-en/index.html</loc>
+    <lastmod>2026-09-14T16:10:09.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/posts/2026-09-mpc-heterogeneity-en/index.html</loc>
+    <lastmod>2026-09-17T01:13:49.811Z</lastmod>
+  </url>
+  <url>
     <loc>https://khdouble.github.io/posts/2026-10-fuel-price-cap-en/index.html</loc>
     <lastmod>2026-10-02T11:32:47.258Z</lastmod>
+  </url>
+  <url>
+    <loc>https://khdouble.github.io/projects.html</loc>
+    <lastmod>2026-10-05T07:24:32.194Z</lastmod>
   </url>
 </urlset>
