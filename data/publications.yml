@@ -182,6 +182,13 @@ journal:
     lang: ko
     url: "files/wp/demographic-changes-bank-soundness-deposit-insurance.pdf"
 
+  - title: "Moving to Defined-Contribution Pensions: Unfunded Liabilities and Transition Costs in Korea"
+    authors: ["Jongsang Park"]
+    venue: "The Korean Economic Forum"
+    detail: "Forthcoming (2026)"
+    lang: ko
+    url: "files/wp/moving-to-defined-contribution-pensions-korea.pdf"
+
 chapter:
   - title: "Macro Time Series Modeling"
     venue: "in *Economic Impact of the Energy Transition*, ed. Kim et al., Elsevier"
